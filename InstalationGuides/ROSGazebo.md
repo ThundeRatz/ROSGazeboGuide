@@ -93,7 +93,7 @@ Os passos da instalação do ROS/Gazebo são similares ao ubuntu sem o WSL
 
 <div>Abra o terminal do Ubuntu no Windows</div>
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="650" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="750" height="400" />
 </div>
 
 ### **Habilitando Repositórios**
@@ -114,8 +114,6 @@ sudo apt update
 
 
 Esses comandos permitem com que o seu comando **apt** consiga baixar arquivos de fontes mais "alternativas". Existem os programas canônicos que podem ser baixados do repositório **main**, mas para a instalação do ROS, precisamos habilitar os repositórios **universe** (software de graça e Open Source para qual o Ubuntu não fornece atualizações de segurança), **multiverse** (que contém software que não é de graça ou Open Source ~~mas baixamos mesmo assim~~) e **restricted** (que contém drivers com proprietários).
-
-Em suma, utilizamos este comando para que o Ubuntu tenha as permissões corretas para instalar o que queremos.
 
 ### **Ajustar a sources.list**
 --------------------------
@@ -150,7 +148,7 @@ curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE
 ### **Finalmente, a instalação!**
 --------------------------
 
-Primeiro, vamos dar um update para "lavar as mãos" e ter certeza que está tudo atualizado:
+Primeiro, vamos dar um update para ter certeza que está tudo atualizado:
 ```
 sudo apt update
 ```
@@ -167,7 +165,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3c--TggpKCCtzTPkXuJQ6cHfR5pPuo4Nxucy1_bLg9usMPDn2c1Mg8mVLS2f--ZFnEi7MUM2Xg9-Xo7Kgv0g_edMuxo-WEXgZnLU52CpohgrFPcyKppBLVqu8r2iT1RN1CTsLr5wh53IhI_XqAwJLY=w1274-h669-no?authuser=3" width="700" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3cQGWtcaenWvIRceiKe-Uc7R13U7ddaY5XdX2Z9bOMIgYeAZyJsqakBU-iEhuaPwJg_7kZw4kC-VNEAymBxAg5ZfHnUZ0BPcmvBuN6lUTG7LDTRhx648jA1YHnxMGcYWJYszd7kX-S1uE_Hd3pCQm4=w1274-h669-no?authuser=3" width="700" height="350" />
 </div>
 
 ### **Preparando o "Ambiente"**
