@@ -5,13 +5,30 @@ Se quiser aprender mais sobre os softwares e para que servem, veja os documentos
 
 Vamos, neste documento, dar um enfoque a como instalar ROS/Gazebo no Windows com WSL.
 
-# Como Instalar ROS/Gazebo em WSL
+Se você está utilizando Ubuntu, você está lendo o artigo errado. [Clique aqui](/InstalationGuides/ROSGazeboUbuntu) para se redirecionar.
+
+## Índice
+---
+
+- [**Habilitando Repositórios**](#habilitando-repositórios)
+- [**Ajustar a sources.list**](#ajustar-a-sources.list)
+- [**Ajustar as keys**](#ajustar-as-keys)
+- [**Finalmente, a instalação!**](#finalmente-a-instalação!)
+- [**Preparando o "Ambiente"**](#preparando-o-"ambiente")
+- [**Como rodar Gazebo + RVIZ e Windows 10 usando WSL2**](#como-rodar-gazebo-+-rviz-e-windows-10-usando-wsl2)
+
+---
+
+## **Como Instalar ROS/Gazebo em WSL**
 Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 
 <div>Abra o terminal do Ubuntu no Windows</div>
 <div align=center>
+<br>
+
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="900" height="450" />
 </div>
+<br>
 
 ### **Habilitando Repositórios**
 --------------------------
@@ -29,6 +46,7 @@ sudo apt update
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ6NukBBtIowC7i3GozbB45l7A6W3OEBRCKAUyi652BCPmzy1EQHjQk9hxic5hOqVicQQ7H0apqETjlaNAYgMEP7QN7hLtWxXwMXUaino2igWRGRMcsMqUpM837J0v-fchMDr8y9cuyoXfrmUepBE=w1274-h669-no?authuser=3" width="800" height="400" />
 </div>
 
+<br>
 
 Esses comandos permitem com que o seu comando **apt** consiga baixar arquivos de fontes alternativas. Isto é, você permite que sua máquina retire arquivos de repositórios que não recebem suporte da plataforma. Uma tabela que explicita melhor a diferença entre cada tipo de repositório é a seguinte:
 
@@ -61,6 +79,8 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 <div align=center>
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3c9t5J72-TA8wMdalRwG8_dlZXjazpImfgRrIMRPcGcvO7q7jOpNq1OWrlEp81ZxzNKdQ4xDbuNrVmbJd2C-LE22jtvL2YGq0KnUUkFy5toZuLTBJoTkn-Hc7C7JmCshY5S3ZEemgo3FgAsnBZPZjk=w1274-h669-no?authuser=3" width="800" height="400" />
 </div>
+
+<br>
 
 ### **Finalmente, a instalação!**
 --------------------------
@@ -108,8 +128,9 @@ source ~/.zshrc
 <div align=center>
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3exhm3PDyOBMMDRGpJpPhkTam21f_Qe9DscdEdtNZNoVgzVGqDTC7j8R80AhRnG9U17PQLvuVB5JeGGil7l7VOLl8LxhMEIUqetVZBKTzjn31fmdQpm9rLukMBo1YUzFVqrd_BIUipvGupIYd0iCcI=w1276-h672-no?authuser=3" width="800" height="400" />
 </div>
+<br>
 
-## Como rodar Gazebo + RVIZ e Windows 10 usando WSL2
+## **Como rodar Gazebo + RVIZ e Windows 10 usando WSL2**
 Após a instalação, é necessario instalar uma extensão para reproduzir o Gazebo e Rviz
 - Baixar:
 https://sourceforge.net/projects/vcxsrv/

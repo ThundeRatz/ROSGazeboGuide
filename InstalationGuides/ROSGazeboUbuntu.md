@@ -3,10 +3,29 @@
 Neste tutorial, vamos aprender a **instalar** o software chamado **ROS** em sua máquina. Junto com ele, vem o ambiente de simulação **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
 Se quiser aprender mais sobre os softwares e para que servem, veja os documentos explicativos (o que é? / porque usar?) sobre cada software - com certeza vai iluminar melhor a questão.
 
-### O que vamos usar?
+Se você está utilizando Windows e WSL, você está lendo o artigo errado. [Clique aqui](/InstalationGuides/ROSGazeboWSL) para se redirecionar.
+
+<br>
+
+---
+## **Índice**
+
+
+- [**O que vamos usar?**](#O-que-vamos-usar?)
+- [**Habilitando repositórios**](#Habilitando-repositórios)
+- [**Ajustar a sources.list**](#Ajustar-a-sources.list)
+- [**Ajustar as keys**](#Ajustar-as-keys)
+- [**Finalmente, a instalação!**](#Finalmente,-a-instalação!)
+- [**Preparando o "Ambiente"**](#Preparando-o-"Ambiente")
+
+---
+<br>
+
+## O que vamos usar? 
 
 Grande parte do tutorial vai utilizar o prompt de comando. Para abrir o terminal, você precisa saber qual sistema operacional está sendo utilizado:
 - Ubuntu: busque um programa chamado **"Terminal"** ;
+
 ![Opening Terminal](/assets/gif/ROSGazebo/openingterminal.gif)
 
 Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. Quem mexe em Ubuntu trabalha muito com isso, já que é a maneira principal de se instalar coisas nesse sistema operacional.
@@ -24,13 +43,14 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 gazebo -version
 ```
 O terminal responderá da seguinte forma **se você tiver o Gazebo instalado**:
+
 ![Checking Gazebo](/assets/gif/ROSGazebo/gazebo-version.gif)
 
 Como esse comando só tem essa resposta quando o Gazebo estiver apropriadamente instalado, utilize-o no final deste tutorial para ter certeza que fez tudo de maneira correta!
 
 Vamos agora dar um enfoque em como instalar este software em Ubuntu.
 
-### **Habilitando Repositórios**
+## **Habilitando Repositórios**
 --------------------------
 
 Primeiramente, para instalar ROS em Ubuntu, precisamos configurar os **repositórios Ubuntu** para permitir *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
@@ -54,7 +74,7 @@ Em suma, utilizamos este comando para que o Ubuntu se permita instalar arquivos 
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
-### **Ajustar a sources.list**
+## **Ajustar a sources.list**
 --------------------------
 Vamos agora ajustar o computador para aceitar software da **packages.ros.org** :
 
@@ -63,7 +83,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 ```
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-### **Ajustar as keys**
+## **Ajustar as keys**
 --------------------------
 Insira o seguinte comando para salvar as *keys* em sua máquina para a instalação:
 ```
@@ -76,7 +96,7 @@ O output esperado desse comando é o seguinte:
 
 Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso e não conseguirá instalar.
 
-### **Finalmente, a instalação!**
+## **Finalmente, a instalação!**
 --------------------------
 
 Primeiro, vamos dar um update para "lavar as mãos" e ter certeza que está tudo atualizado:
@@ -123,7 +143,7 @@ sudo apt install ros-noetic-PACKAGE
 ```
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
-### **Preparando o "Ambiente"**
+## **Preparando o "Ambiente"**
 --------------------------
 É importante que você defina a "source" deste script em todo terminal **bash** que você usa ROS.
 ```
@@ -142,3 +162,5 @@ source ~/.bashrc
 echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
+
+Após preparar o ambiente, você estará pronto para utilizar o *software* em qualquer momento. Bom proveito!
