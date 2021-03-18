@@ -50,7 +50,12 @@ sudo apt update
 
 Esses comandos permitem com que o seu comando **apt** consiga baixar arquivos de fontes alternativas. Isto é, você permite que sua máquina retire arquivos de repositórios que não recebem suporte da plataforma. Uma tabela que explicita melhor a diferença entre cada tipo de repositório é a seguinte:
 
-![Repositories Table](/assets/img/ROSGazebo/repositories.png)
+-                       | Software Grátis   | Software Não Grátis
+-                       |         -         | -
+**Recebe Suporte**      | Main              | Restricted
+**Não Recebe Suporte**  | Universe          | Multiverse
+
+<br>
 
 Em suma, utilizamos este comando para que o Ubuntu se permita instalar arquivos de repositórios de diversos tipos, de graça ou não, que recebem suporte ou não.
 
@@ -107,7 +112,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 ### **Preparando o "Ambiente"**
 --------------------------
-É importante que você defina a "source" deste script em todo terminal **bash** que você usa ROS.
+É importante configurar o terminal em todo **bash** que se usa ROS.
 ```
 source /opt/ros/noetic/setup.bash
 ```
