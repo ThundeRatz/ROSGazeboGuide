@@ -23,10 +23,3 @@ export LIBGL_ALWAYS_INDIRECT=0
 ```
 Depois disso, toda vez que o gazebo for executado no ubuntu, uma aba será aberta automaticamente
  
-
-<div>Para mais informações siga o tutorial no seguinte vídeo:</div>
-<div align=center>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=DW7l9LHdK5c
-" target="_blank"><img src="http://img.youtube.com/vi/DW7l9LHdK5c/0.jpg" 
-alt="link vídeo" width="350" height="300" border="10" /></a>
-</div>
