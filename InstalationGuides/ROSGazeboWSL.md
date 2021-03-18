@@ -26,7 +26,7 @@ Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 <div align=center>
 <br>
 
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="900" height="450" />
+<img src="../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif" width="900" height="450" />
 </div>
 <br>
 
@@ -43,7 +43,7 @@ sudo apt update
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ6NukBBtIowC7i3GozbB45l7A6W3OEBRCKAUyi652BCPmzy1EQHjQk9hxic5hOqVicQQ7H0apqETjlaNAYgMEP7QN7hLtWxXwMXUaino2igWRGRMcsMqUpM837J0v-fchMDr8y9cuyoXfrmUepBE=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/1_repositories.gif" width="800" height="400" />
 </div>
 
 <br>
@@ -82,7 +82,7 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 
 **Respostas esperadas:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3c9t5J72-TA8wMdalRwG8_dlZXjazpImfgRrIMRPcGcvO7q7jOpNq1OWrlEp81ZxzNKdQ4xDbuNrVmbJd2C-LE22jtvL2YGq0KnUUkFy5toZuLTBJoTkn-Hc7C7JmCshY5S3ZEemgo3FgAsnBZPZjk=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/2_source_key.gif" width="800" height="400" />
 </div>
 
 <br>
@@ -107,7 +107,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3cQGWtcaenWvIRceiKe-Uc7R13U7ddaY5XdX2Z9bOMIgYeAZyJsqakBU-iEhuaPwJg_7kZw4kC-VNEAymBxAg5ZfHnUZ0BPcmvBuN6lUTG7LDTRhx648jA1YHnxMGcYWJYszd7kX-S1uE_Hd3pCQm4=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/3_instalation.gif" width="800" height="400" />
 </div>
 
 ### **Preparando o "Ambiente"**
@@ -131,7 +131,7 @@ source ~/.zshrc
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3exhm3PDyOBMMDRGpJpPhkTam21f_Qe9DscdEdtNZNoVgzVGqDTC7j8R80AhRnG9U17PQLvuVB5JeGGil7l7VOLl8LxhMEIUqetVZBKTzjn31fmdQpm9rLukMBo1YUzFVqrd_BIUipvGupIYd0iCcI=w1276-h672-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/4_environment.gif" width="800" height="400" />
 </div>
 <br>
 
