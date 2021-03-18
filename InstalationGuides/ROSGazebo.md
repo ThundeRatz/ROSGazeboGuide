@@ -222,7 +222,7 @@ Depois disso, toda vez que o gazebo for executado no ubuntu, uma aba será abert
 <div align=center>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=DW7l9LHdK5c
 " target="_blank"><img src="http://img.youtube.com/vi/DW7l9LHdK5c/0.jpg" 
-alt="link vídeo" width="300" height="300" border="10" /></a>
+alt="link vídeo" width="350" height="300" border="10" /></a>
 </div>
 
 
