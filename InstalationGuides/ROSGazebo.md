@@ -93,7 +93,7 @@ Os passos da instalação do ROS/Gazebo são similares ao ubuntu sem o WSL
 
 <div>Abra o terminal do Ubuntu no Windows</div>
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="750" height="400" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="900" height="450" />
 </div>
 
 ### **Habilitando Repositórios**
@@ -109,7 +109,7 @@ sudo apt update
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ6NukBBtIowC7i3GozbB45l7A6W3OEBRCKAUyi652BCPmzy1EQHjQk9hxic5hOqVicQQ7H0apqETjlaNAYgMEP7QN7hLtWxXwMXUaino2igWRGRMcsMqUpM837J0v-fchMDr8y9cuyoXfrmUepBE=w1274-h669-no?authuser=3" width="700" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ6NukBBtIowC7i3GozbB45l7A6W3OEBRCKAUyi652BCPmzy1EQHjQk9hxic5hOqVicQQ7H0apqETjlaNAYgMEP7QN7hLtWxXwMXUaino2igWRGRMcsMqUpM837J0v-fchMDr8y9cuyoXfrmUepBE=w1274-h669-no?authuser=3" width="800" height="400" />
 </div>
 
 
@@ -142,7 +142,7 @@ curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE
 
 **Respostas esperadas:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3c9t5J72-TA8wMdalRwG8_dlZXjazpImfgRrIMRPcGcvO7q7jOpNq1OWrlEp81ZxzNKdQ4xDbuNrVmbJd2C-LE22jtvL2YGq0KnUUkFy5toZuLTBJoTkn-Hc7C7JmCshY5S3ZEemgo3FgAsnBZPZjk=w1274-h669-no?authuser=3" width="700" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3c9t5J72-TA8wMdalRwG8_dlZXjazpImfgRrIMRPcGcvO7q7jOpNq1OWrlEp81ZxzNKdQ4xDbuNrVmbJd2C-LE22jtvL2YGq0KnUUkFy5toZuLTBJoTkn-Hc7C7JmCshY5S3ZEemgo3FgAsnBZPZjk=w1274-h669-no?authuser=3" width="800" height="400" />
 </div>
 
 ### **Finalmente, a instalação!**
@@ -165,7 +165,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3cQGWtcaenWvIRceiKe-Uc7R13U7ddaY5XdX2Z9bOMIgYeAZyJsqakBU-iEhuaPwJg_7kZw4kC-VNEAymBxAg5ZfHnUZ0BPcmvBuN6lUTG7LDTRhx648jA1YHnxMGcYWJYszd7kX-S1uE_Hd3pCQm4=w1274-h669-no?authuser=3" width="700" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3cQGWtcaenWvIRceiKe-Uc7R13U7ddaY5XdX2Z9bOMIgYeAZyJsqakBU-iEhuaPwJg_7kZw4kC-VNEAymBxAg5ZfHnUZ0BPcmvBuN6lUTG7LDTRhx648jA1YHnxMGcYWJYszd7kX-S1uE_Hd3pCQm4=w1274-h669-no?authuser=3" width="800" height="400" />
 </div>
 
 ### **Preparando o "Ambiente"**
@@ -189,7 +189,7 @@ source ~/.zshrc
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3exhm3PDyOBMMDRGpJpPhkTam21f_Qe9DscdEdtNZNoVgzVGqDTC7j8R80AhRnG9U17PQLvuVB5JeGGil7l7VOLl8LxhMEIUqetVZBKTzjn31fmdQpm9rLukMBo1YUzFVqrd_BIUipvGupIYd0iCcI=w1276-h672-no?authuser=3" width="700" height="350" />
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3exhm3PDyOBMMDRGpJpPhkTam21f_Qe9DscdEdtNZNoVgzVGqDTC7j8R80AhRnG9U17PQLvuVB5JeGGil7l7VOLl8LxhMEIUqetVZBKTzjn31fmdQpm9rLukMBo1YUzFVqrd_BIUipvGupIYd0iCcI=w1276-h672-no?authuser=3" width="800" height="400" />
 </div>
 
 ## Como rodar Gazebo + RVIZ e Windows 10 usando WSL2
@@ -219,10 +219,11 @@ Depois disso, toda vez que o gazebo for executado no ubuntu, uma aba será abert
  
 
 <div>Para mais informações siga o tutorial no seguinte vídeo:</div>
+<div>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=DW7l9LHdK5c
 " target="_blank"><img src="http://img.youtube.com/vi/DW7l9LHdK5c/0.jpg" 
 alt="link vídeo" width="240" height="180" border="10" /></a>
-
+</div>
 
 
 
