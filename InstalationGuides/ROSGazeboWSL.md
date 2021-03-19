@@ -15,7 +15,7 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. [Clique aqu
 - [**Ajustar as keys**](#ajustar-as-keys)
 - [**Finalmente, a instalação!**](#finalmente-a-instalação!)
 - [**Preparando o "Ambiente"**](#preparando-o-"ambiente")
-- [**Como rodar Gazebo + RVIZ e Windows 10 usando WSL2**](#como-rodar-gazebo-+-rviz-e-windows-10-usando-wsl2)
+- [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
 
 ---
 
@@ -134,6 +134,22 @@ source ~/.zshrc
 <img src="../assets/gif/ROSGazebo/WSL/4_environment.gif" width="800" height="400" />
 </div>
 <br>
+
+### ***Instruções para pós instalação***
+---
+<div>Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
+</div>
+<div>
+Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessario instalar o Xserver, que também temos um guia de instalação!
+</div>
+
+Para instalar o Xserver  ***[clique aqui](/InstalationGuides/ROSGazeboWSL)***
+
+Depois disso tudo isso, seu windows estará pronto para utilizar corretamente o ROS.
+
+Bom proveito!
+
+
 
 
 
