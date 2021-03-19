@@ -15,7 +15,7 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. [Clique aqu
 - [**Ajustar as keys**](#ajustar-as-keys)
 - [**Finalmente, a instalação!**](#finalmente-a-instalação!)
 - [**Preparando o "Ambiente"**](#preparando-o-"ambiente")
-- [**Como rodar Gazebo + RVIZ e Windows 10 usando WSL2**](#como-rodar-gazebo-+-rviz-e-windows-10-usando-wsl2)
+- [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
 
 ---
 
@@ -26,7 +26,7 @@ Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 <div align=center>
 <br>
 
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3d1hybWo5Ee3nwj01Vk_NElno6nyDpEgMNFz5WN_AKVfxd_6ImQZFt4iVdGHDOqAvFGOQa5KpMoMO7OlKEuW5_51D-NsbIa9r_A-7UrBLxv5U_KuDJfhrUizCOUk6cqAr5Ve1U6P07r775GQOqHjY0=w1356-h721-no?authuser=3" width="900" height="450" />
+<img src="../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif" width="900" height="450" />
 </div>
 <br>
 
@@ -43,7 +43,7 @@ sudo apt update
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3eZ6NukBBtIowC7i3GozbB45l7A6W3OEBRCKAUyi652BCPmzy1EQHjQk9hxic5hOqVicQQ7H0apqETjlaNAYgMEP7QN7hLtWxXwMXUaino2igWRGRMcsMqUpM837J0v-fchMDr8y9cuyoXfrmUepBE=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/1_repositories.gif" width="800" height="400" />
 </div>
 
 <br>
@@ -82,7 +82,7 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 
 **Respostas esperadas:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3c9t5J72-TA8wMdalRwG8_dlZXjazpImfgRrIMRPcGcvO7q7jOpNq1OWrlEp81ZxzNKdQ4xDbuNrVmbJd2C-LE22jtvL2YGq0KnUUkFy5toZuLTBJoTkn-Hc7C7JmCshY5S3ZEemgo3FgAsnBZPZjk=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/2_source_key.gif" width="800" height="400" />
 </div>
 
 <br>
@@ -107,7 +107,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3cQGWtcaenWvIRceiKe-Uc7R13U7ddaY5XdX2Z9bOMIgYeAZyJsqakBU-iEhuaPwJg_7kZw4kC-VNEAymBxAg5ZfHnUZ0BPcmvBuN6lUTG7LDTRhx648jA1YHnxMGcYWJYszd7kX-S1uE_Hd3pCQm4=w1274-h669-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/3_instalation.gif" width="800" height="400" />
 </div>
 
 ### **Preparando o "Ambiente"**
@@ -131,42 +131,27 @@ source ~/.zshrc
 ```
 **Resposta esperada:**
 <div align=center>
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3exhm3PDyOBMMDRGpJpPhkTam21f_Qe9DscdEdtNZNoVgzVGqDTC7j8R80AhRnG9U17PQLvuVB5JeGGil7l7VOLl8LxhMEIUqetVZBKTzjn31fmdQpm9rLukMBo1YUzFVqrd_BIUipvGupIYd0iCcI=w1276-h672-no?authuser=3" width="800" height="400" />
+<img src="../assets/gif/ROSGazebo/WSL/4_environment.gif" width="800" height="400" />
 </div>
 <br>
 
-## **Como rodar Gazebo + RVIZ e Windows 10 usando WSL2**
-Após a instalação, é necessario instalar uma extensão para reproduzir o Gazebo e Rviz
-- Baixar:
-https://sourceforge.net/projects/vcxsrv/
-
-Após baixar a extensão
-
-- Execute o Xlaunch
-Na aba de configuração de display(select display settings):
-- Deixe "Multiple windows" selecionado
-- Deixe display number = 0
-Na aba de seleção de como iniciar o cliente(select how to start clients):
-- Selecione "Start no client"
-Na aba de configurações extras(extra settings):
-- Deixe selecionado "Clipboard", "Primary Selection" e "Disable acess control"
-Após isso é só finalizar a configuração
-
-- Digite no terminal do ubuntu do WSL:
-```
-export GAZEBO_IP=127.0.0.1
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0 
-export LIBGL_ALWAYS_INDIRECT=0
-```
-Depois disso, toda vez que o gazebo for executado no ubuntu, uma aba será aberta automaticamente
- 
-
-<div>Para mais informações siga o tutorial no seguinte vídeo:</div>
-<div align=center>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=DW7l9LHdK5c
-" target="_blank"><img src="http://img.youtube.com/vi/DW7l9LHdK5c/0.jpg" 
-alt="link vídeo" width="350" height="300" border="10" /></a>
+### ***Instruções para pós instalação***
+---
+<div>Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
 </div>
+<div>
+Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessario instalar o Xserver, que também temos um guia de instalação!
+</div>
+
+Para instalar o Xserver  ***[clique aqui](/InstalationGuides/ROSGazeboWSL)***
+
+Depois disso tudo isso, seu windows estará pronto para utilizar corretamente o ROS.
+
+Bom proveito!
+
+
+
+
 
 
 
