@@ -9,6 +9,10 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 
 <br>
 
+---
+
+<br>
+
 ## Índice
 
 
@@ -19,13 +23,14 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 - [**Preparando o "Ambiente"**](#preparando-o-"ambiente")
 - [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
 
+<br>
+
 ---
 
-<br>
 <br>
 
 ## **Como Instalar ROS/Gazebo em WSL**
----
+
 Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 
 Abra o terminal do Ubuntu no Windows
@@ -36,7 +41,7 @@ Abra o terminal do Ubuntu no Windows
 
 <br>
 
-### **Habilitando Repositórios**
+## **Habilitando Repositórios**
 
 
 Primeiramente, para instalar ROS no Ubuntu em WSL, precisamos configurar os **repositórios Ubuntu** para permitir *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
@@ -90,7 +95,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 ```
 <br>
 
-### **Ajustar as keys**
+## **Ajustar as keys**
 
 Insira o seguinte comando para salvar as keys na máquina, para a instalação:
 ```
@@ -105,7 +110,7 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 
 <br>
 
-### **Finalmente, a instalação!**
+## **Finalmente, a instalação!**
 
 
 Primeiro, vamos dar um update para ter certeza que está tudo atualizado:
@@ -128,7 +133,7 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 
 <br>
 
-### **Preparando o "Ambiente"**
+## **Preparando o "Ambiente"**
 
 É importante configurar o terminal em todo **bash** que se usa ROS.
 ```
@@ -152,7 +157,7 @@ source ~/.zshrc
 
 <br>
 
-### ***Instruções para pós instalação***
+## ***Instruções para pós instalação***
 
 Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
 
