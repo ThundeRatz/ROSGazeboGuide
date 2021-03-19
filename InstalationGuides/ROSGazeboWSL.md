@@ -44,18 +44,30 @@ sudo apt update
 **Resposta esperada:**
 ![configurando repositório](../assets/gif/ROSGazebo/WSL/1_repositories.gif)
 
-<br>
 
-Esses comandos permitem com que o seu comando **apt** consiga baixar arquivos de fontes alternativas. Isto é, você permite que sua máquina retire arquivos de repositórios que não recebem suporte da plataforma. Uma tabela que explicita melhor a diferença entre cada tipo de repositório é a seguinte:
+Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
 
-\                       | Software Grátis   | Software Não Grátis
+Mas o que é um repositório?
+
+Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. No entanto, a configuração inicial do Ubuntu é de permitir a entrada de arquivos oriundos de determinados tipos de repositórios.
+
+Em nosso caso, para instalar ROS precisamos de acesso a estes servidores, e por isso inserimos estes comandos.
+
+Segue uma tabela que ajuda a entender de maneira simplificada a diferença entre os repositórios.
+
+\                       | Software Open Source    | Software Não Open Source 
 ----------------------- | ----------------- | -------------------
-**Recebe Suporte**      | Main              | Restricted
-**Não Recebe Suporte**  | Universe          | Multiverse
+**Recebe Suporte da Canonical**      | Main              | Restricted
+**Não Recebe Suporte da Canonical**  | Universe          | Multiverse
+
+<br>
+Para saber mais detalhes, leia mais em: 
+
+<https://help.ubuntu.com/community/Repositories>
 
 <br>
 
-Em suma, utilizamos este comando para que o Ubuntu se permita instalar arquivos de repositórios de diversos tipos, de graça ou não, que recebem suporte ou não.
+Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
