@@ -26,7 +26,7 @@ Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 <div align=center>
 <br>
 
-<img src="../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif" width="900" height="450" />
+![abertura ubuntu](../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif)
 </div>
 <br>
 
@@ -42,9 +42,7 @@ sudo add-apt-repository multiverse
 sudo apt update
 ```
 **Resposta esperada:**
-<div align=center>
-<img src="../assets/gif/ROSGazebo/WSL/1_repositories.gif" width="800" height="400" />
-</div>
+![configurando repositório](../assets/gif/ROSGazebo/WSL/1_repositories.gif)
 
 <br>
 
@@ -81,9 +79,7 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 
 
 **Respostas esperadas:**
-<div align=center>
-<img src="../assets/gif/ROSGazebo/WSL/2_source_key.gif" width="800" height="400" />
-</div>
+![configurando key e source](../assets/gif/ROSGazebo/WSL/2_source_key.gif)
 
 <br>
 
@@ -106,9 +102,7 @@ sudo apt install ros-noetic-PACKAGE
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
 **Resposta esperada:**
-<div align=center>
-<img src="../assets/gif/ROSGazebo/WSL/3_instalation.gif" width="800" height="400" />
-</div>
+![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
 
 ### **Preparando o "Ambiente"**
 --------------------------
@@ -130,10 +124,7 @@ echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
 source ~/.zshrc
 ```
 **Resposta esperada:**
-<div align=center>
-<img src="../assets/gif/ROSGazebo/WSL/4_environment.gif" width="800" height="400" />
-</div>
-<br>
+![ambiente](../assets/gif/ROSGazebo/WSL/4_environment.gif)
 
 ### ***Instruções para pós instalação***
 ---
