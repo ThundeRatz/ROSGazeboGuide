@@ -6,9 +6,11 @@ Se quiser aprender mais sobre os softwares e para que servem, veja os documentos
 Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para se redirecionar.
 
 <br>
-<br>
 
 ---
+
+<br>
+
 ## **Índice**
 
 
@@ -19,12 +21,14 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 - [**Finalmente, a instalação!**](#Finalmente,-a-instalação!)
 - [**Preparando o "Ambiente"**](#Preparando-o-"Ambiente")
 
----
 <br>
+
+---
+
 <br>
 
 ## O que vamos usar? 
----
+
 Grande parte do tutorial vai utilizar o prompt de comando. Para abrir o terminal, você precisa saber qual sistema operacional está sendo utilizado:
 - Ubuntu: busque um programa chamado **"Terminal"** ;
 
@@ -53,7 +57,7 @@ Como esse comando só tem essa resposta quando o Gazebo estiver apropriadamente 
 Vamos agora dar um enfoque em como instalar este software em Ubuntu.
 
 ## **Habilitando Repositórios**
----
+
 
 Primeiramente, para instalar ROS em Ubuntu, precisamos configurar os **repositórios Ubuntu** para permitir *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
 
@@ -92,7 +96,7 @@ Para saber mais detalhes, leia mais em:
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
 ## **Ajustar a sources.list**
---------------------------
+
 Vamos agora ajustar o computador para aceitar software da **packages.ros.org** :
 
 ```
@@ -101,7 +105,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
 ## **Ajustar as keys**
---------------------------
+
 Insira o seguinte comando para salvar as *keys* em sua máquina para a instalação:
 ```
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -114,7 +118,7 @@ O output esperado desse comando é o seguinte:
 Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso e não conseguirá instalar.
 
 ## **Finalmente, a instalação!**
----
+
 
 Primeiro, vamos dar um update para "lavar as mãos" e ter certeza que está tudo atualizado:
 ```
@@ -161,7 +165,7 @@ sudo apt install ros-noetic-PACKAGE
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
 ## **Preparando o "Ambiente"**
----
+
 É importante configurar o terminal em todo **bash** que se usa ROS.
 ```
 source /opt/ros/noetic/setup.bash
