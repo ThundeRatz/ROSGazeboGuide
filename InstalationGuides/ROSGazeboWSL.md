@@ -7,6 +7,8 @@ Vamos, neste documento, dar um enfoque a como instalar ROS/Gazebo no Windows com
 
 Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.
 
+<br>
+
 ## Índice
 ---
 
@@ -19,19 +21,23 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 
 ---
 
-## **Como Instalar ROS/Gazebo em WSL**
-Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
-
-<div>Abra o terminal do Ubuntu no Windows</div>
-<div align=center>
+<br>
 <br>
 
+## **Como Instalar ROS/Gazebo em WSL**
+---
+Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
+
+Abra o terminal do Ubuntu no Windows
+
+
+
 ![abertura ubuntu](../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif)
-</div>
+
 <br>
 
 ### **Habilitando Repositórios**
---------------------------
+---
 
 Primeiramente, para instalar ROS no Ubuntu em WSL, precisamos configurar os **repositórios Ubuntu** para permitir *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
 
@@ -55,12 +61,14 @@ Em nosso caso, para instalar ROS precisamos de acesso a estes servidores, e por 
 
 Segue uma tabela que ajuda a entender de maneira simplificada a diferença entre os repositórios.
 
+<br>
+
 \                       | Software Open Source    | Software Não Open Source 
------------------------ | ----------------- | -------------------
+--- | --- | ---
 **Recebe Suporte da Canonical**      | Main              | Restricted
 **Não Recebe Suporte da Canonical**  | Universe          | Multiverse
 
-<br>
+
 Para saber mais detalhes, leia mais em: 
 
 <https://help.ubuntu.com/community/Repositories>
@@ -71,17 +79,19 @@ Em seguida, vamos configurar algumas coisas para que a sua máquina consiga busc
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
+<br>
 
 ### **Ajustar a sources.list**
---------------------------
+---
 Vamos agora ajustar o computador para aceitar software da **packages.ros.org** :
 
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
+<br>
 
 ### **Ajustar as keys**
---------------------------
+---
 Insira o seguinte comando para salvar as keys na máquina, para a instalação:
 ```
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -96,7 +106,7 @@ Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos
 <br>
 
 ### **Finalmente, a instalação!**
---------------------------
+---
 
 Primeiro, vamos dar um update para ter certeza que está tudo atualizado:
 ```
@@ -116,8 +126,10 @@ Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessári
 **Resposta esperada:**
 ![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
 
+<br>
+
 ### **Preparando o "Ambiente"**
---------------------------
+---
 É importante configurar o terminal em todo **bash** que se usa ROS.
 ```
 source /opt/ros/noetic/setup.bash
@@ -138,13 +150,14 @@ source ~/.zshrc
 **Resposta esperada:**
 ![ambiente](../assets/gif/ROSGazebo/WSL/4_environment.gif)
 
+<br>
+
 ### ***Instruções para pós instalação***
 ---
-<div>Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
-</div>
-<div>
+Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
+
 Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessario instalar o Xserver, que também temos um guia de instalação!
-</div>
+
 
 Para instalar o Xserver  ***[clique aqui](../InstalationGuides/XServer.md)***
 

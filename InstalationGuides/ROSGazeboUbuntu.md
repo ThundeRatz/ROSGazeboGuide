@@ -6,6 +6,7 @@ Se quiser aprender mais sobre os softwares e para que servem, veja os documentos
 Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para se redirecionar.
 
 <br>
+<br>
 
 ---
 ## **Índice**
@@ -20,9 +21,10 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 
 ---
 <br>
+<br>
 
 ## O que vamos usar? 
-
+---
 Grande parte do tutorial vai utilizar o prompt de comando. Para abrir o terminal, você precisa saber qual sistema operacional está sendo utilizado:
 - Ubuntu: busque um programa chamado **"Terminal"** ;
 
@@ -51,7 +53,7 @@ Como esse comando só tem essa resposta quando o Gazebo estiver apropriadamente 
 Vamos agora dar um enfoque em como instalar este software em Ubuntu.
 
 ## **Habilitando Repositórios**
---------------------------
+---
 
 Primeiramente, para instalar ROS em Ubuntu, precisamos configurar os **repositórios Ubuntu** para permitir *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
 
@@ -76,7 +78,7 @@ Em nosso caso, para instalar ROS precisamos de acesso a estes servidores, e por 
 Segue uma tabela que ajuda a entender de maneira simplificada a diferença entre os repositórios.
 
 \                       | Software Open Source    | Software Não Open Source 
------------------------ | ----------------- | -------------------
+--- | --- | ---
 **Recebe Suporte da Canonical**      | Main              | Restricted
 **Não Recebe Suporte da Canonical**  | Universe          | Multiverse
 
@@ -112,7 +114,7 @@ O output esperado desse comando é o seguinte:
 Estas *keys* são chaves para acesso ao repositório do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso e não conseguirá instalar.
 
 ## **Finalmente, a instalação!**
---------------------------
+---
 
 Primeiro, vamos dar um update para "lavar as mãos" e ter certeza que está tudo atualizado:
 ```
@@ -159,7 +161,7 @@ sudo apt install ros-noetic-PACKAGE
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
 ## **Preparando o "Ambiente"**
---------------------------
+---
 É importante configurar o terminal em todo **bash** que se usa ROS.
 ```
 source /opt/ros/noetic/setup.bash
