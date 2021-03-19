@@ -50,8 +50,8 @@ sudo apt update
 
 Esses comandos permitem com que o seu comando **apt** consiga baixar arquivos de fontes alternativas. Isto é, você permite que sua máquina retire arquivos de repositórios que não recebem suporte da plataforma. Uma tabela que explicita melhor a diferença entre cada tipo de repositório é a seguinte:
 
--                       | Software Grátis   | Software Não Grátis
--                       |         -         | -
+\                       | Software Grátis   | Software Não Grátis
+----------------------- | ----------------- | -------------------
 **Recebe Suporte**      | Main              | Restricted
 **Não Recebe Suporte**  | Universe          | Multiverse
 
