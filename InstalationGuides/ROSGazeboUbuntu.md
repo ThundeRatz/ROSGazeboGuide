@@ -3,7 +3,7 @@
 Neste tutorial, vamos aprender a **instalar** o software chamado **ROS** em sua máquina. Junto com ele, vem o ambiente de simulação **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
 Se quiser aprender mais sobre os softwares e para que servem, veja os documentos explicativos (o que é? / porque usar?) sobre cada software - com certeza vai iluminar melhor a questão.
 
-Se você está utilizando Windows e WSL, você está lendo o artigo errado. [Clique aqui](/InstalationGuides/ROSGazeboWSL) para se redirecionar.
+Se você está utilizando Windows e WSL, você está lendo o artigo errado. [Clique aqui](../InstalationGuides/ROSGazeboWSL) para se redirecionar.
 
 <br>
 

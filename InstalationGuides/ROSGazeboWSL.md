@@ -5,7 +5,7 @@ Se quiser aprender mais sobre os softwares e para que servem, veja os documentos
 
 Vamos, neste documento, dar um enfoque a como instalar ROS/Gazebo no Windows com WSL.
 
-Se você está utilizando Ubuntu, você está lendo o artigo errado. [Clique aqui](/InstalationGuides/ROSGazeboUbuntu) para se redirecionar.
+Se você está utilizando Ubuntu, você está lendo o artigo errado. [Clique aqui](../InstalationGuides/ROSGazeboUbuntu) para se redirecionar.
 
 ## Índice
 ---
@@ -143,7 +143,7 @@ source ~/.zshrc
 Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessario instalar o Xserver, que também temos um guia de instalação!
 </div>
 
-Para instalar o Xserver  ***[clique aqui](/InstalationGuides/ROSGazeboWSL)***
+Para instalar o Xserver  ***[clique aqui](../InstalationGuides/XServer.md)***
 
 Depois disso tudo isso, seu windows estará pronto para utilizar corretamente o ROS.
 
