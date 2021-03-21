@@ -1,4 +1,4 @@
-# Instalando o ROS/Gazebo em sua máquina Ubuntu
+# **Instalando o ROS/Gazebo em sua máquina Ubuntu**
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
 Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documentos explicativos (o que é? / porque usar?) sobre cada um deles - com certeza vai iluminar melhor a questão.
@@ -7,7 +7,7 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 
 ## **Índice**
 
-- [Instalando o ROS/Gazebo em sua máquina Ubuntu](#instalando-o-rosgazebo-em-sua-máquina-ubuntu)
+- [**Instalando o ROS/Gazebo em sua máquina Ubuntu**](#instalando-o-rosgazebo-em-sua-máquina-ubuntu)
   - [**Índice**](#índice)
   - [**O que vamos usar?**](#o-que-vamos-usar)
   - [**Habilitando Repositórios**](#habilitando-repositórios)
@@ -35,13 +35,11 @@ Então, toda caixinha que você encontrar nesse formato, saiba que é um comando
 Após inserir um comando é esperado que ele responda com algumas saídas. Assim, para o comando:
 
 ```bash
-gazebo -version
+ls
 ```
-O terminal responderá da seguinte forma **se você tiver o Gazebo instalado**:
+O terminal responderá da seguinte forma, apresentando as pastas no local do seu computador:
 
-![Checking Gazebo](/assets/gif/ROSGazebo/gazebo-version.gif)
-
-Como esse comando só tem essa resposta quando o Gazebo estiver apropriadamente instalado, utilize-o no final deste tutorial para ter certeza que fez tudo de maneira correta!
+![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
 
 Vamos agora dar um enfoque em como instalar este software em Ubuntu.
 
