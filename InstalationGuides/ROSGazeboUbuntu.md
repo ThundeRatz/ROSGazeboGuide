@@ -38,8 +38,6 @@ O terminal responderá da seguinte forma, apresentando as pastas no local do seu
 
 ![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
 
-Vamos agora dar um enfoque em como instalar este software em Ubuntu.
-
 ## **Habilitando Repositórios**
 
 Primeiramente, para instalar ROS em Ubuntu, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
