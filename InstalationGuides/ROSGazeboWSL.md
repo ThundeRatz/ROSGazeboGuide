@@ -1,4 +1,4 @@
-# **Instalando o ROS/Gazebo em sua máquina**
+# **Instalando o ROS/Gazebo em sua máquina com o WSL**
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
 Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documentos explicativos (o que é? / porque usar?) sobre cada um deles - com certeza vai iluminar melhor a questão.
