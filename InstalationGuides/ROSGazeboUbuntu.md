@@ -58,8 +58,6 @@ Mas o que é um repositório?
 
 Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse mas para instalar o ROS precisamos de acesso a esses servidores.
 
-Em nosso caso, para instalar ROS precisamos de acesso a estes servidores, e por isso inserimos estes comandos.
-
 Para saber mais sobre as diferenças dos repositórios, acesse o link:
 <https://help.ubuntu.com/community/Repositories>
 
