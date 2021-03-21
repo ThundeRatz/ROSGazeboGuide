@@ -1,5 +1,34 @@
 # **Como Instalar o Xserver no Windows**
-Após a instalação do WSl no seu windows, é necessario instalar uma extensão para reproduzir o Gazebo e Rviz no seu computador
+
+<br>
+
+Após a instalação do WSl no seu windows, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.
+
+Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz
+
+<br>
+
+---
+
+<br>
+
+## **Índice**
+
+- [**Download e execução do arquivo VcXsrv**](#Download-e-execução-do-arquivo-VcXsrv)
+- [**Execução e configuração do Xlaunch**](#Execução-e-configuração-do-Xlaunch)
+- [**Após a instalação**](#Após-a-instalação)
+
+
+<br>
+
+---
+
+<br>
+
+## **Download e execução do arquivo VcXsrv**
+
+<br>
+
 - Baixar o arquivo vcxsrv e salve no seu local de preferencia: 
 https://sourceforge.net/projects/vcxsrv/
 
@@ -14,6 +43,10 @@ https://sourceforge.net/projects/vcxsrv/
 <br>
 
 ![execute o XServer](../assets/gif/XServer/1_executando_VcXsrv.gif)
+
+<br>
+
+## **Execução e configuração do Xlaunch**
 
 <br>
 
@@ -33,6 +66,11 @@ Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele ira criar 
 <br>
 
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
+
+<br>
+
+
+## **Após a instalação**
 
 <br>
 
