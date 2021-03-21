@@ -9,15 +9,13 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 
 ## **Índice**
 
-- [**Instalando o ROS/Gazebo em sua máquina**](#instalando-o-rosgazebo-em-sua-máquina)
-  - [**Índice**](#índice)
-  - [**Como Instalar ROS/Gazebo em WSL**](#como-instalar-rosgazebo-em-wsl)
-  - [**Habilitando Repositórios**](#habilitando-repositórios)
-  - [**Ajustar a sources.list**](#ajustar-a-sourceslist)
-  - [**Ajustar as keys**](#ajustar-as-keys)
-  - [**Finalmente, a instalação!**](#finalmente-a-instalação)
-  - [**Toques finais**](#toques-finais)
-  - [***Instruções para pós instalação***](#instruções-para-pós-instalação)
+- [**O que vamos usar?**](#o-que-vamos-usar)
+- [**Habilitando Repositórios**](#habilitando-repositórios)
+- [**Ajustar a sources.list**](#ajustar-a-sourceslist)
+- [**Ajustar as chaves**](#ajustar-as-chaves)
+- [**Finalmente, a instalação!**](#finalmente-a-instalação)
+- [**Toques finais**](#toques-finais)
+- [***Instruções para pós instalação***](#instruções-para-pós-instalação)
 
 
 ## **Como Instalar ROS/Gazebo em WSL**
