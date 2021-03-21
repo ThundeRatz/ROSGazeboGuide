@@ -18,7 +18,7 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 - [***Instruções para pós instalação***](#instruções-para-pós-instalação)
 
 
-## **Como Instalar ROS/Gazebo em WSL**
+## **O que vamos usar?**
 
 Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 
