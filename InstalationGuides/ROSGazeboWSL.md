@@ -117,9 +117,6 @@ source ~/.bashrc
 
 O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/setup.bash` para o arquivo `.bashrc`. Este arquivo contém uma lista de comandos que são executados toda vez que um novo terminal é aberto. Dessa forma, você não precisa escrever o mesmo comando sempre
 
-**Resposta esperada:**
-![ambiente](../assets/gif/ROSGazebo/WSL/4_environment.gif)
-
 ## ***Instruções para pós instalação***
 
 Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
