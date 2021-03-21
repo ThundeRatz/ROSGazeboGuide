@@ -37,7 +37,8 @@ sudo add-apt-repository universe
 sudo add-apt-repository multiverse
 sudo apt update
 ```
-**Resposta esperada:**
+A resposta para esses comandos deve ser essa:
+
 ![configurando repositório](../assets/gif/ROSGazebo/WSL/1_repositories.gif)
 
 Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
