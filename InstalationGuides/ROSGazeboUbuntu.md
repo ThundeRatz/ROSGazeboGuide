@@ -78,7 +78,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 ```
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-## **Ajustar as keys**
+## **Ajustar as chaves**
 
 Insira o seguinte comando para salvar as chaves do repositório do ROS na sua máquina:
 
