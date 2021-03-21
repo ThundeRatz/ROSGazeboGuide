@@ -70,10 +70,12 @@ Insira o seguinte comando para salvar as chaves do repositório do ROS na sua m�
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
-As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso à ele e não conseguirá instalar.
 
-**Respostas esperadas:**
+O output esperado desse comando é o seguinte:
+
 ![configurando key e source](../assets/gif/ROSGazebo/WSL/2_source_key.gif)
+
+As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso à ele e não conseguirá instalar.
 
 ## **Finalmente, a instalação!**
 
