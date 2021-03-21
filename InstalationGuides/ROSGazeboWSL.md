@@ -82,11 +82,9 @@ Para saber mais detalhes, leia mais em:
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
-Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
-
 <br>
 
-### **Ajustar a sources.list**
+## **Ajustar a sources.list**
 
 Vamos agora ajustar o computador para aceitar software da **packages.ros.org** :
 
