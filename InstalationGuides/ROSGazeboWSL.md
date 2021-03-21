@@ -124,7 +124,7 @@ O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/set
 
 Após preparar o ambiente, a instalação do ROS e do Gazebo estará finalizada!
 
-Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessario instalar o Xserver, que também temos um guia de instalação!
+Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessário instalar o Xserver, que também temos um guia de instalação!
 
 Para instalar o Xserver  ***[clique aqui](../InstalationGuides/XServer.md)***
 
