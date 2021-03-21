@@ -18,8 +18,7 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 
 ## **O que vamos usar?** 
 
-Grande parte do tutorial vai utilizar o prompt de comando. Para abrir o terminal, você precisa saber qual sistema operacional está sendo utilizado:
-- Ubuntu: busque um programa chamado **"Terminal"** ;
+Grande parte do tutorial vai utilizar a linha de comando, para isso busque um programa chamado **"Terminal"** :
 
 ![Opening Terminal](/assets/gif/ROSGazebo/openingterminal.gif)
 
