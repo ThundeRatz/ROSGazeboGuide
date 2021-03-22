@@ -47,7 +47,7 @@ Abrindo a página do Ubuntu 20.04 LTS, caso você nunca tenha baixado, é só ap
 
 ![Opening Ubuntu Page](/assets/img/WSL/WSL_Store_Ubuntu.png)
 
-Com a distruibuição obtida, agora é só instalar como se fosse um app normal de celular. Aperte do botão **Instalar**/*Install* e aguarde o processo.
+Com a distribuição obtida, agora é só instalar como se fosse um app normal de celular. Aperte o botão **Instalar**/*Install* e aguarde o processo.
 
 ![Opening Ubuntu Install](/assets/img/WSL/WSL_Store_Ubuntu_Install.png)
 
