@@ -20,9 +20,10 @@ Grande parte do tutorial vai utilizar a linha de comando, para isso busque um pr
 
 ![Opening Terminal](/assets/gif/ROSGazebo/openingterminal.gif)
 
-Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. Quem mexe em Ubuntu trabalha muito com isso, já que é a maneira principal de se instalar coisas nesse sistema operacional.
+Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. Quem mexe em Ubuntu trabalha muito com isso, já que é a maneira principal de se instalar pacotes nesse sistema operacional.
 
-Utilizaremos esses comandos como ferramenta principal para a instalação deste framework.
+Utilizaremos esses comandos como ferramenta principal para o processo de instalação.
+
 O formato para escrever um comando será o seguinte:
 ```bash
 comando-a-inserir
@@ -34,7 +35,7 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 ```bash
 ls
 ```
-O terminal responderá da seguinte forma, apresentando os arquivos da pasta que você se encontra:
+O terminal responderá da seguinte forma, apresentando os arquivos e pastas da pasta que você se encontra:
 
 ![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
 
@@ -123,9 +124,7 @@ Agora, se você preferir fazer um teste mais elaborado, tente rodar o comando pa
 ```bash
 gazebo
 ```
-Este comando deve , da seguinte forma:
-
-A resposta esperada desse comando é o seguinte:
+Este comando deve abrir o ambiente de simulação **Gazebo**, da seguinte forma:
 
 ![Opening Gazebo](/assets/gif/ROSGazebo/opening_gazebo.gif)
 
