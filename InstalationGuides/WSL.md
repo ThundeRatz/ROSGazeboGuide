@@ -65,7 +65,7 @@ Com um nome de usuário, agora é apenas colocar o sua senha na linha "Enter new
 
 E acabou! 
 
-Agora que você tem o WSL com Ubunut 20.04 instalado na sua máquina você pode tirar proveito dos softwares que rodam no Linux, como o ROS/Gazebo, usados na disciplina. Para aprender como instalar eles é só ***[clicar aqui](../InstalationGuides/ROSGazeboWSL.md)*** e seguir as instruções.
+Agora que você tem o WSL com Ubuntu 20.04 instalado na sua máquina você pode tirar proveito dos softwares que rodam no Linux, como o ROS/Gazebo, usados na disciplina. Para aprender como instalar eles é só ***[clicar aqui](../InstalationGuides/ROSGazeboWSL.md)*** e seguir as instruções.
 
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores. 
 
