@@ -59,7 +59,7 @@ Agora, depois de abrir e aguardar a primeira instalação, você tem que escolhe
 
 ![Opening Ubuntu First Time](/assets/img/WSL/WSL_First_Open.png)
 
-Com um nume de usuário, agora é apenas colocar o sua senha na linha "Enter new UNIX password" e escrever ela de novo em seguida para confirmar.
+Com um nome de usuário, agora é apenas colocar o sua senha na linha "Enter new UNIX password" e escrever ela de novo em seguida para confirmar.
 
 ![Install Finished](/assets/img/WSL/WSL_Finished.png)
 
