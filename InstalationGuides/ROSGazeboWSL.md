@@ -22,10 +22,27 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 
 Os passos da instalação do ROS/Gazebo são similares ao Ubuntu sem o WSL:
 
-Abra o terminal do Ubuntu no Windows
+Abra o **terminal** do Ubuntu no Windows
 
 ![abertura ubuntu](../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif)
 
+Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. É a maneira principal de se instalar coisas no Ubuntu pelo WSL.
+
+Utilizaremos esses comandos como ferramenta principal para a instalação deste software.
+O formato para escrever um comando será o seguinte:
+```bash
+comando-a-inserir
+```
+Então, toda caixinha que você encontrar nesse formato, saiba que é um comando a ser inserido.
+
+Após inserir um comando é esperado que ele responda com algumas saídas. Assim, para o comando:
+
+```bash
+ls
+```
+O terminal responderá da seguinte forma, apresentando as pastas no local do seu computador:
+
+**--> imagem a inserir**
 
 ## **Habilitando Repositórios**
 
@@ -63,7 +80,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 ```
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-## **Ajustar as keys**
+## **Ajustar as chaves**
 
 Insira o seguinte comando para salvar as chaves do repositório do ROS na sua máquina:
 
@@ -90,14 +107,31 @@ Feito isso, vamos instalar o pacote do ROS. **Precisamos** instalar o pacote **"
 ```bash
 sudo apt install ros-noetic-desktop-full
 ```
+
+A resposta esperada desses comandos é o seguinte:
+![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
+
+Note que, no meio da execução, o terminal pergunta **"Do you want to continue? [Y/n]"**.
+Para continuar, basta escrever **y** e apertar Enter.
+Neste caso também, se você não escrever nada, e somente pressionar Enter, a resposta default é "Yes", então você também pode fazer isso.
+
+Ao final da execução, tudo deve ter sido instalado da maneira correta. Para testar, vamos utilizar o comando a seguir:
+
+```bash
+gazebo -version
+```
+
+A resposta esperada desse comando é o seguinte:
+
+**--> imagem a inserir**
+
+
 Este comando deve instalar o ROS e o Gazebo juntos. Podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
 ```bash
 sudo apt install ros-noetic-PACKAGE
 ```
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
-A resposta esperada desses comandos é o seguinte:
-![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
 
 ## **Toques finais**
 

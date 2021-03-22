@@ -108,7 +108,7 @@ Note que, no meio da execução, o terminal pergunta **"Do you want to continue?
 Para continuar, basta escrever **y** e apertar Enter.
 Neste caso também, se você não escrever nada, e somente pressionar Enter, a resposta default é "Yes", então você também pode fazer isso.
 
-Ao final da execução, tudo deve ter sido instalado da maneira correta. Para testar, vamos utilizar o mesmo comando do início do tutorial:
+Ao final da execução, tudo deve ter sido instalado da maneira correta. Para testar, vamos utilizar o comando a seguir:
 
 ```bash
 gazebo -version
