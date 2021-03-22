@@ -27,7 +27,7 @@ Nesta nova tela, encontre e clique na opção **Ativar ou desativar recursos do 
 
 ![Opening Windows Features](/assets/img/WSL/WSL_Windows_Features.png)
 
-Em seguida, coloque um check na caixinha escrito **Subsistema do Windows para Linux**/*Windows Subsystem for Linux*. Então clique em OK, aguarde as alterações e reinicie seu computardor para aplicar as modificações.
+Em seguida, coloque um check na caixinha escrito **Subsistema do Windows para Linux**/*Windows Subsystem for Linux*. Então clique em OK, aguarde as alterações e reinicie seu computador para aplicar as modificações.
 
 ![WSL Enable](/assets/img/WSL/WSL_Enable.png)
 
