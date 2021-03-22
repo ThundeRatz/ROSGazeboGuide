@@ -22,7 +22,7 @@ Grande parte do tutorial vai utilizar a linha de comando, para isso busque um pr
 
 Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. Quem mexe em Ubuntu trabalha muito com isso, já que é a maneira principal de se instalar coisas nesse sistema operacional.
 
-Utilizaremos esses comandos como ferramenta principal para a instalação deste software.
+Utilizaremos esses comandos como ferramenta principal para a instalação deste framework.
 O formato para escrever um comando será o seguinte:
 ```bash
 comando-a-inserir

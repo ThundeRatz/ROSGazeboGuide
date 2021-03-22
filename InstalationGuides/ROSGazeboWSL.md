@@ -28,7 +28,7 @@ Abra o **terminal** do Ubuntu no Windows
 
 Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. É a maneira principal de se instalar coisas no Ubuntu pelo WSL.
 
-Utilizaremos esses comandos como ferramenta principal para a instalação deste software.
+Utilizaremos esses comandos como ferramenta principal para a instalação deste framework.
 O formato para escrever um comando será o seguinte:
 ```bash
 comando-a-inserir
@@ -108,6 +108,8 @@ Feito isso, vamos instalar o pacote do ROS. **Precisamos** instalar o pacote **"
 sudo apt install ros-noetic-desktop-full
 ```
 
+Este comando deve instalar o ROS e o Gazebo juntos.
+
 A resposta esperada desses comandos é o seguinte:
 ![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
 
@@ -125,7 +127,7 @@ A resposta esperada desse comando é o seguinte:
 
 ![verificando versão do gazebo](../assets/gif/ROSGazebo/WSL/gazebo_version.gif)
 
-Este comando deve instalar o ROS e o Gazebo juntos. Podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
+Tendo feito tudo isso, podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
 ```bash
 sudo apt install ros-noetic-PACKAGE
 ```
