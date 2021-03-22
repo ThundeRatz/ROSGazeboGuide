@@ -40,9 +40,9 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 ```bash
 ls
 ```
-O terminal responderá da seguinte forma, apresentando as pastas no local do seu computador:
+O terminal responderá da seguinte forma, apresentando os arquivos da pasta que você se encontra:
 
-**--> imagem a inserir**
+![comando ls](../assets/gif/ROSGazebo/WSL/command_ls.gif)
 
 ## **Habilitando Repositórios**
 
@@ -123,8 +123,7 @@ gazebo -version
 
 A resposta esperada desse comando é o seguinte:
 
-**--> imagem a inserir**
-
+![verificando versão do gazebo](../assets/gif/ROSGazebo/WSL/gazebo_version.gif)
 
 Este comando deve instalar o ROS e o Gazebo juntos. Podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
 ```bash
