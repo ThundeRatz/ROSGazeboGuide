@@ -9,7 +9,7 @@ Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Window
 
 O tutorial em grande parte vai ser praticamente só navegar pelos muitos menus presentes no Windows. Tudo que você precisa para ativar o WSL e ter uma instalação de Ubuntu no seu PC já está aí, só precisamos encontrar! 
 
-Todas as imagens vão mostrar os nomes em Português da instalação do Windows, com os nomes de coisas importantes escritos em **negrito**. Caso seu Windows esteja instalado em Inglês eu também vou colocar ao lado o nome em *itálico*.
+Todas as imagens vão mostrar uma instalação em Português do Windows, com os nomes de coisas importantes escritos em **negrito**. Ao lado, ficará a tradução para Inglês em *itálico*.
 
 Primeiramente, você vai ter que habilitar o WSL no Windows. Para isso abra a janela de **Configurações**/*Settings*.
 
