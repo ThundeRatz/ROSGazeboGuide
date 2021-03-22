@@ -43,7 +43,7 @@ Agora diretamente na barra de pesquisa procure por "Linux" e escolha uma distrib
 
 ![Opening Linux Search](/assets/img/WSL/WSL_Store_Search.png)
 
-Abrindo a página do Ubuntu 20.04 LTS, caso você nunca tenha baixado, é só apertar no botão **Obter**/*Get* e fazer o login com sua conta da Microsoft para adiquirir a distribuição.
+Abrindo a página do Ubuntu 20.04 LTS, caso você nunca tenha baixado, é só apertar no botão **Obter**/*Get* e fazer o login com sua conta da Microsoft para adquirir a distribuição.
 
 ![Opening Ubuntu Page](/assets/img/WSL/WSL_Store_Ubuntu.png)
 
