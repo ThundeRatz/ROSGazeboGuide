@@ -7,12 +7,12 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 
 ## **Índice**
 
-- [**O que vamos usar?**](#o-que-vamos-usar)
-- [**Habilitando Repositórios**](#habilitando-repositórios)
-- [**Ajustar a sources.list**](#ajustar-a-sourceslist)
-- [**Ajustar as chaves**](#ajustar-as-chaves)
-- [**Finalmente, a instalação!**](#finalmente-a-instalação)
-- [**Toques finais**](#toques-finais)
+  - [**O que vamos usar?**](#o-que-vamos-usar)
+  - [**Habilitando Repositórios**](#habilitando-repositórios)
+  - [**Ajustar a sources.list**](#ajustar-a-sourceslist)
+  - [**Ajustar as chaves**](#ajustar-as-chaves)
+  - [**Finalmente, a instalação!**](#finalmente-a-instalação)
+  - [**Toques finais**](#toques-finais)
 
 ## **O que vamos usar?** 
 
@@ -35,7 +35,7 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 ```bash
 ls
 ```
-O terminal responderá da seguinte forma, apresentando os arquivos e pasta da pasta que você se encontra:
+O terminal responderá da seguinte forma, apresentando os arquivos e pastas da pasta que você se encontra:
 
 ![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
 
@@ -49,7 +49,7 @@ sudo add-apt-repository universe
 sudo add-apt-repository multiverse
 sudo apt update
 ```
-A resposta esperada desse comando é o seguinte:
+A resposta esperada desse comando é a seguinte:
 
 ![Add Repositories](/assets/img/ROSGazebo/add_repository.png)
 
@@ -57,7 +57,7 @@ Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes ti
 
 Mas o que é um repositório?
 
-Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse mas para instalar o ROS precisamos de acesso a esses servidores.
+Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse -- mas para instalar o ROS precisamos de acesso a esses servidores.
 
 Para saber mais sobre as diferenças dos repositórios, acesse o link:
 <https://help.ubuntu.com/community/Repositories>
@@ -81,11 +81,11 @@ Insira o seguinte comando para salvar as chaves do repositório do ROS na sua m�
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
-A resposta esperada desse comando é o seguinte:
+A resposta esperada desse comando é a seguinte:
 
 ![Changing Keys](/assets/gif/ROSGazebo/changing_keys.gif)
 
-As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso à ele e não conseguirá instalar.
+As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso a ele e não conseguirá instalar.
 
 ## **Finalmente, a instalação!**
 
@@ -101,13 +101,13 @@ sudo apt install ros-noetic-desktop-full
 ```
 Este comando deve instalar o ROS e o Gazebo juntos.
 
-A resposta esperada desse comando é o seguinte:
+A resposta esperada desse comando é a seguinte:
 
 ![Installing ROS](/assets/gif/ROSGazebo/installing_ros.gif)
 
 Note que, no meio da execução, o terminal pergunta **"Do you want to continue? [Y/n]"**.
 Para continuar, basta escrever **y** e apertar Enter.
-Neste caso também, se você não escrever nada, e somente pressionar Enter, a resposta default é "Yes", então você também pode fazer isso.
+Neste caso também, se você não escrever nada e somente pressionar Enter, a resposta default é "Yes", então você também pode fazer isso.
 
 Ao final da execução, tudo deve ter sido instalado da maneira correta. Para testar, vamos utilizar o comando a seguir:
 
@@ -115,7 +115,7 @@ Ao final da execução, tudo deve ter sido instalado da maneira correta. Para te
 gazebo -version
 ```
 
-A resposta esperada desse comando é o seguinte:
+A resposta esperada desse comando é a seguinte:
 
 ![All done](/assets/img/ROSGazebo/all_done.png)
 
@@ -154,6 +154,6 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/setup.bash` para o arquivo `.bashrc`. Este arquivo contém uma lista de comandos que são executados toda vez que um novo terminal é aberto. Dessa forma, você não precisa escrever o mesmo comando sempre.
+O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/setup.bash` no arquivo `.bashrc`. Este arquivo contém uma lista de comandos que são executados toda vez que um novo terminal é aberto. Dessa forma, você não precisa escrever o mesmo comando sempre.
 
-Após preparar o ambiente, você estará pronto para utilizar o *ROS* em qualquer momento. Bom proveito!
+Após estes toques finais, você estará pronto para utilizar o *ROS* em qualquer momento. Bom proveito!
