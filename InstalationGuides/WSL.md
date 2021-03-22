@@ -55,7 +55,7 @@ Finalizada a instalação, aperte no botão **Iniciar**/*Launch* para rodar o Ub
 
 ![Opening Ubuntu Installed](/assets/img/WSL/WSL_Installed.png)
 
-Agora, depois de abrir e aguardar a primiera instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter nem UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas tem que ser todo em letras minúsculas.
+Agora, depois de abrir e aguardar a primeira instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter nem UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas tem que ser todo em letras minúsculas.
 
 ![Opening Ubuntu First Time](/assets/img/WSL/WSL_First_Open.png)
 
