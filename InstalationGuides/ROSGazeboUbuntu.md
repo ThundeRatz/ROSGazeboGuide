@@ -48,7 +48,7 @@ sudo add-apt-repository universe
 sudo add-apt-repository multiverse
 sudo apt update
 ```
-A resposta para esses comandos deve ser essa:
+A resposta esperada desse comando é o seguinte:
 
 ![Add Repositories](/assets/img/ROSGazebo/add_repository.png)
 
@@ -80,7 +80,7 @@ Insira o seguinte comando para salvar as chaves do repositório do ROS na sua m�
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
 
-O output esperado desse comando é o seguinte:
+A resposta esperada desse comando é o seguinte:
 
 ![Changing Keys](/assets/gif/ROSGazebo/changing_keys.gif)
 
@@ -98,7 +98,9 @@ Feito isso, vamos instalar o pacote do ROS. **Precisamos** instalar o pacote **"
 ```bash
 sudo apt install ros-noetic-desktop-full
 ```
-Este comando deve instalar o ROS e o Gazebo juntos. A mensagem de output deve ser semelhante a essa:
+Este comando deve instalar o ROS e o Gazebo juntos.
+
+A resposta esperada desse comando é o seguinte:
 
 ![Installing ROS](/assets/gif/ROSGazebo/installing_ros.gif)
 
@@ -112,16 +114,18 @@ Ao final da execução, tudo deve ter sido instalado da maneira correta. Para te
 gazebo -version
 ```
 
-No terminal, a mensagem deve ser semelhante a essa:
+A resposta esperada desse comando é o seguinte:
 
 ![All done](/assets/img/ROSGazebo/all_done.png)
 
-Agora, se você preferir fazer um teste mais elaborado, tente rodar o comando:
+Agora, se você preferir fazer um teste mais elaborado, tente rodar o comando para abrir o simulador **Gazebo**:
 
 ```bash
 gazebo
 ```
-Este comando deve abrir o ambiente de simulação **Gazebo**, da seguinte forma:
+Este comando deve , da seguinte forma:
+
+A resposta esperada desse comando é o seguinte:
 
 ![Opening Gazebo](/assets/gif/ROSGazebo/opening_gazebo.gif)
 
@@ -153,4 +157,4 @@ source ~/.bashrc
 
 O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/setup.bash` para o arquivo `.bashrc`. Este arquivo contém uma lista de comandos que são executados toda vez que um novo terminal é aberto. Dessa forma, você não precisa escrever o mesmo comando sempre.
 
-Após preparar o ambiente, você estará pronto para utilizar o *software* em qualquer momento. Bom proveito!
+Após preparar o ambiente, você estará pronto para utilizar o *ROS* em qualquer momento. Bom proveito!

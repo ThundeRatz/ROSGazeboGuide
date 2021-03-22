@@ -37,7 +37,7 @@ sudo add-apt-repository universe
 sudo add-apt-repository multiverse
 sudo apt update
 ```
-A resposta para esses comandos deve ser essa:
+A resposta esperada desse comando é o seguinte:
 
 ![configurando repositório](../assets/gif/ROSGazebo/WSL/1_repositories.gif)
 
@@ -72,7 +72,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 ```
 
 
-O output esperado desse comando é o seguinte:
+A resposta esperada desses comandos é o seguinte:
 
 ![configurando key e source](../assets/gif/ROSGazebo/WSL/2_source_key.gif)
 
@@ -96,7 +96,7 @@ sudo apt install ros-noetic-PACKAGE
 ```
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
-**Resposta esperada:**
+A resposta esperada desses comandos é o seguinte:
 ![instalação](../assets/gif/ROSGazebo/WSL/3_instalation.gif)
 
 ## **Toques finais**
