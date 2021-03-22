@@ -5,9 +5,8 @@ Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documen
 
 Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para se redirecionar.
 
-## **Índice**
+## **Índice**<!-- omit in toc --> 
 
-- [**Índice**](#índice)
 - [**O que vamos usar?**](#o-que-vamos-usar)
 - [**Habilitando Repositórios**](#habilitando-repositórios)
 - [**Ajustar a sources.list**](#ajustar-a-sourceslist)

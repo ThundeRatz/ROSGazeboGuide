@@ -7,9 +7,8 @@ Neste documento, vamos dar um enfoque a como instalar ROS/Gazebo no Windows com 
 
 Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.
 
-## **Índice**
+## **Índice**<!-- omit in toc --> 
 
-- [**Índice**](#índice)
 - [**O que vamos usar?**](#o-que-vamos-usar)
 - [**Habilitando Repositórios**](#habilitando-repositórios)
 - [**Ajustar a sources.list**](#ajustar-a-sourceslist)
@@ -47,7 +46,7 @@ O terminal responderá da seguinte forma, apresentando os arquivos e pastas da p
 
 ## **Habilitando Repositórios**
 
-Primeiramente, para instalar ROS no Ubuntu em WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
+Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
 
 ``` bash
 sudo add-apt-repository restricted
