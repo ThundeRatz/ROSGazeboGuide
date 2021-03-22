@@ -35,7 +35,7 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 ```bash
 ls
 ```
-O terminal responderá da seguinte forma, apresentando os arquivos da pasta que você se encontra:
+O terminal responderá da seguinte forma, apresentando os arquivos e pasta da pasta que você se encontra:
 
 ![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
 
