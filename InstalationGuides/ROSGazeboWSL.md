@@ -26,7 +26,7 @@ Abra o **terminal** do Ubuntu no Windows
 
 ![abertura ubuntu](../assets/gif/ROSGazebo/WSL/0_opening_ubuntu.gif)
 
-Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. É a maneira principal de se instalar coisas no Ubuntu pelo WSL.
+Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. É a maneira principal de se instalar pacotes no Ubuntu do WSL.
 
 Utilizaremos esses comandos como ferramenta principal para a instalação deste framework.
 O formato para escrever um comando será o seguinte:
