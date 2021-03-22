@@ -7,12 +7,13 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 
 ## **Índice**
 
-  - [**O que vamos usar?**](#o-que-vamos-usar)
-  - [**Habilitando Repositórios**](#habilitando-repositórios)
-  - [**Ajustar a sources.list**](#ajustar-a-sourceslist)
-  - [**Ajustar as chaves**](#ajustar-as-chaves)
-  - [**Finalmente, a instalação!**](#finalmente-a-instalação)
-  - [**Toques finais**](#toques-finais)
+- [**Índice**](#índice)
+- [**O que vamos usar?**](#o-que-vamos-usar)
+- [**Habilitando Repositórios**](#habilitando-repositórios)
+- [**Ajustar a sources.list**](#ajustar-a-sourceslist)
+- [**Ajustar as chaves**](#ajustar-as-chaves)
+- [**Finalmente, a instalação!**](#finalmente-a-instalação)
+- [**Toques finais**](#toques-finais)
 
 ## **O que vamos usar?** 
 

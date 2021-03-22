@@ -9,13 +9,14 @@ Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique 
 
 ## **Índice**
 
-  - [**O que vamos usar?**](#o-que-vamos-usar)
-  - [**Habilitando Repositórios**](#habilitando-repositórios)
-  - [**Ajustar a sources.list**](#ajustar-a-sourceslist)
-  - [**Ajustar as chaves**](#ajustar-as-chaves)
-  - [**Finalmente, a instalação!**](#finalmente-a-instalação)
-  - [**Toques finais**](#toques-finais)
-  - [***Instruções para pós instalação***](#instruções-para-pós-instalação)
+- [**Índice**](#índice)
+- [**O que vamos usar?**](#o-que-vamos-usar)
+- [**Habilitando Repositórios**](#habilitando-repositórios)
+- [**Ajustar a sources.list**](#ajustar-a-sourceslist)
+- [**Ajustar as chaves**](#ajustar-as-chaves)
+- [**Finalmente, a instalação!**](#finalmente-a-instalação)
+- [**Toques finais**](#toques-finais)
+- [***Instruções para pós instalação***](#instruções-para-pós-instalação)
 
 
 ## **O que vamos usar?**
