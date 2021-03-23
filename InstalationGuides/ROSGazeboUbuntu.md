@@ -5,7 +5,7 @@ Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documen
 
 Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para se redirecionar.
 
-## **Índice**<!-- omit in toc --> 
+## **Índice**<!-- omit in toc -->
 
 - [**O que vamos usar?**](#o-que-vamos-usar)
 - [**Habilitando Repositórios**](#habilitando-repositórios)
@@ -14,11 +14,11 @@ Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[
 - [**Finalmente, a instalação!**](#finalmente-a-instalação)
 - [**Toques finais**](#toques-finais)
 
-## **O que vamos usar?** 
+## **O que vamos usar?**
 
 Grande parte do tutorial vai utilizar a linha de comando, para isso busque um programa chamado **"Terminal"** :
 
-![Opening Terminal](/assets/gif/ROSGazebo/openingterminal.gif)
+![Opening Terminal](../assets/gif/ROSGazebo/openingterminal.gif)
 
 Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas para você. Quem mexe em Ubuntu trabalha muito com isso, já que é a maneira principal de se instalar pacotes nesse sistema operacional.
 
@@ -37,7 +37,7 @@ ls
 ```
 O terminal responderá da seguinte forma, apresentando os arquivos e pastas da pasta que você se encontra:
 
-![Checking Gazebo](/assets/gif/ROSGazebo/ls.gif)
+![Checking Gazebo](../assets/gif/ROSGazebo/ls.gif)
 
 ## **Habilitando Repositórios**
 
@@ -51,7 +51,7 @@ sudo apt update
 ```
 A resposta esperada desse comando é a seguinte:
 
-![Add Repositories](/assets/img/ROSGazebo/add_repository.png)
+![Add Repositories](../assets/img/ROSGazebo/add_repository.png)
 
 Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
 
@@ -83,7 +83,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 
 A resposta esperada desse comando é a seguinte:
 
-![Changing Keys](/assets/gif/ROSGazebo/changing_keys.gif)
+![Changing Keys](../assets/gif/ROSGazebo/changing_keys.gif)
 
 As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso a ele e não conseguirá instalar.
 
@@ -103,7 +103,7 @@ Este comando deve instalar o ROS e o Gazebo juntos.
 
 A resposta esperada desse comando é a seguinte:
 
-![Installing ROS](/assets/gif/ROSGazebo/installing_ros.gif)
+![Installing ROS](../assets/gif/ROSGazebo/installing_ros.gif)
 
 Note que, no meio da execução, o terminal pergunta **"Do you want to continue? [Y/n]"**.
 Para continuar, basta escrever **y** e apertar Enter.
@@ -117,7 +117,7 @@ gazebo -version
 
 A resposta esperada desse comando é a seguinte:
 
-![All done](/assets/img/ROSGazebo/all_done.png)
+![All done](../assets/img/ROSGazebo/all_done.png)
 
 Agora, se você preferir fazer um teste mais elaborado, tente rodar o comando para abrir o simulador **Gazebo**:
 
@@ -126,7 +126,7 @@ gazebo
 ```
 Este comando deve abrir o ambiente de simulação **Gazebo**, da seguinte forma:
 
-![Opening Gazebo](/assets/gif/ROSGazebo/opening_gazebo.gif)
+![Opening Gazebo](../assets/gif/ROSGazebo/opening_gazebo.gif)
 
 Muito legal, não?
 
