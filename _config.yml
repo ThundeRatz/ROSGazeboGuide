@@ -1,2 +1,2 @@
-theme: jekyll-theme-cayman
+remote_theme: "dracula/gh-pages"
 title: Bem-vinde ao Guia de ROS/Gazebo!
