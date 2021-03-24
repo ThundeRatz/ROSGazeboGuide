@@ -1,6 +1,8 @@
-# **Como Instalar o Xserver no Windows**
-
 ![Logo do XServer no windowsa](../assets/img/logo_Xserver.png)
+
+<br>
+
+# **Como Instalar o Xserver no Windows**
 
 Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
 Após a instalação do WSl e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.
@@ -75,7 +77,8 @@ Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele irá criar
 
 <br>
 
-Após isso, está pronta a instalação do Xserver.
+Depois disso, está pronta a instalação do Xserver.
+
 Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto para as experiencias que serão realizadas nas aulas!
 
  ***[clique aqui]()***  para executar todo o projeto no seu Windows!
