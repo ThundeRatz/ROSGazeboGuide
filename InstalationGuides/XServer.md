@@ -5,9 +5,9 @@
 # **Como Instalar o Xserver no Windows**
 
 Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
-Após a instalação do WSl e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.
 
-Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz.
+
+Após a instalação do WSl e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz no seu windows.
 
 Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para seguir esse tutorial, porém recomendo que façam esse tutorial por último.
 
@@ -29,9 +29,9 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
 <br>
 
-- **Baixe** o arquivo **VcXsrv** e **salve** no seu local de preferencia:
+- **Baixe** o arquivo **VcXsrv Windows X Server** e **salve** no seu local de preferencia:
 
-Para baixar o VcXsrv ***[clique aqui](https://sourceforge.net/projects/vcxsrv/)***
+ ***[clique aqui](https://sourceforge.net/projects/vcxsrv/)*** para baixar o VcXsrv Windows X Server
 
 <br>
 
@@ -41,7 +41,7 @@ Para baixar o VcXsrv ***[clique aqui](https://sourceforge.net/projects/vcxsrv/)*
 
 - Execute e instale o arquivo **"vcxsrv-64.1.20.9.0.installer"**
     
-    - Deixe a opção de instalação em "full" e todas as "caixinhas" selecionadas. 
+    - O arquivo, em priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e todas as "caixinhas" selecionadas. 
 
 <br>
 
@@ -80,5 +80,7 @@ Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele irá criar
 Depois disso, está pronta a instalação do Xserver.
 
 Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto para as experiencias que serão realizadas nas aulas!
+
+Bom proveito!
 
  ***[clique aqui]()***  para executar todo o projeto no seu Windows!
