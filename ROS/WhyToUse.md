@@ -32,3 +32,12 @@ width = '500 px'>
 <img src = 'https://bit.ly/3rflt8R' width = '500px'>
 </p>
 Além de promover diversos tipos de ferramentas para projetar um robô, o ROS também traz ferramentas de simulação, como o Gazebo. Com o uso dessas ferramentas, o ROS permite que o usuário simule seu projeto como se estivesse na vida real, adicionando constantes e propriedades físicas do ambiente e do robô, tornando o projeto similar ao da vida real. Com isso, a construção do projeto real será muito mais acurada e o desenvolvimento será muito mais fácil, uma vez que permite que testes visando melhorar o projeto sejam feitos.
+
+
+<hr>
+
+ROS é definitivamente uma ferramenta poderosa no aprendizado de sistemas robóticos, capaz de ajudar você, futuro Engenheiro Mecatrônico, a desenvolver projetos de inovação com facilidade e rapidez. Aprender ROS é um grande passo para aprender a projetar sistemas robóticos. Quer aprender mais? Dê uma olhada nos sites abaixo:
+
+<li><a href= http://wiki.ros.org/ROS/Tutorials> Tutoriais da Wiki de ROS </a>
+<li><a href= https://www.theconstructsim.com/category/ros-tutorials> Tutoriais do ConstructSim </a>
+<li><a href= http://gazebosim.org/tutorials> Tutoriais do Gazebo </a>
