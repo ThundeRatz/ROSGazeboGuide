@@ -1,6 +1,6 @@
 # Por que utilizar o ROS?
 
-Agora que você já sabe o que é o ROS, é importante entender por que utilizamos ele em projetos robóticos. Esta ferramenta pode auxiliar no desenvolvimento de projetos e agilizar muitos trabalhos que, sem ela, teriam que ser feitos manualmente, além de proporcionar um ambiente *open-source* que auxilia desenvolvedores mais experientes. Para que possamos responder a pergunta "Por que utilizar o ROS", iremos explorar alguns benefícios que essa ferramenta pode nos proporcionar.
+Agora que você já sabe o que é o ROS, é importante entender por que utilizamos ele em projetos robóticos. Esta ferramenta pode auxiliar no desenvolvimento de projetos e agilizar muitos trabalhos que, sem ela, teriam que ser feitos manualmente, além de proporcionar um ambiente *open-source* que auxilia desenvolvedores mais experientes. Para que possamos responder a pergunta "Por que utilizar o ROS" iremos explorar alguns benefícios que essa ferramenta pode nos proporcionar.
  
 ## Você não precisa reinventar a roda
 <p align='center'>
@@ -13,13 +13,14 @@ Além disso, o tamanho da comunidade do ROS traz consigo a existência de uma gr
 <p align='center'>
 <img src = 'https://roboticsbackend.com/wp-content/uploads/2019/02/ros_with_libraries.jpg' width='500px' >
 </p>
+
 ## Não depende de apenas uma linguagem de programação
 <p align='center'>
 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlKZsGbw9fHbWGXzix8c6oZueppY4Yd6e3mA&usqp=CAU' width = '500px'>
 </p>
 Enquanto muitas ferramentas exigem que o desenvolvedor seja experiente em uma linguagem específica, com o ROS é possível construir *nodes* em diferentes linguagens de programação. 
 
-Além disso, o ROS torna possível a utilização conjunta de nodes escritos em C++ e Python. Com isso, a cooperação entre desenvolvedores é ampliada, permitindo que pessoas que têm conhecimento em linguagens diferentes possam trabalhar juntas no mesmo projeto. Ademais, acaba por facilitar o desenvolvimento e a implementação de funcionalidades. 
+Além disso, o ROS torna possível a utilização conjunta de nodes escritos em C++ e Python. Com isso, a cooperação entre desenvolvedores é ampliada, permitindo que pessoas que têm conhecimento em linguagens diferentes possam trabalhar juntas no mesmo projeto, facilitando o desenvolvimento e a implementação de funcionalidades. 
 <p align='center'>
 <img src='https://roboticsbackend.com/wp-content/uploads/2019/02/ros_language_agnostic.png' 
 width = '500 px'>
