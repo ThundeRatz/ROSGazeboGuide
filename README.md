@@ -1,6 +1,6 @@
-![Guide logo](assets/img/thunder_ros.png)
+![Guide logo](assets/img/ros_logo.png)
 
----  
+---
 
 # Índice
 
