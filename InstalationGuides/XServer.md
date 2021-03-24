@@ -1,27 +1,24 @@
 # **Como Instalar o Xserver no Windows**
 
-<br>
 
-Após a instalação do WSl no seu windows, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.
+Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
+Após a instalação do WSl e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.
 
-Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz
+Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz.
 
-<br>
+Não é necessario ter o WSL e ROS/Gazebo instalado no seu computador para seguir esse tutorial, porém recomendo que façam esse tutorial por último.
 
----
+***[Clique aqui](../InstalationGuides/WSL.md)*** para e direcionar para o tutorial de instalação do WSL 
 
-<br>
+***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para e direcionar para o tutorial de instalação do ROS/Gazebo
+
 
 ## **Índice**
-
+- [**Índice**](#Índice)
 - [**Download e execução do arquivo VcXsrv**](#Download-e-execução-do-arquivo-VcXsrv)
 - [**Execução e configuração do Xlaunch**](#Execução-e-configuração-do-Xlaunch)
-- [**Após a instalação**](#Após-a-instalação)
+- [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
 
-
-<br>
-
----
 
 <br>
 
@@ -29,8 +26,9 @@ Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a 
 
 <br>
 
-- Baixar o arquivo vcxsrv e salve no seu local de preferencia: 
-https://sourceforge.net/projects/vcxsrv/
+- **Baixe** o arquivo **VcXsrv** e **salve** no seu local de preferencia:
+
+Para baixar o VcXsrv ***[clique aqui](https://sourceforge.net/projects/vcxsrv/)***
 
 <br>
 
@@ -38,7 +36,9 @@ https://sourceforge.net/projects/vcxsrv/
 
 <br>
 
-- Execute o arquivo **"vcxsrv-64.1.20.9.0.installer"**
+- Execute e instale o arquivo **"vcxsrv-64.1.20.9.0.installer"**
+    
+    - Deixe a opção deinstalação esta em "full" e todas as "caixinhas" selecionadas. 
 
 <br>
 
@@ -70,7 +70,7 @@ Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele ira criar 
 <br>
 
 
-## **Após a instalação**
+## **Instruções para pós instalação**
 
 <br>
 
