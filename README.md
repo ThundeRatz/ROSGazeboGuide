@@ -1,4 +1,4 @@
-![Guide logo](assets/img/ros_logo.png)
+![Guide logo](assets/img/ros_gazebo_logo.png)
 
 ---
 
