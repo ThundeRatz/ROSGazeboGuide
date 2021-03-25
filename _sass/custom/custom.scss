@@ -1,3 +1,27 @@
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: auto;
+  }
+
+  .main {
+    width: auto;
+    max-width: 100%;
+    margin-left: 248px;
+  }
+
+  .main-content-wrap {
+    max-width: 75%;
+    margin-left: 12.5%;
+  }
+}
+
+@media (max-width: 66.5rem) {
+  .main-content {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
 .search-input {
   color: #e6e1e8;
 }
