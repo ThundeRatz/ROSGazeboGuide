@@ -15,10 +15,10 @@ permalink: /
 
 - [ROS](./ROS/README.md)
   - [O que é?](./ROS/WhatIs.md)
-  - [Porque usar?](./ROS/WhyToUse.md)
+  - [Por que usar?](./ROS/WhyToUse.md)
 - [Gazebo](./Gazebo/README.md)
   - [O que é?](./Gazebo/WhatIs.md)
-  - [Porque usar?](./Gazebo/WhyToUse.md)
+  - [Por que usar?](./Gazebo/WhyToUse.md)
 - [Guias de instalação](./InstalationGuides/README.md)
   - [WSL](./InstalationGuides/WSL.md)
   - [ROS/Gazebo em WSL](./InstalationGuides/ROSGazeboWSL.md)
