@@ -13,9 +13,6 @@
     --block-width: 65%;
     max-width: var(--block-width);
     margin-left: calc((100% - var(--block-width)) / 2);
-
-    text-align: justify;
-    text-justify: inter-word;
   }
 }
 
@@ -32,4 +29,9 @@
 
 h1 {
   text-align: center;
+}
+
+.main-content-wrap {
+  text-align: justify;
+  text-justify: inter-word;
 }
