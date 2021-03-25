@@ -2,6 +2,7 @@
 layout: default
 title: ROS/Gazebo no WSL
 parent: Guias de Instalação
+nav_order: 2
 ---
 
 

@@ -2,6 +2,7 @@
 layout: default
 title: ROS/Gazebo em Ubuntu
 parent: Guias de Instalação
+nav_order: 3
 ---
 
 # **Instalando o ROS/Gazebo em sua máquina Ubuntu**

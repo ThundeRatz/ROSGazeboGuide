@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Instalando o WSL na sua máquina Windows
+title: WSL
 parent: Guias de Instalação
+nav_order: 1
 ---
 
 # Instalando o WSL na sua máquina Windows!
