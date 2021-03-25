@@ -21,6 +21,6 @@ permalink: /
   - [Por que usar?](./Gazebo/WhyToUse.md)
 - [Guias de instalação](./InstalationGuides/README.md)
   - [WSL](./InstalationGuides/WSL.md)
-  - [ROS/Gazebo em WSL](./InstalationGuides/ROSGazeboWSL.md)
+  - [ROS/Gazebo no WSL](./InstalationGuides/ROSGazeboWSL.md)
   - [ROS/Gazebo em Ubuntu](./InstalationGuides/ROSGazeboUbuntu.md)
   - [XServer](./InstalationGuides/XServer.md)
