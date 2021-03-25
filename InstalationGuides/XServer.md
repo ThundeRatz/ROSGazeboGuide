@@ -69,5 +69,5 @@ Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto
 
 Bom proveito!
 
-Para aprender a executar seu projeto no Windows, ***[clique aqui](ProjectExecutationGuide/RunOnWSL.md)*** 
+Para aprender a executar seu projeto no Windows, ***[clique aqui](../HowToRun/RunOnWSL.md)*** 
 
