@@ -7,16 +7,16 @@
 Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
 
 
-Após a instalação do WSl e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz.Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução do Gazebo e Rviz no seu windows.
+Após a instalação do WSL e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo e Rviz. Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a a reprodução desses programas no seu Windows.
 
 Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para seguir esse tutorial, porém recomendo que façam esse tutorial por último.
 
-***[Clique aqui](../InstalationGuides/WSL.md)*** para e direcionar para o tutorial de instalação do WSL 
+***[Clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL 
 
-***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para e direcionar para o tutorial de instalação do ROS/Gazebo
+***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para ser direcionado ao tutorial de instalação do ROS/Gazebo
 
 
-## **Índice**
+## **Índice**<!-- omit in toc --> 
 - [**Índice**](#Índice)
 - [**Download e execução do arquivo VcXsrv**](#Download-e-execução-do-arquivo-VcXsrv)
 - [**Execução e configuração do Xlaunch**](#Execução-e-configuração-do-Xlaunch)
@@ -41,7 +41,7 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
 - Execute e instale o arquivo **"vcxsrv-64.1.20.9.0.installer"**
     
-    - O arquivo, em priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e todas as "caixinhas" selecionadas. 
+    - O arquivo, a priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e que todas as "caixinhas" estão selecionadas. 
 
 <br>
 
@@ -56,14 +56,14 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (Desktop, se o seu computador estiver em inglês)
 
 - Execute o **Xlaunch**
-- Na aba de configuração de display(select display settings):
+- Na aba de configuração de display (select display settings):
     - Deixe **"Multiple windows"** selecionado;
     - Deixe **display number = 0**.
 
-- Na aba de seleção de como iniciar o cliente(select how to start clients):
+- Na aba de seleção de como iniciar o cliente (select how to start clients):
     - Selecione **"Start no client"**.
 
-- Na aba de configurações extras(extra settings):
+- Na aba de configurações extras (extra settings):
     - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**
 
 <br>
@@ -79,8 +79,8 @@ Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele irá criar
 
 Depois disso, está pronta a instalação do Xserver.
 
-Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto para as experiencias que serão realizadas nas aulas!
+Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto para as experiências que serão realizadas nas aulas!
 
 Bom proveito!
 
- ***[clique aqui]()***  para executar todo o projeto no seu Windows!
+Para aprender a executar seu projeto no Windows, ***[clique aqui]()*** 
