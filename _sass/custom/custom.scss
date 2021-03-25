@@ -13,6 +13,9 @@
     --block-width: 65%;
     max-width: var(--block-width);
     margin-left: calc((100% - var(--block-width)) / 2);
+
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
 
@@ -25,4 +28,8 @@
 
 .search-input {
   color: #e6e1e8;
+}
+
+h1 {
+  text-align: center;
 }
