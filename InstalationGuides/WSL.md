@@ -1,3 +1,9 @@
+---
+layout: default
+title: Instalando o WSL na sua máquina Windows
+parent: Guias de Instalação
+---
+
 # Instalando o WSL na sua máquina Windows!
 ![WSL + UBUNTU Logo](../assets/img/WSL/Windows_WSL.jpg)
 

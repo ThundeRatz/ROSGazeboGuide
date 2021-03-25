@@ -1,3 +1,9 @@
+---
+layout: default
+title: ROS/Gazebo em Ubuntu
+parent: Guias de Instalação
+---
+
 # **Instalando o ROS/Gazebo em sua máquina Ubuntu**
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.

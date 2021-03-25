@@ -1,3 +1,10 @@
+---
+layout: default
+title: ROS/Gazebo no WSL
+parent: Guias de Instalação
+---
+
+
 # **Instalando o ROS/Gazebo em sua máquina com o WSL**
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
@@ -7,7 +14,7 @@ Neste documento, vamos dar um enfoque a como instalar ROS/Gazebo no Windows com 
 
 Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.
 
-## **Índice**<!-- omit in toc --> 
+## **Índice**<!-- omit in toc -->
 
 - [**O que vamos usar?**](#o-que-vamos-usar)
 - [**Habilitando Repositórios**](#habilitando-repositórios)
