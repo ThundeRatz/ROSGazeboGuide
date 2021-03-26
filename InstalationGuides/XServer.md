@@ -31,7 +31,7 @@ Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar 
 - Execute o **Xlaunch**
 - Na aba de configuração de display (select display settings):
     - Deixe **"Multiple windows"** selecionado;
-    - Deixe **"display number"** em **0**.
+    - Deixe **"display number"** em **-1**.
 
 - Na aba de seleção de como iniciar o cliente (select how to start clients):
     - Selecione **"Start no client"**.
@@ -39,6 +39,13 @@ Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar 
 - Na aba de configurações extras (extra settings):
     - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
+## **Teste de funcionamento**
+Para conseguir fazer o teste de funcionamento, é necessario ter, pelo menos, o WSL instalado no Windows.
+
+Caso não tenha feito isso ainda, volte para o inicio da página  [**clicando aqui**](#Como-Instalar-o-Xserver-no-Windows) e siga o tutorial de instalação do WSL.
+
+
+
 ## **Instruções para pós instalação**
 Depois disso, está pronta a instalação do Xserver.
 
