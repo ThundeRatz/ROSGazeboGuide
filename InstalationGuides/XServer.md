@@ -64,6 +64,11 @@ nano ~/.bashrc
 ```bash
 export DISPLAY=:0
 ```
+Observação:
+- Caso esteja usando o WSL2, digite o seguinte no final do arquivo no lugar do último comando:
+```bash
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+```
 - **Digite** "Ctrl+O" para salvar as mudanças feitas
 - **Digite** "Ctrl+X" para sair do arquivo
 ![executando Xlaunch](../assets/gif/XServer/3_display_bashrc.gif)
