@@ -27,6 +27,7 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 ## **Execução e configuração do Xlaunch**
 
 Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (Desktop, se o seu computador estiver em inglês)
+Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 
 - Execute o **Xlaunch**
 - Na aba de configuração de display (select display settings):
@@ -39,12 +40,43 @@ Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar 
 - Na aba de configurações extras (extra settings):
     - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
+- Para saber se está funcionando, certifique-se que existe na extremidade inferior direita o simbolo do Xlaunch.
+![Verificação Xlaunch](../assets/img/check_xlaunch.png)
 ## **Teste de funcionamento**
 Para conseguir fazer o teste de funcionamento, é necessario ter, pelo menos, o WSL instalado no Windows.
 
 Caso não tenha feito isso ainda, volte para o inicio da página  [**clicando aqui**](#Como-Instalar-o-Xserver-no-Windows) e siga o tutorial de instalação do WSL.
 
+- **Abra** o **terminal** do Ubuntu no Windows
+- **Acesse** a pasta ".bashrc"
 
+Para acessar a pasta digite seguinte comando:
+```bash
+nano ~/.bashrc
+```
+- **Digite** o seguinte comando no final do arquivo
+```bash
+export DISPLAY=:0
+```
+- **Digite** "Ctrl+O" para salvar as mudanças feitas
+- **Digite** "Ctrl+X" para sair do arquivo
+![executando Xlaunch](../assets/gif/XServer/3_display_bashrc.gif)
+- **Digite** o seguintes comando:
+```bash
+source ~/.bashrc
+```
+Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
+- **Instale** a mesa de utilidades como seguinte comando:
+```bash
+sudo apt install mesa-utils
+```
+![mesa-utils instalation](../assets/gif/XServer/4_mesa_utils_instalation.gif)
+- **Digite** no terminal o seguintes comando:
+```bash
+glxgears
+```
+Depois dessa série de comando, deve aparecer três engrenagens coloridas girando
+![gears](../assets/gif/XServer/5_gears.gif)
 
 ## **Instruções para pós instalação**
 Depois disso, está pronta a instalação do Xserver.
