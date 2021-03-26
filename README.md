@@ -1,16 +1,29 @@
-![Guide logo](assets/img/thunder_ros.png)
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
 
----  
+![Guide logo](assets/img/ros_gazebo_logo.png)
 
-# Índice
+---
 
-- ROS
+# Guia de ROS/Gazebo
+
+## Índice
+
+- [ROS](./ROS/README.md)
   - [O que é?](./ROS/WhatIs.md)
-  - [Porque usar?](./ROS/WhyToUse.md)
-- Gazebo
+  - [Por que usar?](./ROS/WhyToUse.md)
+- [Gazebo](./Gazebo/README.md)
   - [O que é?](./Gazebo/WhatIs.md)
-  - [Porque usar?](./Gazebo/WhyToUse.md)
-- Guias de instalação
+  - [Por que usar?](./Gazebo/WhyToUse.md)
+- [Guias de instalação](./InstalationGuides/README.md)
   - [WSL](./InstalationGuides/WSL.md)
-  - [ROS/Gazebo](./InstalationGuides/ROSGazebo.md)
+  - [ROS/Gazebo no WSL](./InstalationGuides/ROSGazeboWSL.md)
+  - [ROS/Gazebo em Ubuntu](./InstalationGuides/ROSGazeboUbuntu.md)
   - [XServer](./InstalationGuides/XServer.md)
+- [Como executar o projeto](./HowToRun/README.md)
+  - [O que é?](./HowToRun/RunOnWSL.md)
+  - [Por que usar?](./HowToRun/RunOnUbuntu.md)

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Instalando o XServer
+parent: Guias de Instalação
+nav_order: 4
+---
 ![Logo do XServer no Windows](../assets/img/logo_Xserver.png)
 
 # **Como Instalar o Xserver no Windows**
@@ -86,3 +92,4 @@ Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto
 Bom proveito!
 
 Para aprender a executar seu projeto no Windows, ***[clique aqui](../HowToRun/RunOnWSL.md)*** 
+
