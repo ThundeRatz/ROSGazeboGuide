@@ -20,13 +20,13 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
  ***[clique aqui](https://sourceforge.net/projects/vcxsrv/)*** para baixar o VcXsrv Windows X Server
 ![download XServer](../assets/gif/XServer/0_baixando_VcXsrv.gif)
-- Execute e instale o arquivo **"vcxsrv-64.1.20.9.0.installer"**
+- Execute e instale o arquivo **"vcxsrv-64.1.x.x.x.installer"** (obs.: os 'x' estão no lugar da versão, ou seja, desde que estaja dentro da "vcxsrv-64.1", está tudo bem baixar essa opção)
     
     - O arquivo, a priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e que todas as "caixinhas" estão selecionadas. 
 ![execute o XServer](../assets/gif/XServer/1_executando_VcXsrv.gif)
 ## **Execução e configuração do Xlaunch**
 
-Após baixar e executar o arquivo "vcxsrv-64.1.20.9.0.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (Desktop, se o seu computador estiver em inglês)
+Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (Desktop, se o seu computador estiver em inglês)
 
 - Execute o **Xlaunch**
 - Na aba de configuração de display (select display settings):
