@@ -17,7 +17,8 @@ mkdir -p ~/PMR3100/src
 cd PMR3100/src
 ```
 
-![Creating directory](../\assets\gif\Run_WSL\Creating_directory.gif)
+![Creating directory](../assets/gif/Run_WSL/Creating_directory.gif)
+
 
 
 
@@ -31,7 +32,11 @@ Agora que temos as pastas precisamos dos arquivos. Certifique-se que você se en
 git clone https://github.com/ThundeRatz/gazebo_modelo_carrinho.git
 ```
 
-![Cloning project files](../\assets\gif\Run_WSL\Cloning_Files.gif)
+![Cloning project files](../assets/gif/Run_WSL/Cloning_Files.gif)
+
+
+
+
 
 
 O que acabou de acontecer? Bom, você acabou de usar o **git** para copiar um repositório que se encontra no **GitHub**, igual ao lugar onde você está lendo esse tutorial. Basicamente, é um site que armazena códigos para ficar fácil de grupos grandes ou pequenos de pessoas trabalharem no mesmo programa. Se você tem interesse em saber mais, converse com um dos professores ou monitores da disciplina! O que você copiou foir o modelo do carrinho, que se encontra [nesse link aqui](https://github.com/ThundeRatz/gazebo_modelo_carrinho.git).
@@ -44,7 +49,11 @@ sudo apt install ros-noetic-velocity-controllers python-pygame
 
 Para rodar o comando você vai ter que fornecer a seu senha já que fazem uso do ```sudo```. 
 
-![Installing Dependencies](..\assets\gif\Run_WSL\Installing_Dependencies.gif)
+![Installing Dependencies](../assets/gif/Run_WSL/Installing_Dependencies.gif)
+
+
+
+
 
 
 Agora, volte para a pasta ```/PMR3100/``` usando o comando
@@ -57,7 +66,11 @@ catkin_make
 ```
 
 
-![Running catkin_make](..\assets\gif\Run_WSL\Running_catkin_make.gif)
+![Running catkin_make](../assets/gif/Run_WSL/Running_catkin_make.gif)
+
+
+
+
 
 O que isso vai fazer é contruir o ambiente do projeto, usando como base aquilo que você baxiou do **GitHub**. Deve demorar um pouquinho mas não se assuste. Apenas fique na paz e no agurado. Assim que terminar rode o comando a seguir:
 
@@ -74,7 +87,11 @@ roslaunch modelo_carrinho gazebo.launch
 
 que o Gazebo deve abrir na sua tela juntamente com o lindo carrinho da disciplina.
 
-![Running setup.bash and Gazebo](..\assets\gif\Run_WSL\Running_Gazebo.gif)
+![Running setup.bash and Gazebo](../assets/gif/Run_WSL/Running_Gazebo.gif)
+
+
+
+
 
 Sempre que você fechar o terminal do WSL e voltar você terá que executar o ```source ~/devel/setup.bash``` dentro da pasta ```/PMR3100/```. Caso contrário, você encontrará um erro ao tentar rodar o projeto.
 
