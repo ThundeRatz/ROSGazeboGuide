@@ -93,8 +93,8 @@ que o Gazebo deve abrir na sua tela juntamente com o lindo carrinho da disciplin
 
 
 
-Sempre que você fechar o terminal do WSL e voltar você terá que executar o ```source ~/devel/setup.bash``` dentro da pasta ```/PMR3100/```. Caso contrário, você encontrará um erro ao tentar rodar o projeto.
+Sempre que você fechar o terminal do WSL e voltar você terá que executar o ```source devel/setup.bash``` dentro da pasta ```/PMR3100/```. Caso contrário, você encontrará um erro ao tentar rodar o projeto.
 
-E é isso. Agora você já sabe rodar o projeto direto do WSL. Se tiver aocntecido algum problema durante o tutorial entre em contato com algum dos monitores que eles estão mais do que felizes em ajudar.
+E é isso. Agora você já sabe rodar o projeto direto do WSL. Se tiver acontecido algum problema durante o tutorial entre em contato com algum dos monitores que eles estão mais do que felizes em ajudar.
 
-Daqui pra frente é programar o carrinho ele, se divirta e que a diciplina seja um sucesso!
+Daqui pra frente é programar o carrinho ele, se divirta e que a disciplina seja um sucesso!
