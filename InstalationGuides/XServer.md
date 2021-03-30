@@ -41,7 +41,8 @@ Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir ess
 
 ## **Execução e configuração do Xlaunch**
 
-Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (desktop, se o seu computador estiver em inglês)
+Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (desktop, se o seu computador estiver em inglês).
+
 Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 
 - Execute o **Xlaunch**
@@ -53,7 +54,7 @@ Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
     - Selecione **"Start no client"**.
 
 - Na aba de configurações extras (extra settings):
-    - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**
+    - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**.
 
 Ao final da instalação, há a opção de salvar as configurações feita, para que não precise refazer os mesmos passos acima toda vez que for iniciar o X Server.
 
@@ -73,7 +74,7 @@ Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X 
 
 Para conseguir fazer esses toques finais, é necessário ter, pelo menos, o WSL instalado no Windows.
 
-Caso não tenha feito isso ainda, volte para o inicio da página  [**clicando aqui**](#Como-Instalar-o-Xserver-no-Windows) e siga o tutorial de instalação do WSL.
+Caso não tenha feito isso ainda, ***[Clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL.
 
 - **Abra** o **terminal** do Ubuntu no Windows e digite o seguinte comando:
 
@@ -92,7 +93,7 @@ source ~/.bashrc
 ```
 
 ## **Teste de funcionamento**
-Com todos os passos acima concluidos, só precisamos nos certificar qu está tudo funcionando.
+Com todos os passos acima concluidos, você só precisa certificar-se que está tudo funcionando.
 
 - **Abra** o **terminal** do Ubuntu e **Instale** o pacote `mesa-utilis` com o seguinte comando:
 
