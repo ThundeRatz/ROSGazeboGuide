@@ -1,3 +1,10 @@
+---
+layout: default
+title: Por que usar?
+parent: Sobre ROS
+nav_order: 2
+---
+
 # Por que utilizar o ROS?
 
 Agora que você já sabe o que é o ROS, é importante entender o porquê de utilizarmos ele em projetos de robótica. Esta ferramenta pode auxiliar no desenvolvimento de projetos e agilizar muitos trabalhos que, sem ela, teriam que ser feitos manualmente, além de proporcionar um ambiente *open-source* que auxilia desenvolvedores mais experientes. Para que possamos responder a pergunta "Por que utilizar o ROS" iremos explorar alguns benefícios que essa ferramenta pode nos proporcionar.
