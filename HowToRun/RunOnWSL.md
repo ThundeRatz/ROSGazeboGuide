@@ -24,7 +24,7 @@ cd PMR3100/src
 
 Esse primeiro comando cria a pasta ```/PMR3100/``` e dentro dela cria também a pasta ```/src/```. Já o segundo, te leva para a pasta recém criada. Se acostume a ver esse ```cd``` já que ele será frequentemente usado nesse guia para navegar entre os diretórios usando o linha de comando. Como pode ver pelo ```~/PMR3100/src$``` em azul, estamos na pasta ```/src/```.
 
-Caso você tenha percebido, temos uma pasta com um nome mais genérico dentro de uma com o código da disciplina. É nessa pasta genérica onde os arquivos do projeto ficarão, enquando que vamos usar o diretório da disciplina para conter os arquivos de contrução. Pode soar meio confuso mas eventualmente, durante o restante do tutorial, tudo vai ficar mais simples. 
+Caso você tenha percebido, temos uma pasta com um nome mais genérico dentro de uma com o código da disciplina. É nessa pasta genérica onde os arquivos do projeto ficarão, enquanto que vamos usar o diretório da disciplina para conter os arquivos de construção. Pode soar meio confuso mas eventualmente, durante o restante do tutorial, tudo vai ficar mais simples. 
 
 Agora que temos as pastas precisamos dos arquivos. Certifique-se que você se encontra no ```/src/``` e rode o seguinte comando:
 
