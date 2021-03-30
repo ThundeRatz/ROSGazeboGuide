@@ -25,7 +25,7 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
 ## **Download e execução do arquivo VcXsrv**
 
-- **Baixe** o arquivo **VcXsrv Windows X Server** e **salve** no seu local de preferencia:
+- **Baixe** o arquivo **VcXsrv Windows X Server** e **salve** no seu local de preferência:
 
     - ***[Clique aqui](https://sourceforge.net/projects/vcxsrv/)*** para baixar o VcXsrv Windows X Server.
 
@@ -52,6 +52,14 @@ Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 
 - Na aba de configurações extras (extra settings):
     - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**
+
+Ao final da instalação, há a opção de salvar as configurações feita, para que não precise refazer os mesmos passos acima toda vez que for iniciar o X Server.
+
+- Salvar configurações(opcinal):
+    - **Clique** no icone **"Save Configuration"**;
+    - **Nomeie** o arquivo como preferir e **Salve** no seu local de preferência.
+
+Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X Server.
 
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
 
