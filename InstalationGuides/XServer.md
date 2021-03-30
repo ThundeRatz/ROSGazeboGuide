@@ -39,13 +39,13 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
 ## **Execução e configuração do Xlaunch**
 
-Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (Desktop, se o seu computador estiver em inglês)
+Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar um arquivo chamado **Xlaunch** na sua área de trabalho (desktop, se o seu computador estiver em inglês)
 Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 
 - Execute o **Xlaunch**
 - Na aba de configuração de display (select display settings):
     - Deixe **"Multiple windows"** selecionado;
-    - Deixe **"display number"** em **-1**.
+    - Deixe **"display number"** em **0**.
 
 - Na aba de seleção de como iniciar o cliente (select how to start clients):
     - Selecione **"Start no client"**.
@@ -99,7 +99,7 @@ source ~/.bashrc
 
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-- **Instale** o pacote `mesa-utilis` com seguinte comando:
+- **Instale** o pacote `mesa-utilis` com o seguinte comando:
 
 ```bash
 sudo apt install mesa-utils
@@ -107,13 +107,13 @@ sudo apt install mesa-utils
 
 ![mesa-utils instalation](../assets/gif/XServer/4_mesa_utils_instalation.gif)
 
-- **Digite** no terminal o seguintes comando:
+- **Digite** no terminal o seguinte comando:
 
 ```bash
 glxgears
 ```
 
-Depois dessa série de comando, deve aparecer três engrenagens coloridas girando:
+Depois dessa série de comandos, deve aparecer três engrenagens coloridas girando:
 
 ![gears](../assets/gif/XServer/5_gears.gif)
 
