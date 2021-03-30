@@ -79,7 +79,7 @@ O que isso vai fazer é construir o ambiente do projeto, usando como base aquilo
 source devel/setup.bash
 ```
 
-E pronto, você só precisa agora usar o comando
+E pronto, agora você só precisa usar o comando
 
 ```bash
 roslaunch modelo_carrinho gazebo.launch
