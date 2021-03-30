@@ -12,7 +12,7 @@ nav_order: 4
 Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
 Após a instalação do WSL e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo. Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a reprodução desses programas no Windows.
 
-Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para seguir esse tutorial, porém é recomendado que se faça esse tutorial por último.
+Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir esse tutorial, mas é necessario o WSL para os toques finais. Contudo, recomendo que faça esse tutorial por último.
 
 ***[Clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL.
 
@@ -21,6 +21,8 @@ Não é necessário ter o WSL e ROS/Gazebo instalado no seu computador para segu
 
 - [**Download e execução do arquivo VcXsrv**](#Download-e-execução-do-arquivo-VcXsrv)
 - [**Execução e configuração do Xlaunch**](#Execução-e-configuração-do-Xlaunch)
+- [**Toques finais**](#Toques-finais)
+- [**Teste de funcionamento**](#Teste-de-funcionamento)
 - [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
 
 ## **Download e execução do arquivo VcXsrv**
@@ -63,57 +65,42 @@ Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X 
 
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
 
-- Para saber se está funcionando, certifique-se que existe na extremidade inferior direita o símbolo do Xlaunch.
+- Para saber se foi inicializado, certifique-se que existe na extremidade inferior direita o símbolo do Xlaunch.
 
 ![Verificação Xlaunch](../assets/img/check_xlaunch.png)
 
-## **Teste de funcionamento**
+## **Toques finais**
 
-Para conseguir fazer o teste de funcionamento, é necessário ter, pelo menos, o WSL instalado no Windows.
+Para conseguir fazer esses toques finais, é necessário ter, pelo menos, o WSL instalado no Windows.
 
 Caso não tenha feito isso ainda, volte para o inicio da página  [**clicando aqui**](#Como-Instalar-o-Xserver-no-Windows) e siga o tutorial de instalação do WSL.
 
-- **Abra** o **terminal** do Ubuntu no Windows
-- **Abra** o arquivo ".bashrc"
-
-Para abrir esse arquivo digite seguinte comando:
-```bash
-nano ~/.bashrc
-```
-
-- **Digite** o seguinte comando no final do arquivo:
+- **Abra** o **terminal** do Ubuntu no Windows e digite o seguinte comando:
 
 ```bash
-export DISPLAY=:0
+echo "export DISPLAY=:0" >> ~/.bashrc
+source ~/.bashrc
 ```
+Não se preocupe se o terminal não responder nada depois destes comandos -- ele realmente não dá nenhum sinal de que os comandos foram feitos de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
 Observação:
-- Caso esteja usando o WSL2, digite o seguinte no final do arquivo no lugar do último comando:
+- Caso esteja usando o WSL2, digite o seguinte no lugar do último comando:
 
 ```bash
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
-```
-
-- **Aperte** "Ctrl+O" para salvar as mudanças feitas
-- **Aperte** "Ctrl+X" para sair do arquivo
-
-![executando Xlaunch](../assets/gif/XServer/3_display_bashrc.gif)
-
-- **Digite** o seguintes comando:
-
-```bash
+echo "export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
+## **Teste de funcionamento**
+Com todos os passos acima concluidos, só precisamos nos certificar qu está tudo funcionando.
 
-- **Instale** o pacote `mesa-utilis` com o seguinte comando:
+- **Abra** o **terminal** do Ubuntu e **Instale** o pacote `mesa-utilis` com o seguinte comando:
 
 ```bash
 sudo apt install mesa-utils
 ```
 
-![mesa-utils instalation](../assets/gif/XServer/4_mesa_utils_instalation.gif)
+![mesa-utils instalation](../assets/gif/XServer/3_mesa_utils_instalation.gif)
 
 - **Digite** no terminal o seguinte comando:
 
@@ -123,7 +110,7 @@ glxgears
 
 Depois dessa série de comandos, deve aparecer três engrenagens coloridas girando:
 
-![gears](../assets/gif/XServer/5_gears.gif)
+![gears](../assets/gif/XServer/4_gears.gif)
 
 ## **Instruções para pós instalação**
 Depois disso, está pronta a instalação do Xserver.
