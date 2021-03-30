@@ -95,7 +95,7 @@ source ~/.bashrc
 ## **Teste de funcionamento**
 Com todos os passos acima concluidos, você só precisa certificar-se que está tudo funcionando.
 
-- **Abra** o **terminal** do Ubuntu e **Instale** o pacote `mesa-utilis` com o seguinte comando:
+- **Abra** o **terminal** do Ubuntu e **Instale** o pacote `mesa-utils` com o seguinte comando:
 
 ```bash
 sudo apt install mesa-utils
@@ -109,7 +109,7 @@ sudo apt install mesa-utils
 glxgears
 ```
 
-Depois dessa série de comandos, deve aparecer três engrenagens coloridas girando:
+Depois desse comando, deve aparecer três engrenagens coloridas girando:
 
 ![gears](../assets/gif/XServer/4_gears.gif)
 
