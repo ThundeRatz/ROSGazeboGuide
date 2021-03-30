@@ -1,0 +1,9 @@
+remote_theme: "pmarsceill/just-the-docs"
+
+color_scheme: dark
+
+logo: https://static.thunderatz.org/teamassets/logo-simples-sf-amarelo.png
+
+aux_links:
+  "ROSGazeboGuide on GitHub":
+    - "//github.com/ThundeRatz/ROSGazeboGuide"
