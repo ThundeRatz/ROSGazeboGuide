@@ -39,7 +39,7 @@ git clone https://github.com/ThundeRatz/gazebo_modelo_carrinho.git
 
 
 
-O que acabou de acontecer? Bom, você acabou de usar o **git** para copiar um repositório que se encontra no **GitHub**, igual ao lugar onde você está lendo esse tutorial. Basicamente, é um site que armazena códigos para ficar fácil de grupos grandes ou pequenos de pessoas trabalharem no mesmo programa. Se você tem interesse em saber mais, converse com um dos professores ou monitores da disciplina! O que você copiou foi o modelo do carrinho, que se encontra [nesse link aqui](https://github.com/ThundeRatz/gazebo_modelo_carrinho.git).
+O que acabou de acontecer? Bom, você acabou de usar o **git** para copiar um repositório que se encontra no **GitHub**, parecido com o lugar onde você está lendo esse tutorial. Basicamente, é um site que armazena códigos para ficar fácil de grupos grandes ou pequenos de pessoas trabalharem no mesmo programa. Se você tem interesse em saber mais, converse com um dos professores ou monitores da disciplina! O que você copiou foi o modelo do carrinho, que se encontra [nesse link aqui](https://github.com/ThundeRatz/gazebo_modelo_carrinho.git).
 
 Agora que você tem os arquivos chegamos em uma parte que pode dar problema, instalar ainda mais coisas. O projeto em si tem algumas dependências especificas que ainda não se encontram no seu computador. Para baixar elas, rode o comando a seguir:
 
