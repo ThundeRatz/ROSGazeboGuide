@@ -10,7 +10,7 @@ nav_order: 1
 
 Olá alunos!
 
-Agora que vocês tem WSL, ROS, Gazebo e XServer devidamente instalado nos seus computadores chegamos a parte mais legal de todas, rodar o projeto! Para isso precisamos fazer uma pasta para conter os devidos arquivos. Primieramente, certifique-se que seu servidor de XServer está rodando. Caso contrário, não teremos a janela do Gazebo aparecendo na nossa tela. Tudo certo? Então abra seu WSL e rode os seguintes comandos para criar o diretório do projeto e entrar nele.
+Agora que vocês tem WSL, ROS, Gazebo e XServer devidamente instalado nos seus computadores chegamos a parte mais legal de todas, rodar o projeto! Para isso precisamos fazer uma pasta para conter os devidos arquivos. Primeiramente, certifique-se que seu servidor de XServer está rodando. Caso contrário, não teremos a janela do Gazebo aparecendo na nossa tela. Tudo certo? Então abra seu WSL e rode os seguintes comandos para criar o diretório do projeto e entrar nele.
 
 ```bash
 mkdir -p ~/PMR3100/src
