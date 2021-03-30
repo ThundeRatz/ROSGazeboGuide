@@ -10,7 +10,10 @@ nav_order: 1
 
 Olá alunos!
 
-Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a [página de documentação oficial da Microsoft sobre o assunto](https://docs.microsoft.com/en-us/windows/wsl/about).
+Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a [pá<<<<<<< feature/whyROS
+8
+ 
+gina de documentação oficial da Microsoft sobre o assunto](https://docs.microsoft.com/en-us/windows/wsl/about).
 
 ### O que vamos usar?
 
@@ -74,6 +77,41 @@ E acabou!
 
 Agora que você tem o WSL com Ubuntu 20.04 instalado na sua máquina você pode tirar proveito dos softwares que rodam no Linux, como o ROS/Gazebo, usados na disciplina. Para aprender como instalar eles é só ***[clicar aqui](../InstalationGuides/ROSGazeboWSL.md)*** e seguir as instruções.
 
+### Atualizando para o WSL2
+
+Essa parte do tutorial só é necessária caso você opte por utilizar o Docker para executar seus projetos. Esta parte só é possível para usuários do Windows 10.
+
+Primeiramente, você deve verificar se o seu Windows está atualizado. Para isso abra a janela de **Configurações**/*Settings*, e clique em **Atualização e Segurança**/*Update & Security*.
+
+![Windows Update Settings](/assets/img/Docker/WSL_set_windowsatt)
+
+Depois disso, vá em *Windows Update*. Caso existam atualizações para fazer, execute-as e reinicie seu computador. Caso contrário, continue neste tutorial.
+
+![Windows Update]()
+
+Agora, é preciso habilitar o recurso de Máquina virtual. Para isso, abra o **prompt de comando**/*PowerShell* como administrador
+
+![Prompt de comando como ADMIN]()
+
+e copie a seguinte linha de código:
+
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+Após isso, **reinicie** seu computador.
+
+Agora, você terá que baixar o pacote de atualização do kernel do Linux mais recente. Para isso, baixe o executável disponível **[neste link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)**. Abra o programa e permita as permissões elevadas.
+
+![GIF kernerl instalation]()
+
+Por fim, basta definir o WSL2 como a sua versão padrão do WSL. Para isso, abra novamente o **prompt de comando**/*PowerShell* como administrador e execute a seguinte linha de código:
+
+```
+wsl --set-default-version 2
+```
+Pronto! Agora seu WSL está atualizado para o WSL2
+___
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores.
 
 Que o ambiente Linux seja muito receptivo!
