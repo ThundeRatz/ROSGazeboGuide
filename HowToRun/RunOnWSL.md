@@ -47,7 +47,7 @@ Agora que você tem os arquivos chegamos em uma parte que pode dar problema, ins
 sudo apt install ros-noetic-velocity-controllers python-pygame
 ```
 
-Para rodar o comando você vai ter que fornecer a seu senha já que fazem uso do ```sudo```. 
+Para rodar o comando você vai ter que fornecer a seu senha já que faz uso do ```sudo```. 
 
 ![Installing Dependencies](../assets/gif/Run_WSL/Installing_Dependencies.gif)
 
@@ -97,4 +97,4 @@ Sempre que você fechar o terminal do WSL e voltar você terá que executar o ``
 
 E é isso. Agora você já sabe rodar o projeto direto do WSL. Se tiver acontecido algum problema durante o tutorial entre em contato com algum dos monitores que eles estão mais do que felizes em ajudar.
 
-Daqui pra frente é programar o carrinho ele, se divirta e que a disciplina seja um sucesso!
+Daqui pra frente é programar o carrinho. Se divirta e que a disciplina seja um sucesso!
