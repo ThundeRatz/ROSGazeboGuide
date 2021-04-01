@@ -9,17 +9,23 @@ nav_order: 3
 
 Além das opções previamente exploradas sobre como executar seus projetos com o WSL e com o Ubuntu, agora iremos conhecer uma terceira ferramenta: o Docker. Esta ferramenta consiste basicamente em uma espécie de máquina virtual que contém todos os *softwares* necessários para que você execute seu projeto.
 
+Antes de tudo, verifique se o Docker está abrto. Para isso, abra o aplicativo do Docker no seu computador e veja se a seguinte tela está aparecendo:
+
+![Docker is running](/assets/img/Docker/dockerrunning.png)
+
+Caso esteja desse jeito, é só seguir o tutorial!
+
 ## Como configurar o Docker para rodar seu projeto
 
-Primeiramente, é necessário fazer o *download* do *Dockerfile*. Este arquivo será o responsável por conter as dependências do seu projeto. O arquivo pode ser baixado por meio **[deste link]()**.
+Primeiramente, é necessário fazer o *download* do *Dockerfile*. Este arquivo será o responsável por conter as dependências do seu projeto. O arquivo pode ser baixado por meio **[deste link](https://github.com/ThundeRatz/DockerCarrinhos)**.
 
-Após fazer o *download* deste arquivo, abra o **prompt de comando**/*PowerShell* e redirecione para a pasta que o arquivo está. O modo mais fácil de fazer isso é copiando o caminho do arquivo e digitando no prompt de comando:
+Após fazer o *download* deste arquivo, abra o **prompt de comando**/*command prompt* e redirecione para a pasta que o arquivo está. O modo mais fácil de fazer isso é copiando o caminho do arquivo e digitando no prompt de comando:
 
 ```
 cd [caminho do arquivo]
 ```
 
-![GIF caminho do arquivo]()
+![GIF caminho do arquivo](/assets/gif/Docker/caminho_docker.gif)
 
 Após isso, execute o comando abaixo para construir a imagem do projeto na sua máquina.
 
@@ -33,19 +39,17 @@ e quando este processo estiver completo, execute em seguida:
 docker run -it -p 7681:7681 -p 8080:8080 dockercarrinhos
 ```
 
-![GIF executando Docker]()
+![GIF executando Docker](/assets/gif/Docker/docker_build.gif)
 
-Agora, para ver a simulação do seu projeto, basta abrir seu **navegador** e digitar na barra de URL 
+Agora, para ver a simulação do seu projeto, basta abrir seu **navegador** e digitar na barra de URL:
 
 ```
 http://localhost:8080/
 ```
 
-![GIF localhost browser]()
-
 Pronto! A simulação do seu projeto foi executada com sucesso utilizando o Docker.
 
-![Simulação Docker]()
+![Simulação Docker](/assets/gif/Docker/finalgazebo_sim.gif)
 
 ___
 Caso os resultados sejam diferentes do tutorial ou existam dúvidas, não hesite em contatar um dos monitores da matéria!
