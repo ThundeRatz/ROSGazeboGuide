@@ -8,9 +8,6 @@ nav_order: 3
 # Como executar o projeto em Docker
 
 Além das opções previamente exploradas sobre como executar seus projetos com o WSL e com o Ubuntu, agora iremos conhecer uma terceira ferramenta: o Docker. Esta ferramenta consiste basicamente em uma espécie de máquina virtual que contém todos os *softwares* necessários para que você execute seu projeto.
-Neste tutorial, iremos ensinar como rodar o seu projeto no Docker. Mas antes de tudo, uma das exigências do Docker é o WSL2. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)**.
-
-## Como Instalar o Docker
 
 ## Como configurar o Docker para rodar seu projeto
 
