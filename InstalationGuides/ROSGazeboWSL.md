@@ -150,7 +150,7 @@ Toda vez que você abrir um terminal, é necessário executar o seguinte comando
 source /opt/ros/noetic/setup.bash
 ```
 
-Rodar esse comando manualmente sempre pode se tornar trabalhoso. Como nós somos pessoas preguiçosas, configuramos o sistema para fazer isso automaticamente.
+Rodar esse comando manualmente sempre pode se tornar trabalhoso. Para facilitar o nosso trabalho, configuramos o sistema para fazer isso automaticamente.
 
 A maneira de fazer isso é a seguinte:
 
