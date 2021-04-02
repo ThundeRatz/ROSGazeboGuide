@@ -9,7 +9,7 @@ nav_order: 3
 
 Além das opções previamente exploradas sobre como executar seus projetos com o WSL e com o Ubuntu, agora iremos conhecer uma terceira ferramenta: o Docker. Esta ferramenta consiste basicamente em uma espécie de máquina virtual que contém todos os *softwares* necessários para que você execute seu projeto.
 
-Antes de tudo, verifique se o Docker está abrto. Para isso, abra o aplicativo do Docker no seu computador e veja se a seguinte tela está aparecendo:
+Antes de tudo, verifique se o Docker está aberto. Para isso, abra o aplicativo do Docker no seu computador e veja se a seguinte tela está aparecendo:
 
 ![Docker is running](/assets/img/Docker/dockerrunning.png)
 
