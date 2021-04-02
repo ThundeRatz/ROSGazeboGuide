@@ -13,7 +13,7 @@ Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documen
 
 Neste documento, vamos dar um enfoque a como instalar ROS/Gazebo no Windows com WSL.
 
-Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.
+### **Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.**
 
 ## **Índice**<!-- omit in toc -->
 
