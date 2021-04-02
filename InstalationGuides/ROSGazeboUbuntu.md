@@ -68,7 +68,7 @@ A resposta esperada desse comando é a seguinte:
 
 Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
 
-Para saber mais sobre as diferenças entre os tipos de repositório, acesse o link:
+Para saber mais sobre as diferenças entre cada repositório, acesse o link:
 <https://help.ubuntu.com/community/Repositories>
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
