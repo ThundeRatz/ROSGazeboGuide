@@ -135,6 +135,20 @@ A resposta esperada desse comando é a seguinte:
 
 ![verificando versão do gazebo](../assets/gif/ROSGazebo/WSL/gazebo_version.gif)
 
+---
+**Observação:**
+
+Há a possibilidade de o WSL apresentar um problema no arquivo "libQt5Core.so.5" ao utilizar a  última instrução. 
+
+![verificando versão do gazebo](../assets/img/ROSGazebo/WSL/error_libQt5Core.jpg)
+
+Para resolver esse problema, use o seguinte comando:
+```bash
+sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+``` 
+Depois de corrigir esse problema, pode-se seguir normalmente o tutorial. 
+
+---
 Tendo feito tudo isso, podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
 ```bash
 sudo apt install ros-noetic-PACKAGE
