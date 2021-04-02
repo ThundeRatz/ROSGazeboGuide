@@ -54,7 +54,13 @@ O terminal responderá da seguinte forma, apresentando os arquivos e pastas da p
 
 ## **Habilitando Repositórios**
 
-Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
+Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*.
+
+Mas o que é um repositório?
+
+Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse -- mas para instalar o ROS precisamos de acesso a esses servidores.
+
+Podemos habilitar o acesso com os seguintes comandos:
 
 ``` bash
 sudo add-apt-repository restricted
@@ -68,11 +74,7 @@ A resposta esperada desse comando é a seguinte:
 
 Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
 
-Mas o que é um repositório?
-
-Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse -- mas para instalar o ROS precisamos de acesso a esses servidores.
-
-Para saber mais sobre as diferenças dos repositórios, acesse o link:
+Para saber mais sobre as diferenças entre os tipos de repositório, acesse o link:
 <https://help.ubuntu.com/community/Repositories>
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
