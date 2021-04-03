@@ -23,7 +23,7 @@ permalink: /
   - [WSL](./InstalationGuides/WSL.md)
   - [ROS/Gazebo no WSL](./InstalationGuides/ROSGazeboWSL.md)
   - [ROS/Gazebo em Ubuntu](./InstalationGuides/ROSGazeboUbuntu.md)
-  - [XServer](./InstalationGuides/XServer.md)
+  - [X server](./InstalationGuides/XServer.md)
 - [Como executar o projeto](./HowToRun/README.md)
   - [O que é?](./HowToRun/RunOnWSL.md)
   - [Por que usar?](./HowToRun/RunOnUbuntu.md)
