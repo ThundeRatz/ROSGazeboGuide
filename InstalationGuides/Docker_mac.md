@@ -35,31 +35,31 @@ Ok...mas como eu verifico qual versão do macOS estou?
 
 Para saber basta ir no canto superior esquerdo da tela, clicar no símbolo da Apple e depois em "Sobre Este Mac". Ali mostrará a versão do Mac que você se encontra!
 
-![about-this-mac](../assets/img/Docker/docker-mac-instalation/about-this-mac.png)
+<img src="../assets/img/Docker/docker-mac-instalation/about-this-mac.png" alt="about-this-mac" height="376" width="428"> <br />
 
-![mac-version](../assets/img/Docker/docker-mac-instalation/mac-version.png)
+<img src="../assets/img/Docker/docker-mac-instalation/mac-version.png" alt="mac-version" height="299" width="506">
 
 ## **Instalação do Docker Desktop**
 
 Para instalar o Docker Desktop Installer, basta entrar **[aqui](https://hub.docker.com/editions/community/docker-ce-desktop-mac/)**, e depois clicar em **"Get Docker"**.
 
-![download-page](../assets/img/Docker/docker-mac-instalation/download-page.png)
+<img src="../assets/img/Docker/docker-mac-instalation/download-page.png" alt="download-page" height="295" width="724">
 
 Feito o download, clique 2 vezes no **Docker.dmg** para abrir o instalador. Aberta a janela, leve o ícone do Docker para a pasta "Applications", conforme a imagem: 
 
-![move-app](../assets/img/Docker/docker-mac-instalation/move-app.png)
+<img src="../assets/img/Docker/docker-mac-instalation/move-app.png" alt="move-app" height="290" width="619">
 
 Dado o tempo de instalação, clique 2 vezes no ícone do Docker. Talvez poderá aparecer uma janela perguntando se deseja abrir o app baixado da internet. Clique em "Abrir". 
 
 Depois, o Docker pedirá acesso. Clique em "OK" e insira sua senha do Mac para permitir a operação. Por fim, clique em "Instalar Auxiliar".
 
-![access-request](../assets/img/Docker/docker-mac-instalation/access-request.png)
+<img src="../assets/img/Docker/docker-mac-instalation/access-request.png" alt="access-request" height="168" width="529"> <br />
 
-![password](../assets/img/Docker/docker-mac-instalation/password.png)
+<img src="../assets/img/Docker/docker-mac-instalation/password.png" alt="password" height="184" width="402">
 
 **Pronto!** Se tudo estiver certo, abrirá a página inicial do Docker! (sons de aplauso)
 
-![start-screen](../assets/img/Docker/docker-mac-instalation/start-screen.png)
+<img src="../assets/img/Docker/docker-mac-instalation/start-screen.png" alt="start-screen" height="398" width="632">
 
 ## **Verificação**
 
@@ -67,7 +67,7 @@ Agora vamos verificar se o Docker foi instalado corretamente!
 
 Para isso, abra o Terminal (clique na lupa no canto superior direito e busque "Terminal").
 
-![terminal](../assets/img/Docker/docker-mac-instalation/terminal.png)
+<img src="../assets/img/Docker/docker-mac-instalation/terminal.png" alt="terminal" height="62" width="445">
 
 Digite a seguinte linha e dê enter:
 
@@ -76,15 +76,14 @@ docker -v
 ```
 A versão instalada será mostrada, como na figura:
 
-![docker-version](../assets/img/Docker/docker-mac-instalation/docker-version.png)
+<img src="../assets/img/Docker/docker-mac-instalation/docker-version.png" alt="docker-version" height="48" width="312">
 
 Além disso, podemos testar se o Docker está funcionando corretamente com o Docker Hub, para testar isso digite no prompt de comando: 
 
 ```bash
 docker run hello-world
 ```
-
-![hello-world](../assets/img/Docker/docker-mac-instalation/hello-world.png)
+<img src="../assets/img/Docker/docker-mac-instalation/hello-world.png" alt="hello-world" height="337" width="583">
 
 Se o output for que nem o de cima, está tudo **correto**! (mais sons de aplauso) 
 
@@ -92,7 +91,7 @@ Se o output for que nem o de cima, está tudo **correto**! (mais sons de aplauso
 
 Se o ícone quando o Docker estiver presente no canto superior direito da tela, significa que ele está ligado.
 
-![top-bar](../assets/img/Docker/docker-mac-instalation/top-bar.png)
+<img src="../assets/img/Docker/docker-mac-instalation/top-bar.png" alt="top-bar" height="25" width="427">
 
 Para entrar no Docker Desktop das próximas vezes, basta buscar na lupa ou no Launchpad!
 
