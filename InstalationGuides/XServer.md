@@ -7,12 +7,12 @@ nav_order: 4
 
 ![Logo do XServer no Windows](../assets/img/logo_Xserver.png)
 
-# **Como Instalar o Xserver no Windows**
+# **Como Instalar o X server no Windows**
 
-Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **Xserver** em sua máquina.
+Neste tutorial, vamos aprender a **instalar** o Xorg Server chamado **X server** em sua máquina.
 Após a instalação do WSL e ROS, o seu sistema operacional ainda não consegue reproduzir o Gazebo. Por conta disso, nesse tutorial iremos mostrar uma ferramenta que possibilita a reprodução desses programas no Windows.
 
-Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir esse tutorial, mas é necessario o WSL para os toques finais. Contudo, recomendo que faça esse tutorial por último.
+Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir esse tutorial, mas é necessario o WSL para os toques finais. Dessa forma, recomendo que faça esse tutorial por último.
 
 ***[Clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL.
 
@@ -33,7 +33,7 @@ Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir ess
 
 ![download XServer](../assets/gif/XServer/0_baixando_VcXsrv.gif)
 
-- Execute e instale o arquivo **"vcxsrv-64.1.x.x.x.installer"** (obs.: os 'x' estão no lugar da versão, ou seja, desde que estaja dentro da "vcxsrv-64.1", está tudo bem baixar essa opção)
+- Execute e instale o arquivo **"vcxsrv-64.1.x.x.x.installer"** (obs.: os 'x' estão no lugar da versão, ou seja, desde que estaja dentro da "vcxsrv-64.1", está tudo bem baixar essa opção).
     
     - O arquivo, a priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e que todas as "caixinhas" estão selecionadas. 
     
@@ -45,7 +45,7 @@ Após baixar e executar o arquivo "vcxsrv-64.1.x.x.x.installer", ele irá criar 
 
 Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 
-- Execute o **Xlaunch**
+- Execute o **Xlaunch**.
 - Na aba de configuração de display (select display settings):
     - Deixe **"Multiple windows"** selecionado;
     - Deixe **"display number"** em **0**.
@@ -60,7 +60,7 @@ Ao final da instalação, há a opção de salvar as configurações feita, para
 
 - Salvar configurações(opcinal):
     - **Clique** no icone **"Save Configuration"**;
-    - **Nomeie** o arquivo como preferir e **Salve** no seu local de preferência.
+    - **Nomeie** o arquivo como preferir e **salve** no seu local de preferência.
 
 Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X Server.
 
@@ -74,9 +74,9 @@ Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X 
 
 Para conseguir fazer esses toques finais, é necessário ter, pelo menos, o WSL instalado no Windows.
 
-Caso não tenha feito isso ainda, ***[Clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL.
+Caso não tenha feito isso ainda, ***[clique aqui](../InstalationGuides/WSL.md)*** para ser direcionado ao tutorial de instalação do WSL.
 
-- **Abra** o **terminal** do Ubuntu no Windows e digite o seguinte comando:
+- Caso esteja usando o **WSL1**, **abra** o **terminal** do Ubuntu no Windows e digite o seguinte comando:
 
 ```bash
 echo "export DISPLAY=:0" >> ~/.bashrc
@@ -84,7 +84,6 @@ source ~/.bashrc
 ```
 Não se preocupe se o terminal não responder nada depois destes comandos -- ele realmente não dá nenhum sinal de que os comandos foram feitos de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-Observação:
 - Caso esteja usando o WSL2, digite o seguinte no lugar do último comando:
 
 ```bash
@@ -114,10 +113,10 @@ Depois desse comando, deve aparecer três engrenagens coloridas girando:
 ![gears](../assets/gif/XServer/4_gears.gif)
 
 ## **Instruções para pós instalação**
-Depois disso, está pronta a instalação do Xserver.
+Depois disso, está pronta a instalação do X server.
 
-Após a instalação do WSL, ROS/Gazebo e Xserver, o seu computador está pronto para as experiências que serão realizadas nas aulas!
+Após a instalação do WSL, ROS/Gazebo e X server, o seu computador está pronto para as experiências que serão realizadas nas aulas!
 
 Bom proveito!
 
-Para aprender a executar seu projeto no Windows, ***[clique aqui](../HowToRun/RunOnWSL.md)*** 
+Para aprender a executar seu projeto no Windows, ***[clique aqui](../HowToRun/RunOnWSL.md)***. 
