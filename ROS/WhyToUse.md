@@ -27,9 +27,7 @@ Para entender isso melhor, imagine que você vai desenvolver um robô de minera�
 
 Em muitos projetos, é possível que você se veja trabalhando com programadores que possuem conhecimentos diferentes dos seus. Imagine que você acaba de iniciar um projeto com um estudante de engenharia elétrica, que aprendeu C na matéria de introdução à computação, enquanto você aprendeu Python. O desenvolvimento desse projeto seria problemático sem uma ajuda externa.
 
-Enquanto muitas ferramentas exigem que o desenvolvedor seja experiente em uma linguagem específica, com o ROS é possível construir *nodes* em diferentes linguagens de programação. Atualmente, o ROS tem suporte oficial para C++ e Python, porém, existem diversas bibliotecas que tornam possível a construção de *nodes* utilizando linguagens como RUST, NodeJS, entre outras.
-
-Além disso, o ROS torna possível a utilização conjunta de *nodes* escritos em linguagens diferentes. Com isso, a cooperação entre desenvolvedores é ampliada, permitindo que pessoas que têm conhecimento em linguagens diferentes possam trabalhar juntas no mesmo projeto, facilitando o desenvolvimento e a implementação de funcionalidades.
+Enquanto muitas ferramentas exigem que o desenvolvedor seja experiente em uma linguagem específica, com o ROS é possível construir *nodes* em diferentes linguagens de programação. Atualmente, o ROS tem suporte oficial para C++ e Python, porém, existem diversas bibliotecas que tornam possível a construção de *nodes* utilizando linguagens como RUST, NodeJS, entre outras. Com isso, a cooperação entre desenvolvedores é ampliada, permitindo que pessoas que têm conhecimento em linguagens diferentes possam trabalhar juntas no mesmo projeto, facilitando o desenvolvimento e a implementação de funcionalidades.
 
 ![ROS multi-language](/assets/img/WhyROS/ros_language_agnostic.png) {: .mx-auto}
 
