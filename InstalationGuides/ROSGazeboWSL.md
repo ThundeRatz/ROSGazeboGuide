@@ -165,9 +165,9 @@ O que esse comando faz é adicionar a linha de texto `source /opt/ros/noetic/set
 
 Após estes toques finais, a instalação do ROS e do Gazebo estará finalizada!
 
-Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessário instalar o Xserver, para o qual também temos um guia de instalação!
+Mas vamos com calma ainda, amigo. Para utilizar o ROS e suas extensões pelo WSL será necessário instalar o X server, para o qual também temos um guia de instalação!
 
-Para instalar o Xserver  ***[clique aqui](../InstalationGuides/XServer.md)***
+Para instalar o X server  ***[clique aqui](../InstalationGuides/XServer.md)***
 
 Depois disso tudo isso, seu Windows estará pronto para utilizar corretamente o ROS.
 

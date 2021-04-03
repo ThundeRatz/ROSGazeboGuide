@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Instalando o XServer
+title: Instalando o X server
 parent: Guias de Instalação
 nav_order: 4
 ---
 
-![Logo do XServer no Windows](../assets/img/logo_Xserver.png)
+![Logo do X server no Windows](../assets/img/logo_Xserver.png)
 
 # **Como Instalar o X server no Windows**
 
@@ -19,19 +19,19 @@ Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir ess
 ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para ser direcionado ao tutorial de instalação do ROS/Gazebo.
 ## **Índice**<!-- omit in toc --> 
 
-- [**Download e execução do arquivo VcXsrv**](#Download-e-execução-do-arquivo-VcXsrv)
-- [**Execução e configuração do Xlaunch**](#Execução-e-configuração-do-Xlaunch)
-- [**Toques finais**](#Toques-finais)
-- [**Teste de funcionamento**](#Teste-de-funcionamento)
-- [**Instruções para pós instalação**](#Instruções-para-pós-instalação)
+- [**Download e execução do arquivo VcXsrv**](#download-e-execução-do-arquivo-vcxsrv)
+- [**Execução e configuração do Xlaunch**](#execução-e-configuração-do-xlaunch)
+- [**Toques finais**](#toques-finais)
+- [**Teste de funcionamento**](#teste-de-funcionamento)
+- [**Instruções para pós instalação**](#instruções-para-pós-instalação)
 
 ## **Download e execução do arquivo VcXsrv**
 
-- **Baixe** o arquivo **VcXsrv Windows X Server** e **salve** no seu local de preferência:
+- **Baixe** o arquivo **VcXsrv Windows X server** e **salve** no seu local de preferência:
 
-    - ***[Clique aqui](https://sourceforge.net/projects/vcxsrv/)*** para baixar o VcXsrv Windows X Server.
+    - ***[Clique aqui](https://sourceforge.net/projects/vcxsrv/)*** para baixar o VcXsrv Windows X server.
 
-![download XServer](../assets/gif/XServer/0_baixando_VcXsrv.gif)
+![download X server](../assets/gif/XServer/0_baixando_VcXsrv.gif)
 
 - Execute e instale o arquivo **"vcxsrv-64.1.x.x.x.installer"** (obs.: os 'x' estão no lugar da versão, ou seja, desde que estaja dentro da "vcxsrv-64.1", está tudo bem baixar essa opção).
     
@@ -56,13 +56,13 @@ Toda vez que computador for reiniciado, esse passo deve ser feito novamente.
 - Na aba de configurações extras (extra settings):
     - Deixe selecionado **"Clipboard"**, **"Primary Selection"** e **"Disable acess control"**.
 
-Ao final da instalação, há a opção de salvar as configurações feita, para que não precise refazer os mesmos passos acima toda vez que for iniciar o X Server.
+Ao final da instalação, há a opção de salvar as configurações feita, para que não precise refazer os mesmos passos acima toda vez que for iniciar o X server.
 
 - Salvar configurações(opcinal):
     - **Clique** no icone **"Save Configuration"**;
     - **Nomeie** o arquivo como preferir e **salve** no seu local de preferência.
 
-Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X Server.
+Depois disso, basta clicar no arquivo de configurações salvo para iniciar o X server.
 
 ![executando Xlaunch](../assets/gif/XServer/2_executando_Xlaunch.gif)
 
