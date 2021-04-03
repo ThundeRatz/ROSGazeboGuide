@@ -37,7 +37,7 @@ Não é necessário ter o ROS/Gazebo instalado no seu computador para seguir ess
     
     - O arquivo, a priori, já vem com as configurações adequadas, porém, certifique-se que a opção de instalação está "full" e que todas as "caixinhas" estão selecionadas. 
     
-![execute o XServer](../assets/gif/XServer/1_executando_VcXsrv.gif)
+![execute o X server](../assets/gif/XServer/1_executando_VcXsrv.gif)
 
 ## **Execução e configuração do Xlaunch**
 
