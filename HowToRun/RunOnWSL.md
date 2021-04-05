@@ -48,7 +48,9 @@ Agora, volte para a pasta ```/PMR3100/``` usando o comando:
 ```bash
 cd ..
 ```
-e finalmente execute o
+
+E finalmente execute o:
+
 ```bash
 catkin_make
 ```
