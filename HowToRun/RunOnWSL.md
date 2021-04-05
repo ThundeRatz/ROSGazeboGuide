@@ -69,8 +69,6 @@ E pronto, agora você só precisa usar o comando abaixo para abrir o Gazebo na s
 roslaunch modelo_carrinho gazebo.launch
 ```
 
-que o Gazebo deve abrir na sua tela juntamente com o lindo carrinho da disciplina.
-
 ![Running setup.bash and Gazebo](../assets/gif/Run_WSL/Running_Gazebo.gif)
 
 
