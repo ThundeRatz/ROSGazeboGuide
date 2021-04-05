@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # Rodando o projeto no WSL!
+
 ![WSL + ROS Diagram](../assets/img/Run_WSL/Cover.jpg)
 
 Olá alunos!
