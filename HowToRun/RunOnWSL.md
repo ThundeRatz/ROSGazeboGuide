@@ -43,11 +43,6 @@ Para rodar o comando você vai ter que fornecer a seu senha já que faz uso do `
 
 ![Installing Dependencies](../assets/gif/Run_WSL/Installing_Dependencies.gif)
 
-
-
-
-
-
 Agora, volte para a pasta ```/PMR3100/``` usando o comando
 ```bash
 cd ..
