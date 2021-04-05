@@ -143,9 +143,11 @@ Há a possibilidade de o WSL apresentar um problema no arquivo "libQt5Core.so.5"
 ![verificando versão do gazebo](../assets/img/ROSGazebo/WSL/error_libQt5Core.jpg)
 
 Para resolver esse problema, use o seguinte comando:
+
 ```bash
 sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
 ``` 
+
 Depois de corrigir esse problema, pode-se seguir normalmente o tutorial. 
 
 ---
