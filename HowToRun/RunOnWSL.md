@@ -63,7 +63,7 @@ O que isso vai fazer é construir o ambiente do projeto, usando como base aquilo
 source devel/setup.bash
 ```
 
-E pronto, agora você só precisa usar o comando
+E pronto, agora você só precisa usar o comando abaixo para abrir o Gazebo na sua tela juntamente com o lindo carrinho base da disciplina.
 
 ```bash
 roslaunch modelo_carrinho gazebo.launch
