@@ -52,4 +52,5 @@ Pronto! A simulação do seu projeto foi executada com sucesso utilizando o Dock
 ![Simulação Docker](/assets/gif/Docker/finalgazebo_sim.gif)
 
 ___
+
 Caso os resultados sejam diferentes do tutorial ou existam dúvidas, não hesite em contatar um dos monitores da matéria!

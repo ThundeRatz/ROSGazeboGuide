@@ -23,7 +23,7 @@ nav_order: 5
 
 Neste tutorial, iremos ensinar como instalar o Docker Desktop no Windows 10. Mas antes de tudo, vamos a algumas observações:
 
-Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não recomendo usar o Docker Desktop, mas instalar o Docker dentro do WSL (ver tutorial aqui) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
+Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não é recomendado utilizar o Docker Desktop, mas instalar o Docker dentro do WSL (ver tutorial aqui) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
 
 Assim sendo, para usar o Docker Desktop, é necessário estar no: Windows 10 64-bit: Pro, Enterprise, ou Education (Build 17134 ou superior) - para Windows 10 Home, uma das exigências do Docker é o WSL2. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)** e para mais informações veja os **[Requerimentos para WSL 2 backend](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)**.
 
@@ -43,11 +43,11 @@ Além disso, temos que verificar se a “Virtualização” está habilitada, pa
 
 ![task-manager](../assets/img/Docker/docker-desktop-instalation/task-manager.png)
 
-Ao abrir o Gerenciador de Tarefas, vá até a aba de "Desempenho" e verifique se a Virtualização está habilitada, como mostra a figura abaixo. Se não conseguir visualizar a aba de desempenho, clique no “Mais Detalhes” no canto inferior esquerdo.
+Ao abrir o Gerenciador de Tarefas, vá até a aba de "Desempenho" e verifique se a "Virtualização" está habilitada, como mostra a figura abaixo. Se não conseguir visualizar a aba de desempenho, clique no “Mais Detalhes” no canto inferior esquerdo.
 
 ![virtualization](../assets/img/Docker/docker-desktop-instalation/virtualization.png)
 
-Se estiver habilitado podemos prosseguir com a instalação do Docker Desktop Installer, caso contrário recomendo seguir os passos no **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. ~~Acho que já deu pra perceber que é bem importante que você atualize para o WSL2~~
+Se estiver habilitado podemos prosseguir com a instalação do Docker Desktop Installer, caso contrário recomendo seguir os passos no **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. ~~Acho que já deu pra perceber que é bem importante que você atualize para o WSL2~~.
 
 ## **Instalação do Docker Desktop**
 
@@ -63,7 +63,7 @@ Pode deixar as duas caixinhas assinaladas e clicar em "Ok". Com isso a instalaç
 
 ![instalation-wizard-2](../assets/img/Docker/docker-desktop-instalation/instalation-wizard-2.png)
 
-Com isso, será necessário fazer um reboot do sistema para completar a instalação. Para isso, é só clicar no botão azul "Close and restart", como mostra a figura acima. Então dá o restart aí e nos vemos daqui a pouco.
+Com isso, será necessário reiniciar o sistema para completar a instalação. Para isso, é só clicar no botão azul "Close and restart", como mostra a figura acima. Então dê o restart aí e nos vemos daqui a pouco.
 
 .
 
@@ -76,12 +76,11 @@ Com isso, será necessário fazer um reboot do sistema para completar a instala�
 
 ## **Possível erro**
 
-Após o restart, pode ocorrer o seguinte erro caso não tenha instalado completamente o WSL2:
+Após a reinicialização, pode ocorrer o seguinte erro caso não tenha instalado completamente o WSL2:
 
 ![wsl2-error](../assets/img/Docker/docker-desktop-instalation/wsl2-error.png)
 
-Se isso acontecer, é porque você não seguiu ainda o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, vou deixar **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** um site com as instruções e mais informações sobre a atualização necessária.
-
+Se isso acontecer, é porque você não seguiu ainda o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
 
 ## **Verificação**
 
@@ -108,7 +107,7 @@ docker run hello-world
 
 ![docker-hello](../assets/img/Docker/docker-desktop-instalation/docker-hello.png)
 
-Se o output for que nem o de cima, está tudo **correto**! (mais sons de aplauso) 
+Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso) 
 
 ## **Observações Finais**
 
@@ -132,4 +131,4 @@ Para entrar no Docker Desktop, basta clicar no atalho da área de trabalho ou du
 
 ## **Para saber mais**
 
-Sugiro dar uma lida no **[Manual do Usuário](https://docs.docker.com/docker-for-windows/)** e deixo aqui também a **[referência](https://docs.docker.com/docker-for-windows/install/)** deste tutorial.
+Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-windows/)** e também o **[tutorial oficial do docker](https://docs.docker.com/docker-for-windows/install/)**, que serviu de referência para este tutorial.
