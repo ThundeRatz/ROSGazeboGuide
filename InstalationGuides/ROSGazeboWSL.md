@@ -13,7 +13,7 @@ Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documen
 
 Neste documento, vamos dar um enfoque a como instalar ROS/Gazebo no Windows com WSL.
 
-Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.
+### **Se você está utilizando Ubuntu, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboUbuntu.md)*** para se redirecionar.**
 
 ## **Índice**<!-- omit in toc -->
 
@@ -54,7 +54,13 @@ O terminal responderá da seguinte forma, apresentando os arquivos e pastas da p
 
 ## **Habilitando Repositórios**
 
-Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*. Podemos fazer isso com os seguintes comandos:
+Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*.
+
+Mas o que é um repositório?
+
+Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse -- mas para instalar o ROS precisamos de acesso a esses servidores.
+
+Podemos habilitar o acesso com os seguintes comandos:
 
 ``` bash
 sudo add-apt-repository restricted
@@ -68,13 +74,7 @@ A resposta esperada desse comando é a seguinte:
 
 Esses comandos permitem com que a sua máquina obtenha arquivos de diferentes tipos de repositório.
 
-Mas o que é um repositório?
-
-Sucintamente, um repositório é um **servidor** que contém diversos **pacotes**, isto é, arquivos e programas, que estão disponibilizados para usuários instalarem em suas máquinas. Por padrão, o Ubuntu não habilita o acesso aos repositórios restricted, universe e multiverse -- mas para instalar o ROS precisamos de acesso a esses servidores.
-
-Em nosso caso, para instalar ROS precisamos de acesso a estes servidores, e por isso inserimos estes comandos.
-
-Para saber mais sobre as diferenças dos repositórios, acesse o link:
+Para saber mais sobre as diferenças entre cada repositório, acesse o link:
 <https://help.ubuntu.com/community/Repositories>
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
@@ -135,6 +135,22 @@ A resposta esperada desse comando é a seguinte:
 
 ![verificando versão do gazebo](../assets/gif/ROSGazebo/WSL/gazebo_version.gif)
 
+---
+**Observação:**
+
+Há a possibilidade de o WSL apresentar um problema no arquivo "libQt5Core.so.5" ao utilizar a  última instrução. 
+
+![verificando versão do gazebo](../assets/img/ROSGazebo/WSL/error_libQt5Core.jpg)
+
+Para resolver esse problema, use o seguinte comando:
+
+```bash
+sudo strip --remove-section=.note.ABI-tag /usr/lib/x86_64-linux-gnu/libQt5Core.so.5
+``` 
+
+Depois de corrigir esse problema, pode-se seguir normalmente o tutorial. 
+
+---
 Tendo feito tudo isso, podemos também instalar pacotes específicos diretamente por meio do seguinte comando:
 ```bash
 sudo apt install ros-noetic-PACKAGE
@@ -150,7 +166,7 @@ Toda vez que você abrir um terminal, é necessário executar o seguinte comando
 source /opt/ros/noetic/setup.bash
 ```
 
-Rodar esse comando manualmente sempre pode se tornar trabalhoso. Como nós somos pessoas preguiçosas, configuramos o sistema para fazer isso automaticamente.
+Rodar esse comando manualmente sempre pode se tornar trabalhoso. Para facilitar o nosso trabalho, configuramos o sistema para fazer isso automaticamente.
 
 A maneira de fazer isso é a seguinte:
 

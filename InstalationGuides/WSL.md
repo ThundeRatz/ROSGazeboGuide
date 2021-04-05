@@ -16,7 +16,7 @@ Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Window
 
 O tutorial em grande parte vai ser praticamente só navegar pelos muitos menus presentes no Windows. Tudo que você precisa para ativar o WSL e ter uma instalação de Ubuntu no seu PC já está aí, só precisamos encontrar!
 
-Todas as imagens vão mostrar uma instalação em Português do Windows, com os nomes de coisas importantes escritos em **negrito**. Ao lado, ficará a tradução para Inglês em *itálico*.
+Todas as imagens vão mostrar uma instalação em Português do Windows, com direcionamentos/botões a serem clicados escritos em **negrito**. Ao lado, ficará a tradução para Inglês em *itálico*.
 
 Primeiramente, você vai ter que habilitar o WSL no Windows. Para isso abra a janela de **Configurações**/*Settings*.
 
@@ -62,7 +62,7 @@ Finalizada a instalação, aperte no botão **Iniciar**/*Launch* para rodar o Ub
 
 ![Opening Ubuntu Installed](../assets/img/WSL/WSL_Installed.png)
 
-Agora, depois de abrir e aguardar a primeira instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter new UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas tem que ser todo em letras minúsculas.
+Agora, depois de abrir e aguardar a primeira instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter new UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas **tem que ser todo em letras minúsculas.**
 
 ![Opening Ubuntu First Time](../assets/img/WSL/WSL_First_Open.png)
 
