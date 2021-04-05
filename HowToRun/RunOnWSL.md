@@ -53,12 +53,7 @@ e finalmente execute o
 catkin_make
 ```
 
-
 ![Running catkin_make](../assets/gif/Run_WSL/Running_catkin_make.gif)
-
-
-
-
 
 O que isso vai fazer é construir o ambiente do projeto, usando como base aquilo que você baixou do **GitHub**. Deve demorar um pouquinho mas não se assuste. Apenas fique na paz e no aguardo. Assim que terminar rode o comando a seguir:
 
