@@ -71,10 +71,6 @@ roslaunch modelo_carrinho gazebo.launch
 
 ![Running setup.bash and Gazebo](../assets/gif/Run_WSL/Running_Gazebo.gif)
 
-
-
-
-
 Sempre que você fechar o terminal do WSL e voltar você terá que executar o ```source devel/setup.bash``` dentro da pasta ```/PMR3100/```. Caso contrário, você encontrará um erro ao tentar rodar o projeto.
 
 E é isso. Agora você já sabe rodar o projeto direto do WSL. Se tiver acontecido algum problema durante o tutorial entre em contato com algum dos monitores que eles estão mais do que felizes em ajudar.
