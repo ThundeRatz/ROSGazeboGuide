@@ -11,7 +11,7 @@ Além das opções previamente exploradas sobre como executar seus projetos com 
 
 Antes de tudo, verifique se o Docker está aberto. Para isso, abra o aplicativo do Docker no seu computador e veja se a seguinte tela está aparecendo:
 
-![Docker is running](/assets/img/Docker/dockerrunning.png)
+![Docker is running](../assets/img/Docker/dockerrunning.png)
 
 Caso esteja desse jeito, é só seguir o tutorial!
 
@@ -25,7 +25,7 @@ Após fazer o *download* deste arquivo, abra o **prompt de comando**/*command pr
 cd [caminho do arquivo]
 ```
 
-![GIF caminho do arquivo](/assets/gif/Docker/caminho_docker.gif)
+![GIF caminho do arquivo](../assets/gif/Docker/caminho_docker.gif)
 
 Após isso, execute o comando abaixo para construir a imagem do projeto na sua máquina.
 
@@ -33,14 +33,14 @@ Após isso, execute o comando abaixo para construir a imagem do projeto na sua m
 docker build -t dockercarrinhos .
 ```
 
+![GIF executando a imagem](../assets/gif/Docker/docker_building.gif)
 e quando este processo estiver completo, execute em seguida:
 
 ```
 docker run -it -p 7681:7681 -p 8080:8080 dockercarrinhos
 ```
 
-![GIF executando Docker](/assets/gif/Docker/docker_build.gif)
-
+![GIF executando o container](../assets/gif/Docker/docker_running.gif)
 Agora, para ver a simulação do seu projeto, basta abrir seu **navegador** e digitar na barra de URL:
 
 ```
