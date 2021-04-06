@@ -65,14 +65,7 @@ Pode deixar as duas caixinhas assinaladas e clicar em "Ok". Com isso a instalaç
 
 Com isso, será necessário reiniciar o sistema para completar a instalação. Para isso, é só clicar no botão azul "Close and restart", como mostra a figura acima. Então dê o restart aí e nos vemos daqui a pouco.
 
-.
-
-.
-
-.
-
-**Pronto!** Se tudo estiver certo, você já está com o Docker instalado na sua máquina! (sons de aplauso) 
-
+**Pronto!** Se tudo estiver certo, você já está com o Docker instalado na sua máquina! (sons de aplauso).
 
 ## **Possível erro**
 
