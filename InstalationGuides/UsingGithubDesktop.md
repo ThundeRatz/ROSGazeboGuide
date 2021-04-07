@@ -6,20 +6,22 @@ nav_order: 5
 ---
 
 
-Durante as atividades que serão exercidas neste projeto, é necessário utilizar métodos que facilitem a interação entre o grupo. Dado a situaçde educação a distância, a comunicação e o desenvolvimento do projeto podem ficar confusos. Por isso, iremos apresentar nessa seção uma ferramenta que pode auxiliar o grupo com esses problemas: o GitHub.
+Durante as atividades que serão exercidas neste projeto é necessário utilizar métodos que facilitem a interação entre o grupo. Dado a situação de educação à distância, a comunicação e o desenvolvimento do projeto podem ficar confusos. Por isso, iremos apresentar nessa seção uma ferramenta que pode auxiliar o grupo com esses problemas: o GitHub.
 
 Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas de Git disponibilizadas pela equipe Thunderatz no Youtube. As duas aulinhas são curtas e tem cerca de 13 minutos cada, e estão disponíveis nos seguintes links:
 
 - [Aula de Git e GitHub - Parte conceitual](https://www.youtube.com/watch?v=nb8BoPCD5h4)
 - [Aula de Git e GitHub - Parte prática](https://www.youtube.com/watch?v=jFiit3u-uKY)
 
-Este texto terá uma abordagem bem mais prática, focada na ferramenta GitHub Desktop.
+Este texto terá uma abordagem bem mais prática, focada na ferramenta **GitHub Desktop**.
 
 # Utilizando o GitHub e o GitHub Desktop
 
 ## Criando uma conta no GitHub
 
-O GitHub é um site que permite criar um projeto e adicionar diversos colaboradores nele, permitindo uma colaboração remota e auxiliando na resolução de erros e evitando a perda de comunicação. O primeiro passo a se fazer é se registrar no GitHub por meio [deste link](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
+O GitHub é um site que permite criar um projeto e adicionar diversos colaboradores nele, promovendo a colaboração remota e auxiliando na resolução de erros, além de evitar a perda de comunicação. 
+
+O primeiro passo a se fazer é se registrar no GitHub por meio [deste link](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 
 A seguinte tela irá aparecer. Nela, preencha as suas informações como mostrado no exemplo:
 ![Join in GitHub](../assets/gif/GitHub/join.gif)
@@ -57,7 +59,7 @@ e, caso você vá para a página inicial, seu repositório estará disponível n
 
 ## Adicionando colaboradores ao repositório
 
-Agora que você já sabe como criar um projeto no GitHub, é também importante entender como ele irá ser útil para tornar os trabalhos em grupos mais simples. O GitHub permite que o usuário adicione colaboradores no seu proejto, permitindo assim, que um integrante do grupo adicione todos os outros integrantes para que todos possam auxiliar no desenvolvimento do projeto. mas como fazer isso?
+Agora que você já sabe como criar um projeto no GitHub, é também importante entender como ele irá ser útil para tornar os trabalhos em grupos mais simples. O GitHub permite que o usuário adicione colaboradores no seu projeto, permitindo assim, que um integrante do grupo adicione os outros integrantes para que todos possam auxiliar no desenvolvimento do projeto. Mas como fazer isso?
 
 O primeiro passo é entrar em seu repositório e clicar na aba **Settings** e ir na subcategoria **Manage access** e clicar em **Invite collaborators**.
 
