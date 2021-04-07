@@ -61,8 +61,7 @@ Agora que você já sabe como criar um projeto no GitHub, é também importante 
 
 O primeiro passo é entrar em seu repositório e clicar na aba **Settings** e ir na subcategoria **Manage access** e clicar em **Invite collaborators**.
 
-![Inviting collabs](../assets/gif/GitHub/invitingnewcollabs.gif)
-
+![Inviting collabs](../assets/gif/GitHub/invitingcollabs.gif)
 Daí, é só digitar os emails/nomes de usuário dos seus colegas de grupo.
 
 ![Inviting collabs by user](../assets/img/GitHub/invitemyself.png)
@@ -89,4 +88,42 @@ E depois do aplicativo ter sido instalado, você irá ter a seguinte tela:
 
 ## Configurando um repositório no GitHub Desktop
 
+A partir dessa tela inicial, clique em **Clone a repository from internet** e, dentre os projetos, escolha o que você faz parte.
 
+![Cloning in GitHub Desktop](../assets/gif/GitHub/clonningrepo.gif)
+
+Agora você terá a seguinte tela:
+
+![Cloned repository in GitHub Desktop](../assets/img/GitHub/clonedrepo.png)
+
+Com isso, faça as mudanças necessárias com seu editor de código preferido. Após feitas, as mudanças aparecerão nessa tela da seguinte forma:
+
+![Uncommited changes](../assets/img/GitHub/uncommitedchanges.png)
+
+Para publicar suas mudanças no repositório é necessário ir na barra no lado inferior esquerdo e clicar em **Commit to main**.
+
+![Commiting changes](../assets/gif/GitHub/addtest.gif)
+
+Na primeira mudança, você deverá publicar sua *branch*.
+
+![Publishing branch](../assets/gif/GitHub/publishbranch.gif)
+
+Porém, nas outras mudanças você deverá apenas fazer um *push* para que elas estejam disponíveis a todos no repositório.
+
+![Publishing branch](../assets/gif/GitHub/pushtoorigin.gif)
+
+Pronto! Agora é só fazer suas mudanças e publicá-las em seu projeto.
+
+## **Importante**
+
+Como isso se trata de um projeto em grupo, os outros integrantes também estarão fazendo mudanças no repositório. Para evitar problemas, sempre que um colega fizer mudanças, vá até a página inicial e clique em **Fetch Origin**.
+
+![Fetch origin](../assets/img/GitHub/fetchorigin.png)
+
+Caso houverem mudanças, clique em **Pull from origin**.
+
+![Pull from origin](../assets/gif/GitHub/pullfromorigin.gif)
+
+___
+
+É importante lembrar que o GitHub não é um método a prova de falhas e problemas poderão acontecer. Caso houver qualquer dúvida durante a utilização dele, não hesite em perguntar para os monitores!
