@@ -51,11 +51,42 @@ Se estiver tudo certo, você deve acabar numa página similar a essa:
 
 ![New repository created](../assets/img/GitHub/repositorycompleted.png)
 
-e, caso você vá para a página inciial, seu repositório estará disponível na barra ao lado:
+e, caso você vá para a página inicial, seu repositório estará disponível na barra ao lado:
 
 ![Checking new repository](../assets/gif/GitHub/newRepositorycreated.gif)
 
+## Adicionando colaboradores ao repositório
+
+Agora que você já sabe como criar um projeto no GitHub, é também importante entender como ele irá ser útil para tornar os trabalhos em grupos mais simples. O GitHub permite que o usuário adicione colaboradores no seu proejto, permitindo assim, que um integrante do grupo adicione todos os outros integrantes para que todos possam auxiliar no desenvolvimento do projeto. mas como fazer isso?
+
+O primeiro passo é entrar em seu repositório e clicar na aba **Settings** e ir na subcategoria **Manage access** e clicar em **Invite collaborators**.
+
+![Inviting collabs](../assets/gif/GitHub/invitingnewcollabs.gif)
+
+Daí, é só digitar os emails/nomes de usuário dos seus colegas de grupo.
+
+![Inviting collabs by user](../assets/img/GitHub/invitemyself.png)
+
+Após esse primeiro passo, é possível adicionar mais colaboradores futuramente ao clicar em **Invite a collaborator**
+
+![Inviting collabs by user](../assets/img/GitHub/inviteothers.png)
 ___
-Agora, vamos deixar isso um pouco de lado e entender como iremos gerenciar nossos projetos por meio dessa plataforma.
+Agora, vamos deixar isso um pouco de lado e entender como iremos mexer nos nossos projetos por meio dessa plataforma. Para isso, vamos instalar a ferramenta **GitHub Desktop**, que permite que você use o Git sem a necessidade de saber linhas de comando.
+
+## Instalando o GitHub Desktop
+
+Para instalar o GitHub Desktop é preciso fazer o *download* da aplicação por meio [**deste link**](https://desktop.github.com/).
+
+![Download GitHub Desktop](../assets/gif/GitHub/download.gif)
+
+Após fazer o *download*, é só executar a aplicação e após a instalação ela abrirá automaticamente. Durante a instalação, não é necessário fazer nada, e você provavelmente se deparará com a seguinte tela:
+
+![Installing GitHub Desktop](../assets/img/GitHub/installing.png)
+
+E depois do aplicativo ter sido instalado, você irá ter a seguinte tela:
+
+![Starting GitHub Desktop](../assets/img/GitHub/startgd.png)
+
+## Configurando um repositório no GitHub Desktop
 
 
