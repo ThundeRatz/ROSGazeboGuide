@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Docker for Mac
+title: Docker para Mac
 parent: Guias de Instalação
 nav_order: 6
 ---
@@ -25,7 +25,7 @@ Neste tutorial, iremos ensinar como instalar o Docker Desktop no Mac. Mas antes 
 
 Para usar o Docker Desktop, o macOS deve estar na **versão 10.14 ou mais recente**, ou seja: Mojave, Catalina ou Big Sur.
 
-Além disso, é necessário ter pelo menos 4GB de RAM e o VirtualBox anterior à versão 4.3.30 não deve ser instalado, pois não é compatível com Docker Desktop.
+Além disso, é necessário ter pelo menos 4GB de RAM.
 
 ## **Pré-requisitos**
 
@@ -57,7 +57,7 @@ Depois, o Docker pedirá acesso. Clique em "OK" e insira sua senha do Mac para p
 
 <img src="../assets/img/Docker/docker-mac-instalation/password.png" alt="password" height="184" width="402">
 
-**Pronto!** Se tudo estiver certo, abrirá a página inicial do Docker! (sons de aplauso)
+**Pronto!** Se tudo estiver certo, abrirá a página inicial do Docker! (sons de aplauso).
 
 <img src="../assets/img/Docker/docker-mac-instalation/start-screen.png" alt="start-screen" height="398" width="632">
 
@@ -85,7 +85,7 @@ docker run hello-world
 ```
 <img src="../assets/img/Docker/docker-mac-instalation/hello-world.png" alt="hello-world" height="337" width="583">
 
-Se o output for que nem o de cima, está tudo **correto**! (mais sons de aplauso) 
+Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso) 
 
 ## **Observações Finais**
 
@@ -97,4 +97,4 @@ Para entrar no Docker Desktop das próximas vezes, basta buscar na lupa ou no La
 
 ## **Para saber mais**
 
-Sugiro dar uma lida no **[Manual do Usuário](https://docs.docker.com/docker-for-mac/)** e deixo aqui também a **[referência](https://docs.docker.com/docker-for-mac/install/)** deste tutorial.
+Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-mac/)** e também o **[tutorial oficial do docker](https://docs.docker.com/docker-for-mac/install/)**. 
