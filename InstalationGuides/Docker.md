@@ -104,6 +104,8 @@ Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso
 
 ## **Observações Finais**
 
+Agora que você já instalou tudo direitinho, vamos te ensinar a abrir e alguns atalhos que devem estar presentes no seu computador.
+
 Você deve ter um atalho do Docker Desktop na sua área de trabalho:
 
 ![docker-shortcut](../assets/img/Docker/docker-desktop-instalation/docker-shortcut.png)
