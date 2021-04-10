@@ -14,7 +14,7 @@ Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, a ferramenta de si
 
 ## O que são ferramentas de simulação
 
-Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, as ferramentas de simulação tornam essa tarefa possível: elas permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
+Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, as ferramentas de simulação tornam essa tarefa possível: elas permitem que você adicione constantes que controlam as condições do ambiente e fazem os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
 
 ![Logo do Gazebo](../assets/gif/gazebo/gravityexample.gif)
 
@@ -36,7 +36,7 @@ O Gazebo é um simulador que tem como principais ferramentas:
 - Uma variedade de *plugins*;
 - Modelos de robôs pré-prontos;
 - A capacidade de executar o Gazebo em servidores remotos;
-- Simulação em núvem, utilizando ferramentas como o *AWS Robotics* e o *Gzweb*;
+- Simulação em nuvem, utilizando ferramentas como o *AWS Robotics* e o *Gzweb*;
 - Ferramentas de linha de comando.
 
 ## Componentes básicos do Gazebo
@@ -61,7 +61,7 @@ Como citado acima, para gerar a aparência do carrinho e da pista são necessár
 
 ### Arquivos *launch*
 
-Os arquivos de *launch* são quem vai juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho.
+Os arquivos de *launch* vão juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho.
 
 ## Abrindo uma simulação no Gazebo
 
