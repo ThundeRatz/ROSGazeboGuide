@@ -7,33 +7,33 @@ nav_order: 1
 
 # O que é o Gazebo?
 
-Até agora você ouviu sobre o que é e por que usar a ferramenta ROS. Durante essas leituras, você deve ter ouvido falar de "ferramentas de simulação" que são utilizadas em conjunto com o ROS. Porém, que ferramentas são essas?
-Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, a ferramenta de simulação incorporada ao ROS que será utilizada durante as próximas aulas.
+Até agora você ouviu sobre o que é e por que usar a ferramenta ROS. Durante essas leituras, você deve ter ouvido falar de "simuladores" que são utilizadas em conjunto com o ROS. Porém, o que é um simulador?
+Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, o simulador incorporado ao ROS que será utilizada durante as próximas aulas.
 
 ![Logo do Gazebo](../assets/img/gazebo/gazebologo.png)
 
-## O que são ferramentas de simulação
+## O que são simuladores
 
-Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, as ferramentas de simulação tornam essa tarefa possível: elas permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
+Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, os simuladores tornam essa tarefa possível: eles permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
 
 ![Logo do Gazebo](../assets/gif/gazebo/gravityexample.gif)
 
-Além disso, os simuladores suportam mais de uma dúzia de sensores, como câmeras coloridas e de profundidade, IMU e GPS, que permitem que seu projeto interaja com o ambiente.
+Além disso, os simuladores suportam diversos sensores, como câmeras coloridas e de profundidade, IMU e GPS, que permitem que seu projeto interaja com o ambiente.
 
 ![Logo do Gazebo](../assets/img/gazebo/sensorexample.png)
 
-Com todas essas funcionalidades que as ferramentas de simulação proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real.
+Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados são geralmente tem uma acurácia boa em comparação a modelos analíticos, e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
 
-## O Gazebo como ambiente de simulação
+## O Gazebo
 
-Ao utilizar o ROS para projetar robôs, também é possível utilizar ferramentas de simulação que estão integradas a esse sistema. Uma dessas ferramentas é o Gazebo, que será utilizado e aprofundado durante o andamento deste curso.
+Ao utilizar o ROS para projetar robôs, também é possível utilizar simuladores que estão integradas a esse sistema. Uma dessas ferramentas é o Gazebo, que será utilizado e aprofundado durante o andamento deste curso.
 
 O Gazebo é um simulador que tem como principais ferramentas:
 
 - A capacidade de criar simulações dinâmicas;
 - Gráficos 3D avançados;
 - Sensores com ruído;
-- Uma variedade de *plugins*;
+- Uma variedade de *plugins* (para ver mais sobre o que são plugins, [clique aqui](http://gazebosim.org/tutorials?tut=ros_gzplugins));
 - Modelos de robôs pré-prontos;
 - A capacidade de executar o Gazebo em servidores remotos;
 - Simulação em núvem, utilizando ferramentas como o *AWS Robotics* e o *Gzweb*;
@@ -45,7 +45,7 @@ As simulações feitas em Gazebo necessitam de alguns componentes para que possa
 
 ### Arquivos de mundo
 
-Um dos componentes mais vitais de uma simualação é o ambiente de testes. Os **arquivos de mundo** são escritos em [**XML**](https://www.w3schools.com/xml/) e contém as informações do ambiente de testes, como o modelo do mundo e o tipo de vista que a câmera nos proporcionará.
+Um dos componentes mais vitais de uma simulação é o ambiente de testes. Os **arquivos de mundo** são escritos em [**XML**](https://www.w3schools.com/xml/) e contém as informações do ambiente de testes, como o modelo do mundo e o tipo de vista que a câmera nos proporcionará.
 
 No projeto desenvolvido neste curso, o **modelo do mundo** é a pista com linhas curvas.
 
@@ -53,15 +53,17 @@ No projeto desenvolvido neste curso, o **modelo do mundo** é a pista com linhas
 
 ### Arquivos URDF
 
-Os arquivos URDF são responsáveis por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
+Os arquivos de *Universal Robot Description Format*, ou formato de descrição universal de robô, é um tipo de arquivo responsavel por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
+
+Para mais informações sobre como funcionam os arquivos URDF, sugiro dar uma olhada na documentação oficial do ROS disponível [**nesse link**](http://wiki.ros.org/urdf).
 
 ### Arquivos de modelo
 
-Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas.
+Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas. Esses arquivos seguem o formado SDFormat - *Simulation Description Format*, que tem uma documentação disponível [**neste link**](http://sdformat.org/). Para saber mais sobre a implementação de arquivos de modelo, sugiro ver a documentação disponível [**neste link**](http://gazebosim.org/tutorials?tut=model_structure).
 
 ### Arquivos *launch*
 
-Os arquivos de *launch* são quem vai juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho.
+Os arquivos de *launch* são quem vai juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho. Para saber mais sobre arquivos de *launch*, sugiro dar uma olhada [**nesse link**](http://wiki.ros.org/roslaunch/XML).
 
 ## Abrindo uma simulação no Gazebo
 
@@ -70,7 +72,7 @@ Como dito anteriormente, quem junta tudo em um lugar só é o arquivo de *launch
 
 O comando utilizado para abrir uma simulação é:
 
-```
+``` ROS
 roslaunch modelo_carrinho gazebo.launch
 ```
 
