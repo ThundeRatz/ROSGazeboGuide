@@ -5,7 +5,6 @@ parent: Guias de Instalação
 nav_order: 5
 ---
 
-
 Durante as atividades que serão exercidas neste projeto é necessário utilizar métodos que facilitem a interação entre o grupo. Dado a situação de educação à distância, a comunicação e o desenvolvimento do projeto podem ficar confusos. Por isso, iremos apresentar nessa seção uma ferramenta que pode auxiliar o grupo com esses problemas: o GitHub.
 
 Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas de Git disponibilizadas pela equipe ThundeRatz no YouTube. As duas aulinhas são curtas e tem cerca de 13 minutos cada, e estão disponíveis nos seguintes links:
@@ -14,6 +13,16 @@ Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas 
 - [Aula de Git e GitHub - Parte prática](https://www.youtube.com/watch?v=jFiit3u-uKY)
 
 Este texto terá uma abordagem bem mais prática, focada na ferramenta **GitHub Desktop**.
+
+## **Índice**<!-- omit in toc -->
+
+- [**Criando uma conta no GitHub**](#Criando-uma-conta-no-GitHub)
+- [**Criando um projeto no GitHub**](#Criando-um-projeto-no-GitHub)
+- [**Adicionando colaboradores ao repositório**](#Adicionando-colaboradores-ao-repositório)
+- [**Instalando o GitHub Desktop**](#Instalando-o-GitHub-Desktop)
+- [**Configurando um repositório no GitHub Desktop**](#Configurando-um-repositório-no-GitHub-Desktop)
+- [**Aviso importante**](#Aviso-importante)
+
 
 # Utilizando o GitHub e o GitHub Desktop
 
@@ -116,7 +125,7 @@ Porém, nas outras mudanças você deverá apenas fazer um *push* para que elas 
 
 Pronto! Agora é só fazer suas mudanças e publicá-las em seu projeto.
 
-## **Importante**
+## **Aviso importante**
 
 Como isso se trata de um projeto em grupo, os outros integrantes também estarão fazendo mudanças no repositório. Para evitar problemas, sempre que um colega fizer mudanças, vá até a página inicial e clique em **Fetch Origin**.
 
