@@ -36,7 +36,7 @@ O Gazebo é um simulador que tem como principais ferramentas:
 - Uma variedade de *plugins* (para ver mais sobre o que são plugins, [clique aqui](http://gazebosim.org/tutorials?tut=ros_gzplugins));
 - Modelos de robôs pré-prontos;
 - A capacidade de executar o Gazebo em servidores remotos;
-- Simulação em núvem, utilizando ferramentas como o *AWS Robotics* e o *Gzweb*;
+- Simulação em nuvem, utilizando ferramentas como o *AWS Robotics* e o *Gzweb*;
 - Ferramentas de linha de comando.
 
 ## Componentes básicos do Gazebo
@@ -63,7 +63,7 @@ Como citado acima, para gerar a aparência do carrinho e da pista são necessár
 
 ### Arquivos *launch*
 
-Os arquivos de *launch* são quem vai juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho. Para saber mais sobre arquivos de *launch*, sugiro dar uma olhada [**nesse link**](http://wiki.ros.org/roslaunch/XML).
+Os arquivos de *launch* vão juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho. Para saber mais sobre arquivos de *launch*, sugiro dar uma olhada [**nesse link**](http://wiki.ros.org/roslaunch/XML).
 
 ## Abrindo uma simulação no Gazebo
 
