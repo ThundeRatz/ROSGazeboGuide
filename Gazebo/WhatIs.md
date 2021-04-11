@@ -7,8 +7,8 @@ nav_order: 1
 
 # O que é o Gazebo?
 
-Até agora você ouviu sobre o que é e por que usar a ferramenta ROS. Durante essas leituras, você deve ter ouvido falar de "simuladores" que são utilizadas em conjunto com o ROS. Porém, o que é um simulador?
-Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, o simulador incorporado ao ROS que será utilizada durante as próximas aulas.
+Até agora você ouviu sobre o que é e por que usar a ferramenta ROS. Durante essas leituras, você deve ter ouvido falar de "simuladores" que são utilizados em conjunto com o ROS. Porém, o que é um simulador?
+Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, o simulador incorporado ao ROS que será utilizado durante as próximas aulas.
 
 ![Logo do Gazebo](../assets/img/gazebo/gazebologo.png)
 
@@ -22,11 +22,11 @@ Além disso, os simuladores suportam diversos sensores, como câmeras coloridas 
 
 ![Logo do Gazebo](../assets/img/gazebo/sensorexample.png)
 
-Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados são geralmente tem uma acurácia boa em comparação a modelos analíticos, e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
+Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados geralmente tem uma acurácia boa em comparação a modelos analíticos, e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
 
 ## O Gazebo
 
-Ao utilizar o ROS para projetar robôs, também é possível utilizar simuladores que estão integradas a esse sistema. Uma dessas ferramentas é o Gazebo, que será utilizado e aprofundado durante o andamento deste curso.
+Ao utilizar o ROS para projetar robôs, também é possível utilizar simuladores que estão integrados a esse sistema. Uma dessas ferramentas é o Gazebo, que será utilizado e aprofundado durante o andamento deste curso.
 
 O Gazebo é um simulador que tem como principais ferramentas:
 
@@ -53,13 +53,13 @@ No projeto desenvolvido neste curso, o **modelo do mundo** é a pista com linhas
 
 ### Arquivos URDF
 
-Os arquivos de *Universal Robot Description Format*, ou formato de descrição universal de robô, é um tipo de arquivo responsavel por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
+Os arquivos de *Universal Robot Description Format*, ou formato de descrição universal de robô, é um tipo de arquivo responsável por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
 
 Para mais informações sobre como funcionam os arquivos URDF, sugiro dar uma olhada na documentação oficial do ROS disponível [**nesse link**](http://wiki.ros.org/urdf).
 
 ### Arquivos de modelo
 
-Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas. Esses arquivos seguem o formado SDFormat - *Simulation Description Format*, que tem uma documentação disponível [**neste link**](http://sdformat.org/). Para saber mais sobre a implementação de arquivos de modelo, sugiro ver a documentação disponível [**neste link**](http://gazebosim.org/tutorials?tut=model_structure).
+Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas. Esses arquivos seguem o formato SDFormat - *Simulation Description Format*, que tem uma documentação disponível [**neste link**](http://sdformat.org/). Para saber mais sobre a implementação de arquivos de modelo, sugiro ver a documentação disponível [**neste link**](http://gazebosim.org/tutorials?tut=model_structure).
 
 ### Arquivos *launch*
 
@@ -80,7 +80,7 @@ Vamos entender cada comando?
 
 - O *roslaunch*:
 
-Ele é o comando responsavel por executar os arquivos de *launch*. Sua principal função é ser uma ferramenta que inicia e pausa os *nodes* do ROS.
+Ele é o comando responsável por executar os arquivos de *launch*. Sua principal função é ser uma ferramenta que inicia e pausa os *nodes* do ROS.
 
 - *modelo_carrinho*:
 
