@@ -10,17 +10,17 @@ nav_order: 1
 Até agora você ouviu sobre o que é e por que usar a ferramenta ROS. Durante essas leituras, você deve ter ouvido falar de "simuladores" que são utilizados em conjunto com o ROS. Porém, o que é um simulador?
 Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, o simulador incorporado ao ROS que será utilizado durante as próximas aulas.
 
-![Logo do Gazebo](../assets/img/gazebo/gazebologo.png)
+![Logo do Gazebo](../assets/img/gazebo/gazebologo.png){: .d-block .mx-auto}
 
 ## O que são simuladores
 
 Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, os simuladores tornam essa tarefa possível: eles permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
 
-![Logo do Gazebo](../assets/gif/gazebo/gravityexample.gif)
+![Logo do Gazebo](../assets/gif/gazebo/gravityexample.gif){: .d-block .mx-auto}
 
 Além disso, os simuladores suportam diversos sensores, como câmeras coloridas e de profundidade, IMU e GPS, que permitem que seu projeto interaja com o ambiente.
 
-![Logo do Gazebo](../assets/img/gazebo/sensorexample.png)
+![Logo do Gazebo](../assets/img/gazebo/sensorexample.png){: .d-block .mx-auto}
 
 Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados geralmente tem uma acurácia boa em comparação a modelos analíticos, e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
 
@@ -49,7 +49,7 @@ Um dos componentes mais vitais de uma simulação é o ambiente de testes. Os **
 
 No projeto desenvolvido neste curso, o **modelo do mundo** é a pista com linhas curvas.
 
-![Pista](../assets/img/gazebo/pista.png)
+![Pista](../assets/img/gazebo/pista.png){: .d-block .mx-auto}
 
 ### Arquivos URDF
 
