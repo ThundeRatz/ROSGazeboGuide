@@ -8,7 +8,7 @@ nav_order: 5
 
 Durante as atividades que serão exercidas neste projeto é necessário utilizar métodos que facilitem a interação entre o grupo. Dado a situação de educação à distância, a comunicação e o desenvolvimento do projeto podem ficar confusos. Por isso, iremos apresentar nessa seção uma ferramenta que pode auxiliar o grupo com esses problemas: o GitHub.
 
-Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas de Git disponibilizadas pela equipe Thunderatz no Youtube. As duas aulinhas são curtas e tem cerca de 13 minutos cada, e estão disponíveis nos seguintes links:
+Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas de Git disponibilizadas pela equipe ThundeRatz no YouTube. As duas aulinhas são curtas e tem cerca de 13 minutos cada, e estão disponíveis nos seguintes links:
 
 - [Aula de Git e GitHub - Parte conceitual](https://www.youtube.com/watch?v=nb8BoPCD5h4)
 - [Aula de Git e GitHub - Parte prática](https://www.youtube.com/watch?v=jFiit3u-uKY)
