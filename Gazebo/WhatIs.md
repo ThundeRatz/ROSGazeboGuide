@@ -53,7 +53,7 @@ No projeto desenvolvido neste curso, o **modelo do mundo** é a pista com linhas
 
 ### Arquivos URDF
 
-Os arquivos de *Universal Robot Description Format*, ou formato de descrição universal de robô, é um tipo de arquivo responsável por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
+O *Universal Robot Description Format*, ou formato de descrição universal de robô, é um tipo de arquivo responsável por processar o modelo do robô, juntando em seus arquivos características como os modelos, as juntas, as formas e as características físicas do robô. Estes arquivos também são escritos em *XML*.
 
 Para mais informações sobre como funcionam os arquivos URDF, sugiro dar uma olhada na documentação oficial do ROS disponível [**nesse link**](http://wiki.ros.org/urdf).
 
@@ -63,7 +63,7 @@ Como citado acima, para gerar a aparência do carrinho e da pista são necessár
 
 ### Arquivos *launch*
 
-Os arquivos de *launch* vão juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho e da pista e os controles necessários para mover o carrinho. Para saber mais sobre arquivos de *launch*, sugiro dar uma olhada [**nesse link**](http://wiki.ros.org/roslaunch/XML).
+Os arquivos de *launch* vão juntar tudo acima em apenas um arquivo para que sejamos capazes de abrir a simulação. Dentro do arquivo de *launch*, implementamos os *nodes*, o modelo do carrinho, da pista e os controles necessários para mover o carrinho. Para saber mais sobre arquivos de *launch*, sugiro dar uma olhada [**nesse link**](http://wiki.ros.org/roslaunch/XML).
 
 ## Abrindo uma simulação no Gazebo
 
@@ -76,7 +76,7 @@ O comando utilizado para abrir uma simulação é:
 roslaunch modelo_carrinho gazebo.launch
 ```
 
-Vamos entender cada comando?
+Vamos entender cada parte do comando?
 
 - O *roslaunch*:
 
@@ -84,11 +84,11 @@ Ele é o comando responsável por executar os arquivos de *launch*. Sua principa
 
 - *modelo_carrinho*:
 
-Aqui, você está se referindo ao nome do pacote. Você pode ler mais sobre pacotes [**neste link**](http://wiki.ros.org/Packages). Em resumo, um software do ROS é organizado em pacotes, e cada pacote contém *nodes*, livrarias e softwares externos.
+Aqui, você está se referindo ao nome do pacote. Falamos um pouco sobre pacotes no no guida de instalação do ROS e você pode ler mais sobre pacotes no contexto de ROS [**neste link**](http://wiki.ros.org/Packages). Em resumo, um software do ROS é organizado em pacotes, e cada pacote contém *nodes*, livrarias e softwares externos.
 
 - *gazebo.launch*:
 
-Aqui, você está se referenciando ao arquivo de *launch* que irá gerar o mundo.
+Aqui, você está se referindo ao arquivo de *launch* que irá gerar o mundo.
 
 ___
 
