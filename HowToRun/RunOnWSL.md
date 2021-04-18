@@ -11,7 +11,7 @@ nav_order: 1
 
 Olá alunos!
 
-Agora que vocês tem WSL, ROS, Gazebo e X Server devidamente instalado nos seus computadores chegamos a parte mais legal de todas, rodar o projeto! Para isso precisamos fazer uma pasta para conter os devidos arquivos. Primeiramente, certifique-se que seu servidor de X Server está rodando. Caso contrário, não teremos a janela do Gazebo aparecendo na nossa tela. Tudo certo? Então abra seu WSL e rode os seguintes comandos para criar o diretório do projeto e entrar nele.
+Agora que vocês tem WSL, ROS, Gazebo e X Server devidamente instalado nos seus computadores chegamos a parte mais legal de todas, rodar o projeto! Para isso precisamos fazer uma pasta para conter os devidos arquivos. Primeiramente, certifique-se que seu servidor de display (X Server) está rodando. Caso contrário, não teremos a janela do Gazebo aparecendo na nossa tela. Tudo certo? Então abra seu WSL e rode os seguintes comandos para criar o diretório do projeto e entrar nele.
 
 ```bash
 mkdir -p ~/PMR3100/src
@@ -24,13 +24,13 @@ Esse primeiro comando cria a pasta ```PMR3100``` e dentro dela cria também a pa
 
 Caso você tenha percebido, temos uma pasta com um nome mais genérico dentro de uma com o código da disciplina. É nessa pasta genérica onde os arquivos do projeto ficarão, enquanto que vamos usar o diretório da disciplina para conter os arquivos de construção. Pode soar meio confuso mas eventualmente, durante o restante do tutorial, tudo vai ficar mais simples. 
 
-Agora que temos as pastas precisamos dos arquivos. Certifique-se que você se encontra no ```src``` e rode o seguinte comando:
+Agora que temos as pastas, precisamos dos arquivos. Certifique-se que você se encontra no ```src``` e rode o seguinte comando:
 
 ```bash
 explorer.exe .
 ```
 
-Isto vai abrir uma janela do explorador de arquivos do Windows dentro da pasta ```src```. Aqui, vamos colocar uma pasta com os arquivos do projeto. Essa pasta deve ser beixada como zip no [repositório do projeto](https://github.com/ThundeRatz/gazebo_modelo_carrinho). Abra a página, encontre o botão verde escrito **Code** e selecione a opção **Download ZIP**.
+Isto vai abrir uma janela do explorador de arquivos do Windows dentro da pasta ```src```. Aqui, vamos colocar uma pasta com os arquivos do projeto. Essa pasta deve ser baixada como zip no [repositório do projeto](https://github.com/ThundeRatz/gazebo_modelo_carrinho). Abra a página, encontre o botão verde escrito **Code** e selecione a opção **Download ZIP**.
 
 ![Dowloading Repo](../assets/img/Run_WSL/GitHub_Download.png)
 
@@ -38,13 +38,13 @@ Com o ZIP em mãos, abra ele e transfira a pasta ```gazebo_modelo_carrinho-main`
 
 ![Transfering Repo](../assets/img/Run_WSL/Transfering_Repo.png)
 
-Agora que você tem os arquivos chegamos em uma parte que pode dar problema, instalar ainda mais recursos. O projeto em si tem algumas dependências especificas que ainda não se encontram no seu computador. Para baixar elas, rode o comando a seguir:
+Agora que você tem os arquivos, chegamos em uma parte que pode dar problema, instalar ainda mais recursos. O projeto em si tem algumas dependências especificas que ainda não se encontram no seu computador. Para baixar elas, rode o comando a seguir:
 
 ```bash
 sudo apt install ros-noetic-velocity-controllers python-pygame
 ```
 
-Para rodar o comando você vai ter que fornecer a seu senha já que faz uso do ```sudo```. 
+Para rodar o comando você vai ter que fornecer a sua senha já que faz uso do ```sudo```. 
 
 ![Installing Dependencies](../assets/gif/Run_WSL/Installing_Dependencies.gif)
 
@@ -62,7 +62,7 @@ catkin_make
 
 ![Running catkin_make](../assets/gif/Run_WSL/Running_catkin_make.gif)
 
-O que isso vai fazer é construir o ambiente do projeto, usando como base aquilo que você baixou do **GitHub**. Deve demorar um pouquinho mas não se assuste. Apenas fique na paz e no aguardo. Assim que terminar rode o comando a seguir:
+O que isso vai fazer é construir o ambiente do projeto, usando como base aquilo que você baixou do **GitHub**. Deve demorar um pouquinho, mas não se assuste. Apenas fique na paz e no aguardo. Assim que terminar, rode o comando a seguir:
 
 ```bash
 source devel/setup.bash
