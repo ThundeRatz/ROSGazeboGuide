@@ -7,7 +7,7 @@ nav_order: 5
 
 # **Como instalar o Docker no Windows 10**
 
-![Docker Desktop Logo](../assets/img/Docker/docker-desktop-instalation/docker-desk-banner1.png)
+![Docker Desktop Logo](../assets/img/Docker/docker-desktop-instalation/docker-desk-banner1.png){: .d-block .mx-auto}
 
 ## **Índice**<!-- omit in toc -->
 
@@ -35,17 +35,17 @@ Ok...mas como eu verifico qual versão do Windows estou?
 
 Para saber basta ir na barra de pesquisar e escrever “winver”, ali mostrará a versão do Windows que você se encontra!
 
-![winver](../assets/img/Docker/docker-desktop-instalation/winver.png)
+![winver](../assets/img/Docker/docker-desktop-instalation/winver.png){: .d-block .mx-auto}
 
-![version-checkup](../assets/img/Docker/docker-desktop-instalation/version-checkup.png)
+![version-checkup](../assets/img/Docker/docker-desktop-instalation/version-checkup.png){: .d-block .mx-auto}
 
 Além disso, temos que verificar se a “Virtualização” está habilitada, para isso pesquise na barra de pesquisa: “Gerenciador de Tarefas” ou “Task Manager” e abra a aplicação:
 
-![task-manager](../assets/img/Docker/docker-desktop-instalation/task-manager.png)
+![task-manager](../assets/img/Docker/docker-desktop-instalation/task-manager.png){: .d-block .mx-auto}
 
 Ao abrir o Gerenciador de Tarefas, vá até a aba de "Desempenho" e verifique se a "Virtualização" está habilitada, como mostra a figura abaixo. Se não conseguir visualizar a aba de desempenho, clique no “Mais Detalhes” no canto inferior esquerdo.
 
-![virtualization](../assets/img/Docker/docker-desktop-instalation/virtualization.png)
+![virtualization](../assets/img/Docker/docker-desktop-instalation/virtualization.png){: .d-block .mx-auto}
 
 Se estiver habilitado podemos prosseguir com a instalação do Docker Desktop Installer, caso contrário recomendo seguir os passos no **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. ~~Acho que já deu pra perceber que é bem importante que você atualize para o WSL2~~.
 
@@ -57,11 +57,11 @@ Feito o download, podemos executar o arquivo e prosseguir com a instalação pel
 
 Ao executar o arquivo, o Instalation Wizard abre:
 
-![instalation-wizard-1](../assets/img/Docker/docker-desktop-instalation/instalation-wizard-1.png)
+![instalation-wizard-1](../assets/img/Docker/docker-desktop-instalation/instalation-wizard-1.png){: .d-block .mx-auto}
 
 Pode deixar as duas caixinhas assinaladas e clicar em "Ok". Com isso a instalação do Docker Desktop é iniciada junto com suas dependências. Se tudo ocorrer bem, você se deparará com a seguinte tela:
 
-![instalation-wizard-2](../assets/img/Docker/docker-desktop-instalation/instalation-wizard-2.png)
+![instalation-wizard-2](../assets/img/Docker/docker-desktop-instalation/instalation-wizard-2.png){: .d-block .mx-auto}
 
 Com isso, será necessário reiniciar o sistema para completar a instalação. Para isso, é só clicar no botão azul "Close and restart", como mostra a figura acima. Então dê o restart aí e nos vemos daqui a pouco.
 
@@ -71,7 +71,7 @@ Com isso, será necessário reiniciar o sistema para completar a instalação. P
 
 Após a reinicialização, pode ocorrer o seguinte erro caso não tenha instalado completamente o WSL2:
 
-![wsl2-error](../assets/img/Docker/docker-desktop-instalation/wsl2-error.png)
+![wsl2-error](../assets/img/Docker/docker-desktop-instalation/wsl2-error.png){: .d-block .mx-auto}
 
 Se isso acontecer, é porque você não seguiu ainda o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
 
@@ -81,7 +81,7 @@ Agora vamos verificar se o Docker foi instalado corretamente!
 
 Para isso, abra o prompt de comando:
 
-![open-prompt](../assets/img/Docker/docker-desktop-instalation/open-prompt.png)
+![open-prompt](../assets/img/Docker/docker-desktop-instalation/open-prompt.png){: .d-block .mx-auto}
 
 Digite a seguinte linha e dê enter:
 
@@ -90,7 +90,7 @@ docker -v
 ```
 A versão instalada será mostrada, como na figura:
 
-![check-docker-desktop-version](../assets/img/Docker/docker-desktop-instalation/check-docker-desktop-version.png)
+![check-docker-desktop-version](../assets/img/Docker/docker-desktop-instalation/check-docker-desktop-version.png){: .d-block .mx-auto}
 
 Além disso, podemos testar se o Docker está funcionando corretamente com o Docker Hub, para testar isso digite no prompt de comando: 
 
@@ -98,7 +98,7 @@ Além disso, podemos testar se o Docker está funcionando corretamente com o Doc
 docker run hello-world
 ```
 
-![docker-hello](../assets/img/Docker/docker-desktop-instalation/docker-hello.png)
+![docker-hello](../assets/img/Docker/docker-desktop-instalation/docker-hello.png){: .d-block .mx-auto}
 
 Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso) 
 
@@ -108,19 +108,19 @@ Agora que você já instalou tudo direitinho, vamos te ensinar a abrir alguns at
 
 Você deve ter um atalho do Docker Desktop na sua área de trabalho:
 
-![docker-shortcut](../assets/img/Docker/docker-desktop-instalation/docker-shortcut.png)
+![docker-shortcut](../assets/img/Docker/docker-desktop-instalation/docker-shortcut.png){: .d-block .mx-auto}
 
 E ser for nos ícones encontrará o Docker Desktop ali também:
 
-![icons-docker](../assets/img/Docker/docker-desktop-instalation/icons-docker.png)
+![icons-docker](../assets/img/Docker/docker-desktop-instalation/icons-docker.png){: .d-block .mx-auto}
 
 Se passar o mouse por cima do ícone quando o Docker estiver ligado, aparecerá a seguinte mensagem:
 
-![icons-docker-running](../assets/img/Docker/docker-desktop-instalation/icons-docker-running.png)
+![icons-docker-running](../assets/img/Docker/docker-desktop-instalation/icons-docker-running.png){: .d-block .mx-auto}
 
 E ao clicar com o botão direito do mouse sobre o ícone, você terá acesso ao seguinte menu:
 
-![docker-menu](../assets/img/Docker/docker-desktop-instalation/docker-menu.png)
+![docker-menu](../assets/img/Docker/docker-desktop-instalation/docker-menu.png){: .d-block .mx-auto}
 
 Para entrar no Docker Desktop, basta clicar no atalho da área de trabalho ou duas vezes no ícone!
 

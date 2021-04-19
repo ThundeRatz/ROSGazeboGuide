@@ -7,14 +7,13 @@ nav_order: 6
 
 # **Como instalar o Docker no Mac**
 
-![Docker Desktop Logo](../assets/img/Docker/docker-desktop-instalation/docker-desk-banner1.png)
+![Docker Desktop Logo](../assets/img/Docker/docker-desktop-instalation/docker-desk-banner1.png){: .d-block .mx-auto}
 
 ## **Índice**<!-- omit in toc -->
 
 - [**Observações Iniciais**](#observações-iniciais)
 - [**Pré-requisitos**](#pré-requisitos)
 - [**Instalação do Docker Desktop**](#instalação-do-docker-desktop)
-- [**Possível erro**](#possível-erro)
 - [**Verificação**](#verificação)
 - [**Observações Finais**](#observações-finais)
 - [**Para saber mais**](#para-saber-mais)

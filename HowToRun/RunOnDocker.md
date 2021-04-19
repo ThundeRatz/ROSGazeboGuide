@@ -11,7 +11,7 @@ Além das opções previamente exploradas sobre como executar seus projetos com 
 
 Antes de tudo, verifique se o Docker está aberto. Para isso, abra o aplicativo do Docker no seu computador e veja se a seguinte tela está aparecendo:
 
-![Docker is running](../assets/img/Docker/dockerrunning.png)
+![Docker is running](../assets/img/Docker/dockerrunning.png){: .d-block .mx-auto}
 
 Caso esteja desse jeito, é só seguir o tutorial!
 
@@ -25,7 +25,7 @@ Após fazer o *download* deste arquivo, abra o **prompt de comando**/*command pr
 cd [caminho do arquivo]
 ```
 
-![GIF caminho do arquivo](../assets/gif/Docker/caminho_docker.gif)
+![GIF caminho do arquivo](../assets/gif/Docker/caminho_docker.gif){: .d-block .mx-auto}
 
 Após isso, execute o comando abaixo para iniciar o seu projeto no Docker.
 
@@ -33,7 +33,7 @@ Após isso, execute o comando abaixo para iniciar o seu projeto no Docker.
 docker-compose up
 ```
 
-![Iniciando o docker](../assets/gif/Docker/building.gif)
+![Iniciando o docker](../assets/gif/Docker/building.gif){: .d-block .mx-auto}
 
 Agora, para ver a simulação do seu projeto, basta abrir seu **navegador** e digitar na barra de URL:
 
@@ -43,7 +43,7 @@ http://localhost:8080/
 
 Pronto! A simulação do seu projeto foi executada com sucesso utilizando o Docker.
 
-![Simulação Docker](/assets/gif/Docker/finalgazebo_sim.gif)
+![Simulação Docker](/assets/gif/Docker/finalgazebo_sim.gif){: .d-block .mx-auto}
 
 Ao terminar, não esqueça de executar o comando:
 
