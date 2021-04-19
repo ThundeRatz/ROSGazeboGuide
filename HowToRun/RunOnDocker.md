@@ -27,20 +27,14 @@ cd [caminho do arquivo]
 
 ![GIF caminho do arquivo](../assets/gif/Docker/caminho_docker.gif)
 
-Após isso, execute o comando abaixo para construir a imagem do projeto na sua máquina.
+Após isso, execute o comando abaixo para iniciar o seu projeto no Docker.
 
 ```
-docker build -t dockercarrinhos .
+docker-compose up
 ```
 
-![GIF executando a imagem](../assets/gif/Docker/docker_building.gif)
-e quando este processo estiver completo, execute em seguida:
+![Iniciando o docker](../assets/gif/Docker/building.gif)
 
-```
-docker run -it -p 7681:7681 -p 8080:8080 dockercarrinhos
-```
-
-![GIF executando o container](../assets/gif/Docker/docker_running.gif)
 Agora, para ver a simulação do seu projeto, basta abrir seu **navegador** e digitar na barra de URL:
 
 ```
@@ -50,6 +44,12 @@ http://localhost:8080/
 Pronto! A simulação do seu projeto foi executada com sucesso utilizando o Docker.
 
 ![Simulação Docker](/assets/gif/Docker/finalgazebo_sim.gif)
+
+Ao terminar, não esqueça de executar o comando:
+
+```
+docker-compose down
+```
 
 ___
 
