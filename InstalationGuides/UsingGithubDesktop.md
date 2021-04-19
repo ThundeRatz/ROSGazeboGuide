@@ -33,6 +33,7 @@ O GitHub é um site que permite criar um projeto e adicionar diversos colaborado
 O primeiro passo a se fazer é se registrar no GitHub por meio [deste link](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 
 A seguinte tela irá aparecer. Nela, preencha as suas informações como mostrado no exemplo:
+
 ![Join in GitHub](../assets/gif/GitHub/join.gif){: .d-block .mx-auto}
 
 Após isso, uma tela de costumização irá aparecer. Preencha de acordo com os seus interesses.
