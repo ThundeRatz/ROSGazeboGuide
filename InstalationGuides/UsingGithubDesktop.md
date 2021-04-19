@@ -36,7 +36,7 @@ A seguinte tela irá aparecer. Nela, preencha as suas informações como mostrad
 
 ![Join in GitHub](../assets/gif/GitHub/join.gif){: .d-block .mx-auto}
 
-Após isso, uma tela de costumização irá aparecer. Preencha de acordo com os seus interesses.
+Após isso, uma tela de customização irá aparecer. Preencha de acordo com os seus interesses.
 
 ![Customize GitHub](../assets/gif/GitHub/customize.gif){: .d-block .mx-auto}
 
@@ -63,7 +63,7 @@ Se estiver tudo certo, você deve acabar numa página similar a essa:
 
 ![New repository created](../assets/img/GitHub/repositorycompleted.png){: .d-block .mx-auto}
 
-e, caso você vá para a página inicial, seu repositório estará disponível na barra ao lado:
+E, caso você vá para a página inicial, seu repositório estará disponível na barra ao lado:
 
 ![Checking new repository](../assets/gif/GitHub/newRepositorycreated.gif){: .d-block .mx-auto}
 
@@ -74,6 +74,7 @@ Agora que você já sabe como criar um projeto no GitHub, é também importante 
 O primeiro passo é entrar em seu repositório e clicar na aba **Settings** e ir na subcategoria **Manage access** e clicar em **Invite collaborators**.
 
 ![Inviting collabs](../assets/gif/GitHub/invitingcollabs.gif){: .d-block .mx-auto}
+
 Daí, é só digitar os emails/nomes de usuário dos seus colegas de grupo.
 
 ![Inviting collabs by user](../assets/img/GitHub/invitemyself.png){: .d-block .mx-auto}
@@ -82,7 +83,8 @@ Após esse primeiro passo, é possível adicionar mais colaboradores futuramente
 
 ![Inviting collabs by user](../assets/img/GitHub/inviteothers.png){: .d-block .mx-auto}
 ___
-Agora, vamos deixar isso um pouco de lado e entender como iremos mexer nos nossos projetos por meio dessa plataforma. Para isso, vamos instalar a ferramenta **GitHub Desktop**, que permite que você use o Git sem a necessidade de saber linhas de comando.
+
+Agora, vamos deixar isso um pouco de lado e entender como iremos mexer nos nossos projetos por meio dessa plataforma. Para isso, vamos instalar a ferramenta **GitHub Desktop**, que permite que você use o Git sem a necessidade de saber utilizar a linha de comando.
 
 ## Instalando o GitHub Desktop
 
@@ -132,7 +134,7 @@ Como isso se trata de um projeto em grupo, os outros integrantes também estarã
 
 ![Fetch origin](../assets/img/GitHub/fetchorigin.png){: .d-block .mx-auto}
 
-Caso houverem mudanças, clique em **Pull from origin**.
+Caso hajam mudanças, clique em **Pull from origin**.
 
 ![Pull from origin](../assets/gif/GitHub/pullfromorigin.gif){: .d-block .mx-auto}
 
