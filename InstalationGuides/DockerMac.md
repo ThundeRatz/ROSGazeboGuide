@@ -97,4 +97,4 @@ Para entrar no Docker Desktop das próximas vezes, basta buscar na lupa ou no La
 
 ## **Para saber mais**
 
-Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-mac/)** e também o **[tutorial oficial do docker](https://docs.docker.com/docker-for-mac/install/)**. 
+Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-mac/)** e também o **[guia de instalação oficial do docker](https://docs.docker.com/docker-for-mac/install/)**. 

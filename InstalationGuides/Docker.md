@@ -104,7 +104,7 @@ Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso
 
 ## **Observações Finais**
 
-Agora que você já instalou tudo direitinho, vamos te ensinar a abrir e alguns atalhos que devem estar presentes no seu computador.
+Agora que você já instalou tudo direitinho, vamos te ensinar a abrir alguns atalhos que devem estar presentes no seu computador.
 
 Você deve ter um atalho do Docker Desktop na sua área de trabalho:
 
@@ -126,4 +126,4 @@ Para entrar no Docker Desktop, basta clicar no atalho da área de trabalho ou du
 
 ## **Para saber mais**
 
-Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-windows/)** e também o **[tutorial oficial do docker](https://docs.docker.com/docker-for-windows/install/)**, que serviu de referência para este tutorial.
+Para mais informações vejam o **[Manual do Usuário](https://docs.docker.com/docker-for-windows/)** e também o **[guia de instalação oficial do docker](https://docs.docker.com/docker-for-windows/install/)**, que serviu de referência para este tutorial.
