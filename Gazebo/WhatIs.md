@@ -22,7 +22,7 @@ Além disso, os simuladores suportam diversos sensores, como câmeras coloridas 
 
 ![Logo do Gazebo](../assets/img/gazebo/sensorexample.png){: .d-block .mx-auto}
 
-Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados geralmente tem uma acurácia boa em comparação a modelos analíticos, e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
+Com todas essas funcionalidades que as simulações proporcionam, o projeto final terá um comportamento próximo do desejado quando for colocado no ambiente real. Além de saber isso sem precisar construí-lo de fato (manufaturar e etc.), os resultados geralmente tem uma acurácia boa em comparação a modelos analíticos (ou seja, que são modelados baseados em equações matemáticas de movimento), e ajudam a encontrar comportamentos inesperados do sistema, além de facilitar análise e diversos tipos de testes. Tudo isso ajuda na redução de custos também, o que é muito importante em qualquer projeto.
 
 ## O Gazebo
 
@@ -59,7 +59,7 @@ Para mais informações sobre como funcionam os arquivos URDF, sugiro dar uma ol
 
 ### Arquivos de modelo
 
-Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas. Esses arquivos seguem o formato SDFormat - *Simulation Description Format*, que tem uma documentação disponível [**neste link**](http://sdformat.org/). Para saber mais sobre a implementação de arquivos de modelo, sugiro ver a documentação disponível [**neste link**](http://gazebosim.org/tutorials?tut=model_structure).
+Como citado acima, para gerar a aparência do carrinho e da pista são necessários arquivos de modelo. Nesse contexto, eles serão responsáveis pela parte estática do modelo, enquanto as características descritas no URDF são editáveis. Esses arquivos são extremamente importantes para que tarefas como geração de mundos e de componentes do carrinhos sejam facilitadas. Eles seguem o formato SDFormat - *Simulation Description Format*, que tem uma documentação disponível [**neste link**](http://sdformat.org/). Para saber mais sobre a implementação de arquivos de modelo, sugiro ver a documentação disponível [**neste link**](http://gazebosim.org/tutorials?tut=model_structure).
 
 ### Arquivos *launch*
 
