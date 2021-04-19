@@ -14,7 +14,7 @@ Nesta seção, aprenderemos um pouco mais sobre o **Gazebo**, o simulador incorp
 
 ## O que são simuladores
 
-Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, os simuladores tornam essa tarefa possível: eles permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade puxando um carrinho até o chão, os contatos entre as rodas e a calçada e o torque aplicado nas rodas.
+Durante o desenvolvimento de projetos, é importante saber como ele irá se comportar em determinados ambientes. Neste contexto, os simuladores tornam essa tarefa possível: eles permitem que você adicione constantes que controlam as condições do ambiente e faz os cálculos de física necessários. Isso inclui comportamentos como a gravidade, os contatos entre as rodas e o chão e o torque aplicado nas rodas.
 
 ![Logo do Gazebo](../assets/gif/gazebo/gravityexample.gif){: .d-block .mx-auto}
 
@@ -84,11 +84,11 @@ Ele é o comando responsável por executar os arquivos de *launch*. Sua principa
 
 - *modelo_carrinho*:
 
-Aqui, você está se referindo ao nome do pacote. Falamos um pouco sobre pacotes no no guida de instalação do ROS e você pode ler mais sobre pacotes no contexto de ROS [**neste link**](http://wiki.ros.org/Packages). Em resumo, um software do ROS é organizado em pacotes, e cada pacote contém *nodes*, livrarias e softwares externos.
+Aqui, você está se referindo ao nome do pacote. Falamos um pouco sobre pacotes no guia de instalação do ROS e você pode ler mais sobre pacotes no contexto de ROS [**neste link**](http://wiki.ros.org/Packages). Em resumo, um software do ROS é organizado em pacotes, e cada pacote contém *nodes*, bibliotecas e softwares externos.
 
 - *gazebo.launch*:
 
-Aqui, você está se referindo ao arquivo de *launch* que irá gerar o mundo.
+Aqui, você está se referindo ao arquivo de *launch* que irá carregar o mundo.
 
 ___
 
