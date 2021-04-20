@@ -18,6 +18,7 @@ nav_order: 1
     - [**Topic**](#**Topic**)
     - [**Master**](#**Master**)
     - [**Esquema com os conceitos apresentados**](#Esquema-com-os-conceitos-apresentados)
+- [**Exemplo na prática**](#Exemplo-na-prática)
 - [**Referências**](#Referências)
 
 ## **O que é ROS?**
@@ -71,6 +72,14 @@ Para saber mais detalhadamente sobre o que são topics, dê uma olhada na Wiki o
 Núcleo do ambiente em ROS e sabe o que está acontecendo em todo o sistema. É responsável por inicializar o sistema e fornecer o registro de nomes e o serviço de pesquisa para os nodes. Além disso, ela também configura as conexões entre os nodes.
 
 ### **Esquema com os conceitos apresentados**
+
+Para melhor compreensão dos conceitos apresentados, o esquema abaixo mostra bem como acontece a comunicação no ROS.
+
+<img src="../assets/img/ROSGazebo/ros-concepts.png" alt="ros_concepts" height="278" width="667" style ="margin:auto; display:block">
+
+O node subscriber solicita uma topic message para o node publisher. Esse, por sua vez, envia a message pedida p o subscriber. Isso tudo acontece pois a Master configura a conexão entre os nodes.
+
+## **Exemplo na prática**
 
 <img src="../assets/img/ROSGazebo/ros-example.png" alt="ROS_example" height="655" width="925" style ="margin:auto; display:block">
 
