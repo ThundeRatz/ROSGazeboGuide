@@ -1,6 +1,6 @@
-remote_theme: "pmarsceill/just-the-docs"
+remote_theme: "ThundeRatz/just-the-docs"
 
-color_scheme: dark
+color_scheme: autodark
 
 logo: https://static.thunderatz.org/teamassets/logo-simples-sf-amarelo.png
 
