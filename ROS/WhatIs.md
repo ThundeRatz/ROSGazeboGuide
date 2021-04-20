@@ -58,13 +58,13 @@ Principal unidade de organização do software no ROS e é composto de um ou mai
 É a forma de comunicação entre os nodes. As messages possuem dados que fornecem informações para outros nodes. Um exemplo prático de *message* seria a leitura de um sensor de distância. Essas mensagens poderiam ser valores de distância, como 140 (cm), por exemplo. Dessa forma o sensor se comunica com os outros nodes.
 Para saber mais detalhadamente sobre o que são messages, dê uma olhada na Wiki oficial do ROS, disponível [**nesse link**](http://wiki.ros.org/msg).
 
-### **Tópico**
+### **Topic**
 
 Canal de comunicação entre nodes e identifica o conteúdo da message.
 
-Quando um node está enviando dados, dizemos que está publicando um tópico, ou seja, ele é o publisher. Já quando um node está recebendo dados, ele está assinando um tópico, ou seja, ele é o subscriber. Vale dizer que os tópicos podem ter vários subscribers, mas somente um publisher.
+Quando um node está enviando dados, dizemos que está publicando um topic, ou seja, ele é o publisher. Já quando um node está recebendo dados, ele está assinando um topic, ou seja, ele é o subscriber. Vale dizer que os topics podem ter vários subscribers, mas somente um publisher.
 
-Para saber mais detalhadamente sobre o que são tópicos, dê uma olhada na Wiki oficial do ROS, disponível [**nesse link**](http://wiki.ros.org/Topics).
+Para saber mais detalhadamente sobre o que são topics, dê uma olhada na Wiki oficial do ROS, disponível [**nesse link**](http://wiki.ros.org/Topics).
 
 ### **Master**
 
