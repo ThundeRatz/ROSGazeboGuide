@@ -55,7 +55,8 @@ Principal unidade de organização do software no ROS e é composto de um ou mai
 
 ### **Message**
 
-Forma de comunicação entre nodes. A message possui dados que fornecem informações para outros nodes. Para saber mais detalhadamente sobre o que são messages, dê uma olhada na Wiki oficial do ROS, disponível [**nesse link**](http://wiki.ros.org/msg).
+É a forma de comunicação entre os nodes. As messages possuem dados que fornecem informações para outros nodes. Um exemplo prático de *message* seria a leitura de um sensor de distância. Essas mensagens poderiam ser valores de distância, como 140 (cm), por exemplo. Dessa forma o sensor se comunica com os outros nodes.
+Para saber mais detalhadamente sobre o que são messages, dê uma olhada na Wiki oficial do ROS, disponível [**nesse link**](http://wiki.ros.org/msg).
 
 ### **Tópico**
 
