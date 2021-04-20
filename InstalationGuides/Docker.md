@@ -25,13 +25,11 @@ Neste tutorial, iremos ensinar como instalar o Docker Desktop no Windows 10. Mas
 
 Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não é recomendado utilizar o Docker Desktop, mas instalar o Docker dentro do WSL (ver tutorial aqui) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
 
-Assim sendo, para usar o Docker Desktop, é necessário estar no: Windows 10 64-bit: Pro, Enterprise, ou Education (Build 17134 ou superior) - para Windows 10 Home, uma das exigências do Docker é o WSL2. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)** e para mais informações veja os **[Requerimentos para WSL 2 backend](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)**.
-
 ## **Pré-requisitos**
 
-Como dito acima, é necessário estar em alguma das versões citadas do Windows 10. 
+Assim sendo, para usar o Docker Desktop, é necessário estar no: Windows 10 64-bit: Pro, Enterprise, ou Education (Build 17134 ou superior) - para Windows 10 Home, uma das exigências do Docker é o WSL2. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)** e para mais informações veja os **[Requerimentos para WSL 2 backend](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)**.
 
-Ok...mas como eu verifico qual versão do Windows estou? 
+Ok, mas surge a pergunta: "como eu verifico qual versão do Windows estou?" 
 
 Para saber basta ir na barra de pesquisar e escrever “winver”, ali mostrará a versão do Windows que você se encontra!
 
