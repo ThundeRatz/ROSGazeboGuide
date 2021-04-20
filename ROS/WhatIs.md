@@ -6,7 +6,7 @@ nav_order: 1
 ---
 # **Introdução a ROS**
 
-<img src="../assets/img/ros_logo.png" alt="ROS_logo" height="341" width="1280">
+![ROS Logo]("../assets/img/ros_logo.png"=1280x341){: .d-block .mx-auto}
 
 ## **Índice**<!-- omit in toc -->
 - [**O que é ROS?**](#O-que-é-ROS?)
