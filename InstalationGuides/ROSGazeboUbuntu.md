@@ -6,6 +6,7 @@ nav_order: 3
 ---
 
 ## **Índice**<!-- omit in toc -->
+
 - [**Observações Iniciais**](#observações-iniciais)
 - [**Pré-requisitos**](#pré-requisitos)
 - [**Instalação do Docker Desktop**](#instalação-do-docker-desktop)
