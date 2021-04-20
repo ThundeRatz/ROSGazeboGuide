@@ -23,7 +23,7 @@ Primeiramente, é necessário ter pelo menos 4GB de RAM. Além disso, para usar 
 
 Ok...mas como eu verifico qual versão do macOS estou? 
 
-Para saber basta ir no canto superior esquerdo da tela, clicar no símbolo da Apple e depois em "Sobre Este Mac". Ali mostrará a versão do Mac que você se encontra!
+Para saber, basta ir no canto superior esquerdo da tela, clicar no símbolo da Apple e depois em "Sobre Este Mac". Ali mostrará a versão do Mac que você se encontra!
 
 <img src="../assets/img/Docker/docker-mac-instalation/about-this-mac.png" alt="about-this-mac" height="376" width="428" style ="margin:auto; display:block"> <br />
 
@@ -35,11 +35,11 @@ Para instalar o Docker Desktop Installer, basta entrar **[aqui](https://hub.dock
 
 <img src="../assets/img/Docker/docker-mac-instalation/download-page.png" alt="download-page" height="295" width="724" style ="margin:auto; display:block">
 
-Feito o download, clique 2 vezes no **Docker.dmg** para abrir o instalador. Aberta a janela, leve o ícone do Docker para a pasta "Applications", conforme a imagem: 
+Feito o download, clique 2 vezes no **Docker.dmg** para abrir o instalador. Após abrir a janela, leve o ícone do Docker para a pasta "Applications", conforme a imagem: 
 
 <img src="../assets/img/Docker/docker-mac-instalation/move-app.png" alt="move-app" height="290" width="619" style ="margin:auto; display:block">
 
-Dado o tempo de instalação, clique 2 vezes no ícone do Docker. Talvez poderá aparecer uma janela perguntando se deseja abrir o app baixado da internet. Clique em "Abrir". 
+Depois do tempo de instalação, clique 2 vezes no ícone do Docker. Talvez poderá aparecer uma janela perguntando se deseja abrir o app baixado da internet. Clique em "Abrir". 
 
 Depois, o Docker pedirá acesso. Clique em "OK" e insira sua senha do Mac para permitir a operação. Por fim, clique em "Instalar Auxiliar".
 

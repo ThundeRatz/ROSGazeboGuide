@@ -21,7 +21,7 @@ nav_order: 5
 
 ## **Observações Iniciais**
 
-Neste tutorial, iremos ensinar como instalar o Docker Desktop no Windows 10. Mas antes de tudo, vamos a algumas observações:
+Neste tutorial, ensinaremos como instalar o Docker Desktop no Windows 10. Mas antes de tudo, vamos a algumas observações:
 
 Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não é recomendado utilizar o Docker Desktop, mas instalar o Docker dentro do WSL (ver tutorial aqui) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
 
@@ -71,7 +71,7 @@ Após a reinicialização, pode ocorrer o seguinte erro caso não tenha instalad
 
 ![wsl2-error](../assets/img/Docker/docker-desktop-instalation/wsl2-error.png){: .d-block .mx-auto}
 
-Se isso acontecer, é porque você não seguiu ainda o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
+Se isso acontecer, é porque você ainda não seguiu o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
 
 ## **Verificação**
 
@@ -90,7 +90,8 @@ A versão instalada será mostrada, como na figura:
 
 ![check-docker-desktop-version](../assets/img/Docker/docker-desktop-instalation/check-docker-desktop-version.png){: .d-block .mx-auto}
 
-Além disso, podemos testar se o Docker está funcionando corretamente com o Docker Hub, para testar isso digite no prompt de comando: 
+Além disso, podemos testar se o Docker está funcionando corretamente com o Docker Hub.
+Para testar isso digite no prompt de comando: 
 
 ```bash
 docker run hello-world
