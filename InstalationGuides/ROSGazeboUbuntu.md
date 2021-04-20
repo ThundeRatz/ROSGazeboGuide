@@ -5,6 +5,17 @@ parent: Guias de Instalação
 nav_order: 3
 ---
 
+## **Índice**<!-- omit in toc -->
+
+- [**Observações Iniciais**](#observações-iniciais)
+- [**Pré-requisitos**](#pré-requisitos)
+- [**Instalação do Docker Desktop**](#instalação-do-docker-desktop)
+- [**Possível erro**](#possível-erro)
+- [**Verificação**](#verificação)
+- [**Observações Finais**](#observações-finais)
+- [**Para saber mais**](#para-saber-mais)
+
+
 # **Instalando o ROS/Gazebo em sua máquina Ubuntu**
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
