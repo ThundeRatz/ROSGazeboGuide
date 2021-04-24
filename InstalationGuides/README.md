@@ -12,7 +12,7 @@ Bem vindos aos **guias de instalação!**
 
 Nesta seção, tratamos de como instalar os arquivos que serão necessários para o desenvolvimento do seu projeto.
 
-Se você ainda não sabe muito bem o que é ROS, nem para o que serve, recomendamos ler a **[seção do Gazebo](../Gazebo/README.md)**. Por outro lado, se suas dúvidas são sobre o que é ROS e suas utilidades, sugerimos a **[seção do ROS](../ROS/README.md)**
+Se você ainda não sabe muito bem o que é Gazebo, nem para o que serve, recomendamos ler a **[seção do Gazebo](../Gazebo/README.md)**. Por outro lado, se suas dúvidas são sobre o que é ROS e suas utilidades, sugerimos a **[seção do ROS](../ROS/README.md)**
 
 Caso você já saiba o que é o ROS e o Gazebo, já tenha todos os programas que precisa instalados mas não sabe executar os projetos com essas novas ferramentas -- não se preocupe! Basta dar uma lida na **[seção de como executar os projetos](../HowToRun/README.md)** que você vai se virar, sem problemas.
 
@@ -44,5 +44,4 @@ Se você já instalou WSL e ROS na sua máquina Windows, falta só um passo para
 ### **[Github Desktop](./UsingGithubDesktop)**
 Por fim, se você quer aprender como instalar e usar uma ferramenta que facilita muito o trabalho em equipe em um contexto à distância, leia o guia de **[como usar e instalar o Github Desktop](UsingGithubDesktop.md)**!
 É uma ferramenta versátil e útil para quem gosta de programar.
-
 
