@@ -80,11 +80,11 @@ Essa parte do tutorial só é necessária caso você opte por utilizar o Docker 
 
 Primeiramente, você deve verificar se o seu Windows está atualizado. Para isso abra a janela de **Configurações**/*Settings*, e clique em **Atualização e Segurança**/*Update & Security*.
 
-![Windows Update Settings](/assets/gif/WSL/WSL_set_windowsatt.gif)
+![Windows Update Settings](../assets/gif/WSL/WSL_set_windowsatt.gif)
 
 Depois disso, vá em *Windows Update*. Caso existam atualizações para fazer, execute-as e reinicie seu computador. Caso contrário, continue neste tutorial.
 
-![Windows Update](/assets/img/WSL/windowsupdated.png)
+![Windows Update](../assets/img/WSL/windowsupdated.png)
 
 Agora, é preciso habilitar o recurso de Máquina virtual. Para isso, abra o **prompt de comando**/*command prompt* como administrador e copie a seguinte linha de código:
 
@@ -92,13 +92,13 @@ Agora, é preciso habilitar o recurso de Máquina virtual. Para isso, abra o **p
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-![Prompt de comando como ADMIN](/assets/gif/WSL/WSL2_prompt.gif)
+![Prompt de comando como ADMIN](../assets/gif/WSL/WSL2_prompt.gif)
 
 Após isso, **reinicie** seu computador.
 
 Agora, você terá que baixar o pacote de atualização do kernel do Linux mais recente. Para isso, baixe o executável disponível **[neste link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)**. Abra o programa e permita as permissões elevadas.
 
-![GIF kernerl instalation](/assets/gif/WSL/WSl_update.gif)
+![GIF kernerl instalation](../assets/gif/WSL/WSl_update.gif)
 
 Por fim, basta definir o WSL2 como a sua versão padrão do WSL. Para isso, abra novamente o **prompt de comando**/*command prompt* como administrador e execute a seguinte linha de código:
 
@@ -106,11 +106,12 @@ Por fim, basta definir o WSL2 como a sua versão padrão do WSL. Para isso, abra
 wsl --set-default-version 2
 ```
 
-![Set to WSL2](/assets/gif/WSL/set_wsl2.gif)
+![Set to WSL2](../assets/gif/WSL/set_wsl2.gif)
 
 Pronto! Agora seu WSL está atualizado para o WSL2.
 
 ___
+
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores.
 
 Que o ambiente Linux seja muito receptivo!
