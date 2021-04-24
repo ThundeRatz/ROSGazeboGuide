@@ -12,7 +12,6 @@ Olá alunos!
 
 Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a página de [documentação oficial](https://docs.microsoft.com/en-us/windows/wsl/about)  da Microsoft sobre o assunto.
 
-
 ## **Índice**<!-- omit in toc -->
 
 - [**Instalando o WSL**](#instalando-o-WSL)
