@@ -12,7 +12,13 @@ Olá alunos!
 
 Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a página de [documentação oficial](https://docs.microsoft.com/en-us/windows/wsl/about)  da Microsoft sobre o assunto.
 
-### O que vamos usar?
+
+## **Índice**<!-- omit in toc -->
+
+- [**Instalando o WSL**](#instalando-o-WSL)
+- [**Atualizando para o WSL2**](#atualizando-para-o-WSL2)
+
+## **Instalando o WSL**
 
 O tutorial em grande parte vai ser praticamente só navegar pelos muitos menus presentes no Windows. Tudo que você precisa para ativar o WSL e ter uma instalação de Ubuntu no seu PC já está aí, só precisamos encontrar!
 
@@ -74,7 +80,7 @@ E acabou!
 
 Agora que você tem o WSL com Ubuntu 20.04 instalado na sua máquina você pode tirar proveito dos softwares que rodam no Linux, como o ROS/Gazebo, usados na disciplina. Para aprender como instalar eles é só ***[clicar aqui](../InstalationGuides/ROSGazeboWSL.md)*** e seguir as instruções.
 
-### Atualizando para o WSL2
+## **Atualizando para o WSL2**
 
 Essa parte do tutorial só é necessária caso você opte por utilizar o Docker para executar seus projetos. Esta parte só é possível para usuários do Windows 10.
 
@@ -111,6 +117,7 @@ wsl --set-default-version 2
 Pronto! Agora seu WSL está atualizado para o WSL2.
 
 ___
+
 
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores.
 
