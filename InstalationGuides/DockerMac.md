@@ -39,7 +39,7 @@ Feito o download, clique 2 vezes no **Docker.dmg** para abrir o instalador. Apó
 
 <img src="../assets/img/Docker/docker-mac-instalation/move-app.png" alt="move-app" height="290" width="619" style ="margin:auto; display:block">
 
-Depois do tempo de instalação, clique 2 vezes no ícone do Docker. Talvez poderá aparecer uma janela perguntando se deseja abrir o app baixado da internet. Clique em "Abrir". 
+Depois do processo de instalação, clique 2 vezes no ícone do Docker. Talvez poderá aparecer uma janela perguntando se deseja abrir o app baixado da internet. Clique em "Abrir". 
 
 Depois, o Docker pedirá acesso. Clique em "OK" e insira sua senha do Mac para permitir a operação. Por fim, clique em "Instalar Auxiliar".
 
@@ -75,11 +75,11 @@ docker run hello-world
 ```
 <img src="../assets/img/Docker/docker-mac-instalation/hello-world.png" alt="hello-world" height="337" width="583" style ="margin:auto; display:block">
 
-Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso) 
+Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso).
 
 ## **Observações Finais**
 
-Se o ícone quando o Docker estiver presente no canto superior direito da tela, significa que ele está ligado.
+Se o ícone do Docker estiver presente no canto superior direito da tela, significa que ele está ligado.
 
 <img src="../assets/img/Docker/docker-mac-instalation/top-bar.png" alt="top-bar" height="25" width="427" style ="margin:auto; display:block">
 
