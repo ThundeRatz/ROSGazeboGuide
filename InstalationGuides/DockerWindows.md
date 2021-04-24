@@ -23,11 +23,11 @@ nav_order: 5
 
 Neste tutorial, ensinaremos como instalar o Docker Desktop no Windows 10. Mas antes de tudo, vamos a algumas observações:
 
-Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não é recomendado utilizar o Docker Desktop, mas instalar o Docker dentro do WSL (ver tutorial aqui) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
+Em primeiro lugar, para versões anteriores ao Windows 10, o Docker oferecia a opção de usar a Toolbox, mas recentemente deixaram de oferecer suporte e estão migrando tudo para o Docker Desktop, que está disponível apenas para Windows 10 até o momento. Caso você tenha uma versão anterior do Windows, não é recomendado utilizar o Docker Desktop, mas instalar o Docker dentro do WSL (**[ver tutorial aqui](/InstalationGuides/WSL.md)**) ou em alguma distro do Linux (neste caso poderia ser em uma Virtual Machine (VM) ou com Dual Boot). 
 
-## **Pré-requisitos**
+## **Pré-requisitos**(/InstalationGuides/WSL.md)
 
-Assim sendo, para usar o Docker Desktop, é necessário estar no: Windows 10 64-bit: Pro, Enterprise, ou Education (Build 17134 ou superior) - para Windows 10 Home, uma das exigências do Docker é o WSL2. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)** e para mais informações veja os **[Requerimentos para WSL 2 backend](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)**.
+Assim sendo, para usar o Docker Desktop, é necessário estar no: Windows 10 64-bit: Pro, Enterprise, Education e Home, sendo para esse último necessário ter o WSL2 instalado. Se você ainda não o instalou, **[clique aqui](/InstalationGuides/WSL.md)** e para mais informações veja os **[Requerimentos para WSL 2 backend](https://docs.docker.com/docker-for-windows/install/#system-requirements-for-wsl-2-backend)**.
 
 Ok, mas surge a pergunta: "como eu verifico qual versão do Windows estou?" 
 
@@ -45,7 +45,7 @@ Ao abrir o Gerenciador de Tarefas, vá até a aba de "Desempenho" e verifique se
 
 ![virtualization](../assets/img/Docker/docker-desktop-instalation/virtualization.png){: .d-block .mx-auto}
 
-Se estiver habilitado podemos prosseguir com a instalação do Docker Desktop Installer, caso contrário recomendo seguir os passos no **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. ~~Acho que já deu pra perceber que é bem importante que você atualize para o WSL2~~.
+Se estiver habilitado podemos prosseguir com a instalação do Docker Desktop Installer, caso contrário recomendo seguir os passos na parte de atualização para o WSL2 no **[tutorial de instalação do WSL](/InstalationGuides/WSL.md)**. ~~Acho que já deu pra perceber que é bem importante que você atualize para o WSL2~~.
 
 ## **Instalação do Docker Desktop**
 
@@ -71,7 +71,7 @@ Após a reinicialização, pode ocorrer o seguinte erro caso não tenha instalad
 
 ![wsl2-error](../assets/img/Docker/docker-desktop-instalation/wsl2-error.png){: .d-block .mx-auto}
 
-Se isso acontecer, é porque você ainda não seguiu o **[tutorial de Atualizando para o WSL2](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
+Se isso acontecer, é porque você ainda não seguiu a parte de atualização para o WSL2 no **[tutorial de instalação do WSL](/InstalationGuides/WSL.md)**. Lá tem as instruções de como fazer a atualização do kernel do linux. Feito isso, clique em "Restart" e pronto! De qualquer forma, **[aqui](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package)** está a docmentação oficial com as instruções e mais informações sobre a atualização necessária.
 
 ## **Verificação**
 
@@ -99,7 +99,7 @@ docker run hello-world
 
 ![docker-hello](../assets/img/Docker/docker-desktop-instalation/docker-hello.png){: .d-block .mx-auto}
 
-Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso) 
+Se a saída for que nem a de cima, está tudo **correto**! (mais sons de aplauso).
 
 ## **Observações Finais**
 
