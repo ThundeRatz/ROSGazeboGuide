@@ -118,7 +118,6 @@ Pronto! Agora seu WSL está atualizado para o WSL2.
 
 ___
 
-
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores.
 
 Que o ambiente Linux seja muito receptivo!
