@@ -23,7 +23,7 @@ permalink: /
   - [WSL](./InstalationGuides/WSL.md)
   - [ROS/Gazebo no WSL](./InstalationGuides/ROSGazeboWSL.md)
   - [ROS/Gazebo em Ubuntu](./InstalationGuides/ROSGazeboUbuntu.md)
-  - [XServer](./InstalationGuides/XServer.md)
+  - [X Server](./InstalationGuides/XServer.md)
   - [Docker no Windows](./InstalationGuides/DockerWindows.md)
   - [Docker no Mac](./InstalationGuides/DockerMac.md)
 - [Como executar o projeto](./HowToRun/README.md)
