@@ -47,9 +47,11 @@ Pronto! A simulação do seu projeto foi executada com sucesso utilizando o Dock
 
 Ao terminar, não esqueça de executar o comando:
 
-```
+```bash
 docker-compose down
 ```
+
+E por fim, lembre-se de usar o atalho `ctrl+C` no terminal para matar o processo.
 
 ___
 
