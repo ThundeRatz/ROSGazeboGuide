@@ -20,8 +20,8 @@ Caso você já saiba o que é o ROS e o Gazebo mas ainda não tenha instalado os
 
 ## Índice
 
-- [Como exeutar o projeto no Windows](./RunOnWSL.md)
-- [Como exeutar o projeto no Ubuntu](./RunOnUbuntu.md)
+- [Como executar o projeto no Windows](./RunOnWSL.md)
+- [Como executar o projeto no Ubuntu](./RunOnUbuntu.md)
 
 ### Como exeutar o projeto no Windows
 
