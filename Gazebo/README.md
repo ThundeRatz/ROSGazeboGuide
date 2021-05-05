@@ -12,7 +12,7 @@ Bem vindos ao indice do  **Gazebo!**
 
 Nesta seção, vamos introduzir para vocês o que exatamente é o ambiente de simulação incorporado do ROS e por que fazemos uso dele. É essencial você se familiarizar com o programa, uma vez que, ele será utilizado durante todo o projeto.
 
-Se você ainda não sabe muito bem o que é ROS, suas funcionalidades e pontos positivos, recomendamos ler a **[seção do ROS](../Gazebo/README.md)**. Caso você já saiba o que é o ROS e o Gazebo, já tenha todos os programas que precisa instalados mas não sabe executar os projetos com essas novas ferramentas -- não se preocupe! Basta dar uma lida na **[seção de como executar os projetos](../HowToRun/README.md)** que você vai se virar, sem problemas.
+Se você ainda não sabe muito bem o que é ROS, suas funcionalidades e pontos positivos, recomendamos ler a **[seção do ROS](../Gazebo/README.md)**. Caso você conheça o ROS e o Gazebo mas não tem eles instalados ainda, confira os guias de instalaçção para **[Windows](../InstalationGuides/ROSGazeboWSL.md)** e para **[Ubuntu](../InstalationGuides/ROSGazeboUbuntu.md)**. Já sabia o que é o ROS e o Gazebo, já tem todos os programas que precisa instalados mas não sabe executar os projetos com essas novas ferramentas? Não se preocupe! Basta dar uma lida na **[seção de como executar os projetos](../HowToRun/README.md)** que você vai se virar, sem problemas.
   
 ---
 
