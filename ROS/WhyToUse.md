@@ -41,6 +41,6 @@ ___
 
 ROS é definitivamente uma ferramenta poderosa no aprendizado de sistemas robóticos, capaz de ajudar você, futuro engenheiro mecatrônico, a desenvolver projetos inovadores com facilidade e rapidez. Aprender ROS é um grande passo para aprender a projetar sistemas robóticos. Quer aprender mais? Dê uma olhada nos sites abaixo:
 
-* [Tutoriais da Wiki de ROS](http://wiki.ros.org/ROS/Tutorials)
-* [Tutoriais do ConstructSim](https://www.theconstructsim.com/category/ros-tutorials)
-* [Tutoriais do Gazebo](http://gazebosim.org/tutorials)
+- [Tutoriais da Wiki de ROS](http://wiki.ros.org/ROS/Tutorials)
+- [Tutoriais do ConstructSim](https://www.theconstructsim.com/category/ros-tutorials)
+- [Tutoriais do Gazebo](http://gazebosim.org/tutorials)

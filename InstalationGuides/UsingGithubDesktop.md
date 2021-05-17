@@ -14,21 +14,20 @@ Para uma abordagem mais detalhada, é altamente recomendável assistir as aulas 
 
 Este texto terá uma abordagem bem mais prática, focada na ferramenta **GitHub Desktop**.
 
-## **Índice**<!-- omit in toc -->
+## Índice<!-- omit in toc -->
 
-- [**Criando uma conta no GitHub**](#Criando-uma-conta-no-GitHub)
-- [**Criando um projeto no GitHub**](#Criando-um-projeto-no-GitHub)
-- [**Adicionando colaboradores ao repositório**](#Adicionando-colaboradores-ao-repositório)
-- [**Instalando o GitHub Desktop**](#Instalando-o-GitHub-Desktop)
-- [**Configurando um repositório no GitHub Desktop**](#Configurando-um-repositório-no-GitHub-Desktop)
-- [**Aviso importante**](#Aviso-importante)
-
+- [Criando uma conta no GitHub](#criando-uma-conta-no-github)
+- [Criando um projeto no GitHub](#criando-um-projeto-no-github)
+- [Adicionando colaboradores ao repositório](#adicionando-colaboradores-ao-repositório)
+- [Instalando o GitHub Desktop](#instalando-o-github-desktop)
+- [Configurando um repositório no GitHub Desktop](#configurando-um-repositório-no-github-desktop)
+- [**Aviso importante**](#aviso-importante)
 
 # Utilizando o GitHub e o GitHub Desktop
 
 ## Criando uma conta no GitHub
 
-O GitHub é um site que permite criar um projeto e adicionar diversos colaboradores nele, promovendo a colaboração remota e auxiliando na resolução de erros, além de evitar a perda de comunicação. 
+O GitHub é um site que permite criar um projeto e adicionar diversos colaboradores nele, promovendo a colaboração remota e auxiliando na resolução de erros, além de evitar a perda de comunicação.
 
 O primeiro passo a se fazer é se registrar no GitHub por meio [deste link](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home).
 

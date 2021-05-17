@@ -5,7 +5,7 @@ parent: Guias de Instalação
 nav_order: 3
 ---
 
-## **Índice**<!-- omit in toc -->
+## Índice<!-- omit in toc -->
 
 - [**Observações Iniciais**](#observações-iniciais)
 - [**Pré-requisitos**](#pré-requisitos)
@@ -15,24 +15,23 @@ nav_order: 3
 - [**Observações Finais**](#observações-finais)
 - [**Para saber mais**](#para-saber-mais)
 
-
-# **Instalando o ROS/Gazebo em sua máquina Ubuntu**
+# Instalando o ROS/Gazebo em sua máquina Ubuntu
 
 Neste tutorial, vamos aprender a **instalar** o framework chamado **ROS** em sua máquina. Junto com ele, vem o simulador **Gazebo**, que permite com que você faça o seu robôzinho andar por aí.
 Se quiser aprender mais e entender para que servem ROS e Gazebo, veja os documentos explicativos (o que é? / porque usar?) sobre cada um deles - com certeza vai iluminar melhor a questão.
 
-### **Se você está utilizando Windows e WSL, você está lendo o artigo errado. ***[Clique aqui](../InstalationGuides/ROSGazeboWSL.md)*** para se redirecionar.**
+### Se você está utilizando Windows e WSL, você está lendo o artigo errado. [Clique aqui](../InstalationGuides/ROSGazeboWSL.md) para se redirecionar.
 
-## **Índice**<!-- omit in toc -->
+## Índice<!-- omit in toc -->
 
-- [**O que vamos usar?**](#o-que-vamos-usar)
-- [**Habilitando Repositórios**](#habilitando-repositórios)
-- [**Ajustar a sources.list**](#ajustar-a-sourceslist)
-- [**Ajustar as chaves**](#ajustar-as-chaves)
-- [**Finalmente, a instalação!**](#finalmente-a-instalação)
-- [**Toques finais**](#toques-finais)
+- [O que vamos usar?](#o-que-vamos-usar)
+- [Habilitando Repositórios](#habilitando-repositórios)
+- [Ajustar a sources.list](#ajustar-a-sourceslist)
+- [Ajustar as chaves](#ajustar-as-chaves)
+- [Finalmente, a instalação!](#finalmente-a-instalação)
+- [Toques finais](#toques-finais)
 
-## **O que vamos usar?**
+## O que vamos usar?
 
 Grande parte do tutorial vai utilizar a linha de comando, para isso busque um programa chamado **"Terminal"** :
 
@@ -43,9 +42,11 @@ Após abrir o terminal, você poderá inserir comandos que vão realizar tarefas
 Utilizaremos esses comandos como ferramenta principal para o processo de instalação.
 
 O formato para escrever um comando será o seguinte:
+
 ```bash
 comando-a-inserir
 ```
+
 Então, toda caixinha que você encontrar nesse formato, saiba que é um comando a ser inserido.
 
 Após inserir um comando é esperado que ele responda com algumas saídas. Assim, para o comando:
@@ -53,11 +54,12 @@ Após inserir um comando é esperado que ele responda com algumas saídas. Assim
 ```bash
 ls
 ```
+
 O terminal responderá da seguinte forma, apresentando os arquivos e pastas da pasta que você se encontra:
 
 ![Checking Gazebo](../assets/gif/ROSGazebo/ls.gif)
 
-## **Habilitando Repositórios**
+## Habilitando Repositórios
 
 Primeiramente, para instalar ROS no Ubuntu do WSL, precisamos configurar os **repositórios Ubuntu** para habilitar os repositórios *"restricted", "universe", e "multiverse"*.
 
@@ -73,6 +75,7 @@ sudo add-apt-repository universe
 sudo add-apt-repository multiverse
 sudo apt update
 ```
+
 A resposta esperada desse comando é a seguinte:
 
 ![Add Repositories](../assets/img/ROSGazebo/add_repository.png)
@@ -84,16 +87,17 @@ Para saber mais sobre as diferenças entre cada repositório, acesse o link:
 
 Em seguida, vamos configurar algumas coisas para que a sua máquina consiga buscar e aceitar o arquivo do servidor fornecedor.
 
-## **Ajustar a sources.list**
+## Ajustar a sources.list
 
 Vamos agora ajustar o computador para aceitar pacotes do **repositório do ROS** :
 
 ```bash
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
+
 Não se preocupe se o terminal não responder nada depois deste comando -- ele realmente não dá nenhum sinal de que o comando foi feito de maneira correta. Na verdade, se não apareceu nada, você provavelmente fez tudo certo.
 
-## **Ajustar as chaves**
+## Ajustar as chaves
 
 Insira o seguinte comando para salvar as chaves do repositório do ROS na sua máquina:
 
@@ -107,18 +111,20 @@ A resposta esperada desse comando é a seguinte:
 
 As chaves são necessárias para acesso ao repositório do ROS, do qual instalaremos nossos arquivos. Se você não fizer esta parte, não terá acesso a ele e não conseguirá instalar.
 
-## **Finalmente, a instalação!**
+## Finalmente, a instalação!
 
 Primeiro, vamos rodar um comando para atualizar o sistema com as modificações que fizemos até agora:
 
 ```bash
 sudo apt update
 ```
+
 Feito isso, vamos instalar o pacote do ROS. **Precisamos** instalar o pacote **"desktop-full"** para instalar os adendos responsáveis por simulação 2D/3D -- como o *Gazebo* -- senão faltarão pacotes na máquina. Assim, o comando é:
 
 ```bash
 sudo apt install ros-noetic-desktop-full
 ```
+
 Este comando deve instalar o ROS e o Gazebo juntos.
 
 A resposta esperada desse comando é a seguinte:
@@ -144,6 +150,7 @@ Agora, se você preferir fazer um teste mais elaborado, tente rodar o comando pa
 ```bash
 gazebo
 ```
+
 Este comando deve abrir o ambiente de simulação **Gazebo**, da seguinte forma:
 
 ![Opening Gazebo](../assets/gif/ROSGazebo/opening_gazebo.gif)
@@ -155,9 +162,10 @@ Tendo feito tudo isso, podemos também instalar pacotes específicos diretamente
 ```bash
 sudo apt install ros-noetic-PACKAGE
 ```
+
 Sendo PACKAGE o nome do pacote a ser instalado -- mas isso não será necessário por enquanto.
 
-## **Toques finais**
+## Toques finais
 
 Toda vez que você abrir um terminal, é necessário executar o seguinte comando para habilitar o ambiente ROS na sua sessão de terminal:
 

@@ -6,6 +6,7 @@ nav_order: 1
 ---
 
 # Instalando o WSL na sua máquina Windows!
+
 ![WSL + UBUNTU Logo](../assets/img/WSL/Windows_WSL.jpg)
 
 Olá alunos!
