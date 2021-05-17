@@ -10,13 +10,18 @@ nav_order: 1
 
 Olá alunos!
 
-Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a [página de documentação oficial da Microsoft sobre o assunto](https://docs.microsoft.com/en-us/windows/wsl/about).
+Neste tutorial, vamos aprender a **instalar** o **WSL**, abreviação de *Windows Subsystem for Linux*, no seu PC. Basicamente é uma camada de compatibilidade pra rodar um ambiente de Linux, direto do sistema da Microsoft. Isso traz uma facilidade para o uso e também deixa você continuar no ambiente Windows. Você vai poder rodar todos os comandos e programas específicos ao Linux sem ter que realmente realizar uma instalação completa dele em um pedaço do seu HD. Se quiser saber mais, sinta-se a vontade de perguntar para os monitores e conferir a página de [documentação oficial](https://docs.microsoft.com/en-us/windows/wsl/about)  da Microsoft sobre o assunto.
 
-### O que vamos usar?
+## **Índice**<!-- omit in toc -->
+
+- [**Instalando o WSL**](#instalando-o-WSL)
+- [**Atualizando para o WSL2**](#atualizando-para-o-WSL2)
+
+## **Instalando o WSL**
 
 O tutorial em grande parte vai ser praticamente só navegar pelos muitos menus presentes no Windows. Tudo que você precisa para ativar o WSL e ter uma instalação de Ubuntu no seu PC já está aí, só precisamos encontrar!
 
-Todas as imagens vão mostrar uma instalação em Português do Windows, com os nomes de coisas importantes escritos em **negrito**. Ao lado, ficará a tradução para Inglês em *itálico*.
+Todas as imagens vão mostrar uma instalação em Português do Windows, com direcionamentos/botões a serem clicados escritos em **negrito**. Ao lado, ficará a tradução para Inglês em *itálico*.
 
 Primeiramente, você vai ter que habilitar o WSL no Windows. Para isso abra a janela de **Configurações**/*Settings*.
 
@@ -62,7 +67,7 @@ Finalizada a instalação, aperte no botão **Iniciar**/*Launch* para rodar o Ub
 
 ![Opening Ubuntu Installed](../assets/img/WSL/WSL_Installed.png)
 
-Agora, depois de abrir e aguardar a primeira instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter new UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas tem que ser todo em letras minúsculas.
+Agora, depois de abrir e aguardar a primeira instalação, você tem que escolher o nome de usuário para a distribuição na linha "Enter new UNIX username". Ele não precisa ser o mesmo da sua máquina Windows mas **tem que ser todo em letras minúsculas.**
 
 ![Opening Ubuntu First Time](../assets/img/WSL/WSL_First_Open.png)
 
@@ -73,6 +78,44 @@ Com um nome de usuário, agora é apenas colocar o sua senha na linha "Enter new
 E acabou!
 
 Agora que você tem o WSL com Ubuntu 20.04 instalado na sua máquina você pode tirar proveito dos softwares que rodam no Linux, como o ROS/Gazebo, usados na disciplina. Para aprender como instalar eles é só ***[clicar aqui](../InstalationGuides/ROSGazeboWSL.md)*** e seguir as instruções.
+
+## **Atualizando para o WSL2**
+
+Essa parte do tutorial só é necessária caso você opte por utilizar o Docker para executar seus projetos. Esta parte só é possível para usuários do Windows 10.
+
+Primeiramente, você deve verificar se o seu Windows está atualizado. Para isso abra a janela de **Configurações**/*Settings*, e clique em **Atualização e Segurança**/*Update & Security*.
+
+![Windows Update Settings](../assets/gif/WSL/WSL_set_windowsatt.gif)
+
+Depois disso, vá em *Windows Update*. Caso existam atualizações para fazer, execute-as e reinicie seu computador. Caso contrário, continue neste tutorial.
+
+![Windows Update](../assets/img/WSL/windowsupdated.png)
+
+Agora, é preciso habilitar o recurso de Máquina virtual. Para isso, abra o **prompt de comando**/*command prompt* como administrador e copie a seguinte linha de código:
+
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+![Prompt de comando como ADMIN](../assets/gif/WSL/WSL2_prompt.gif)
+
+Após isso, **reinicie** seu computador.
+
+Agora, você terá que baixar o pacote de atualização do kernel do Linux mais recente. Para isso, baixe o executável disponível **[neste link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)**. Abra o programa e permita as permissões elevadas.
+
+![GIF kernerl instalation](../assets/gif/WSL/WSl_update.gif)
+
+Por fim, basta definir o WSL2 como a sua versão padrão do WSL. Para isso, abra novamente o **prompt de comando**/*command prompt* como administrador e execute a seguinte linha de código:
+
+```
+wsl --set-default-version 2
+```
+
+![Set to WSL2](../assets/gif/WSL/set_wsl2.gif)
+
+Pronto! Agora seu WSL está atualizado para o WSL2.
+
+___
 
 Se tiver qualquer dúvida, sinta-se a vontade de falar com um dos monitores.
 
