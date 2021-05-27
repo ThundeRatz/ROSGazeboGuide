@@ -7,7 +7,7 @@ nav_order: 2
 
 # Por que usar ferramentas de simulação?
 
-Existem diversos tipos de simulação, seja na engenharia mecânica, elétrica ou até mesmo no setor financeiro, mas todas têm algo em comum: a possibilidade de realizar testes prévios de modo virtual antes do projeto real ser feito. Simulações virtuais são uma ferramenta extremamente poderosa, pois permite a tomada de decisões e mudanças no projeto antes que recursos sejam gastos com a fabricação de um protótipo. Por exemplo, é mais barato realizar uma alteração de projeto em uma hélice de usina eólica durante a fase de simulação do que após sua fabricação.
+Existem diversos tipos de simulação, seja na engenharia mecânica, elétrica ou até mesmo no setor financeiro, mas todas têm algo em comum: a possibilidade de realizar testes prévios de modo virtual antes do projeto real ser feito. Simulações virtuais são uma ferramenta extremamente poderosa, pois permitem a tomada de decisões e mudanças no projeto antes que recursos sejam gastos com a fabricação de um protótipo. Por exemplo, é mais barato realizar uma alteração de projeto em uma hélice de usina eólica durante a fase de simulação do que após sua fabricação.
 
 No campo da engenharia mecânica, programas do tipo CAE (Computer-aided engineering) (e.g. Abaqus e Ansys), são muito utilizados para analisar diferentes características de uma peça em regime de trabalho, como o estresse, a deformação, a transferência de calor ou mesmo a distribuição do campo magnético.
 
@@ -19,9 +19,9 @@ No contexto do nosso projeto de seguidor de linha, o uso de simulação permite 
 
 Como nem tudo são flores, o bom uso de um software de simulação exige grande discernimento da pessoa que o utiliza. O computador não sabe distinguir entre entradas absurdas de razoáveis e para qualquer entrada ele irá produzir uma resposta. É trabalho da engenheira ou do engenheiro responsável analisar de modo crítico os dados que entram e saem da simulação. Aqui, aplica-se o mesmo princípio vigente em estatística "entra lixo, sai lixo".
 
-> A ferramenta de simulação numérica torna excelente o bom engenheiro, mas torna perigoso o mal engenheiro
+> A ferramenta de simulação numérica torna excelente o bom engenheiro, mas torna perigoso o mal engenheiro.
 
-Se mal aplicada, uma simulação pode fornecer uma falsa sensação de segurança ao profissional descuidado e levar a falhas de projeto catastróficas. A todo momento é importante se questionar "O resultado da simulação é condizente com a teoria?" ou "O resultado da simulação é condizente com resultados anteriores?", de modo que a simulação não acaba com a necessidade do domínio metodológico da teoria dos processos envolvidos.
+Se mal aplicada, uma simulação pode fornecer uma falsa sensação de segurança ao profissional descuidado e levar a falhas de projeto catastróficas. A todo momento é importante se questionar "O resultado da simulação é condizente com a teoria?" ou "O resultado da simulação é condizente com resultados anteriores?", de modo que a simulação não acabe com a necessidade do domínio metodológico da teoria dos processos envolvidos.
 
 ## Simulação na robótica
 
