@@ -17,7 +17,7 @@ Tomando a imagem a seguir como exemplo, é possível ver os níveis de deformaç
 
 No contexto do nosso projeto de seguidor de linha, o uso de simulação permite validar diversas escolhas de projeto ainda em fases inicias, tais como "as dimensões do carrinho são adequadas?" ou "a quantidade de sensores é adequada?", de modo que é possível adaptar o desenho em CAD (Computer-aided design) antes mesmo de qualquer esforço em termos de fabricação do carrinho.
 
-Como nem tudo são flores, o bom uso de um software de simulação exige grande discernimento da passoa que o utiliza. O computador não sabe distinguir entre entradas absurdas de razoáveis e para qualquer entrada ele irá produzir uma resposta. É trabalho da engenheira ou do engenheiro responsável analizar de modo crítico os dados que entram e saem da simulação. Aqui, aplica-se o mesmo princípio vigente em estatística "entra lixo, sai lixo".
+Como nem tudo são flores, o bom uso de um software de simulação exige grande discernimento da pessoa que o utiliza. O computador não sabe distinguir entre entradas absurdas de razoáveis e para qualquer entrada ele irá produzir uma resposta. É trabalho da engenheira ou do engenheiro responsável analisar de modo crítico os dados que entram e saem da simulação. Aqui, aplica-se o mesmo princípio vigente em estatística "entra lixo, sai lixo".
 
 > A ferramenta de simulação numérica torna excelente o bom engenheiro, mas torna perigoso o mal engenheiro
 
